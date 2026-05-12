@@ -1,0 +1,257 @@
+{
+  "main": {
+    "id": "280a681815a663da",
+    "type": "split",
+    "children": [
+      {
+        "id": "c83559f5ddb8e0ae",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a31ba97403894151",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "планы - дела/Рабочие.md",
+                "mode": "source",
+                "source": false
+              },
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "Рабочие"
+            }
+          },
+          {
+            "id": "23b787cb4b663a05",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "райф/Дела на будущее.md",
+                "mode": "source",
+                "source": false
+              },
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "Дела на будущее"
+            }
+          },
+          {
+            "id": "95faa98a41858533",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "_файлы/Командная строка linux.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "Командная строка linux"
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "86845071071a0a9c",
+    "type": "split",
+    "children": [
+      {
+        "id": "b4fcea94953486bb",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e5e6cd72b9bb268a",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Файловый менеджер"
+            }
+          },
+          {
+            "id": "215cea2cbb2ac716",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "тарифные пла",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Поиск"
+            }
+          },
+          {
+            "id": "dfc865dcf53d457e",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Закладки"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 526.5
+  },
+  "right": {
+    "id": "a260d9e7506d9fc6",
+    "type": "split",
+    "children": [
+      {
+        "id": "cd5a8c9ad58e2844",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3c36401e67c3470a",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "райф/Java scool.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Обратные ссылки для Java scool"
+            }
+          },
+          {
+            "id": "cfbf57d63a323bce",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "райф/Java scool.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Исходящие ссылки из Java scool"
+            }
+          },
+          {
+            "id": "80ac806f05c2fbc3",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Теги"
+            }
+          },
+          {
+            "id": "5213e34a4ce10922",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "райф/Java scool.md"
+              },
+              "icon": "lucide-list",
+              "title": "Структура Java scool"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "bases:Создать новую базу": false,
+      "switcher:Меню быстрого перехода": false,
+      "graph:Граф": false,
+      "canvas:Создать новый холст": false,
+      "daily-notes:Сегодняшняя заметка": false,
+      "templates:Вставить шаблон": false,
+      "command-palette:Открыть палитру команд": false
+    }
+  },
+  "active": "95faa98a41858533",
+  "lastOpenFiles": [
+    "_файлы/Как читать книги.pdf",
+    "_файлы/Как делать полезные заметки.pdf",
+    "_файлы/Pasted image 20250224153504.png",
+    "_файлы/Pasted image 20240427174014.png",
+    "_файлы/Pasted image 20240427173537.png",
+    "_файлы/Pasted image 20240427173514.png",
+    "_файлы/Pasted image 20240427173353.png",
+    "_файлы/Pasted image 20240427172726.png",
+    "_файлы/Pasted image 20240427172618.png",
+    "_файлы/Pasted image 20240427172552.png",
+    "_файлы/Pasted image 20240427170642.png",
+    "райф/_файлы/Pasted image 20260428172912.png",
+    "райф/_файлы/2024.03.01_Webinar_Datalake_DAG.mp4",
+    "райф/_файлы",
+    "Балкон.md",
+    "Александ Беляев.md",
+    "Просмотренные видео.md",
+    "райф/Дела на будущее.md",
+    "райф/Дежурство.md",
+    "райф/Confluence - ссылки.md",
+    "райф/Ссылки.md",
+    "райф/СПУЗ - наименование.md",
+    "райф/Сокращения и аббревиатуры.md",
+    "райф/СКДПУ.md",
+    "райф/Роли и разрешения.md",
+    "райф/Роли.md",
+    "райф/При включении компа и смене пароля.md",
+    "райф/Отчеты.md",
+    "райф/Отпуск.md",
+    "райф/Обучение.md",
+    "райф/Митинг нотс.md",
+    "райф/Метрики.md",
+    "райф/Люди.md",
+    "райф/Логи.md",
+    "райф/Интеграция с DMS.md",
+    "райф/Индивидуальный план развития (ИПР).md",
+    "райф/Идеи для ретро.md",
+    "райф/Задачи.md",
+    "райф/Доступ к БД на проде.md",
+    "райф/комиссии/cc-billing/CCC2",
+    "райф/Таблицы тарифного модуля.canvas",
+    "райф/комиссии/inv-billing (async-billing)",
+    "райф/комиссии/currency-fees-ct-billing (balance-billing)",
+    "райф/комиссии/Временный.canvas",
+    "райф/комиссии/cc-billing",
+    "райф/комиссии/ft-billing",
+    "райф/комиссии/fi-billing",
+    "райф/комиссии/fi-billing/Комиссия за платежи MT202_103 в иностранной валюте (FI0000F202, IF0000FI02)/Комиссия за платежи.canvas",
+    "райф/комиссии/fi-billing/Комиссия за платежи MT202_103 в иностранной валюте (FI0000F202, IF0000FI02)",
+    "райф/комиссии/ft-billing/комиссия третьих банков (IF0000FT3B)/Комиссия третьих банков.canvas",
+    "райф/Схема сервисов.canvas",
+    "хлам/Без названия.canvas",
+    "райф/cms/Статусная модель.canvas",
+    "райф/комиссии/fi-billing/авизо (IF0000FPAA)/рефакторин тарифов.canvas",
+    "райф/временное/Найдено некорректное количество активных комиссий.canvas",
+    "райф/временное/Без названия.canvas"
+  ]
+}

@@ -80,9 +80,24 @@ ___
     с вложенным элементом
 - делается с помощью четырех пробелов
 
+##### Таблица:
+```
+| Column name | Second column | Therd column |
+|---          |---            |---           |
+| Text.       | Text.         | Text.        |
+| Line2.      | Line2.        | LIne2.       |
 
+без лишних пробелов
 
-
+|Column name|Second column|Therd column|
+|-|-|-|
+|Text|Text|Text|
+|Line2| Line2|LIne2|
+```
+|Column name|Second column|Therd column|
+|-|-|-|
+|Text|Text|Text|
+|Line2| Line2|LIne2|
 ### Связи:
 [[IT]]
 

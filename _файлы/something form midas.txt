@@ -1,0 +1,1422 @@
+100       /Undefine TRACE                                                                                           25/03/15
+200                                                                                                                 05/02/15
+300       /Copy FTCHRSRC,FTCHRCTL                                                                                   05/03/14
+400       /Copy FTCHRSRC,FTCHRINC                                                                                   21/08/12
+500       /Copy FTCHRSRC,FTCHRLOGIN                                                                                 23/03/15
+600       /Copy CBRATESRC,CBRATEINC                                                                                 24/08/12
+700       /Copy PRCPRMSRC,PRCPRMINC                                                                                 30/08/12
+800       /Copy IBMAPIINC,CEEHDLR                                                                                   23/03/15
+900       /Copy IBMAPIINC,MATTOD                                                                                    23/03/15
+1000       /Copy IBMAPIINC,PSDS                                                                                      21/08/12
+1100       /Copy IBMAPIINC,QCMDEXC                                                                                   05/02/15
+1200       /Copy IBMAPIINC,QMHRCVPM                                                                                  05/02/15
+1300       /Copy IBMAPIINC,QMHRTVM                                                                                   07/11/14
+1400                                                                                                                 21/08/12
+1500      D StrTimMI        S             20U 0                                                                      19/01/15
+1600                                                                                                                 19/01/15
+1700      P ChrFTCalc       B                   Export                                                               21/08/12
+1800      D ChrFTCalc       PI                                                                                       21/08/12
+1900      D  InDS                               LikeDS(ChrFTCalcInDS)                                                21/08/12
+2000      D  OutDS                              LikeDS(ChrFTCalcOutDS)                                               21/08/12
+2100      D  StsMsg                      200A                                                                        21/08/12
+2200      D  Sts                           1A                                                                        21/08/12
+2300                                                                                                                 21/08/12
+2400      D MsgDtaPtr       S               *   Inz(%Addr(MsgDta))                                                   07/11/14
+2500      D EvtTyp          S              1A                                                                        07/11/14
+2600      D MsgId           S              7A                                                                        24/08/12
+2700      D MsgFil          S             20A   Inz(FtChrMsgFil)                                                     23/03/15
+2800      D MsgDta          S            200A                                                                        24/08/12
+2900      D MsgDtaLen       S              5U 0                                                                      24/08/12
+3000                                                                                                                 24/08/12
+3100       * Fields of FTPCHGPD                                                                                      20/01/15
+3200      D FTPCHGPD      E DS                  ExtName(FTPCHGPD) Qualified Template                                 20/01/15
+3300       * Fields of FTPYCGPD                                                                                      20/01/15
+3400      D FTPYCGPD      E DS                  ExtName(FTPYCGPD) Qualified Template                                 20/01/15
+3500       * Fields of SDBRCHPD                                                                                      27/08/12
+3600      D SDBRCHPD      E DS                  ExtName(SDBRCHPD) Qualified Template                                 19/01/15
+3700       * Fields of SDCUSTPD                                                                                      19/01/15
+3800      D SDCUSTPD      E DS                  ExtName(SDCUSTPD) Qualified Template                                 19/01/15
+3900       * Fields of SDNOSTPD                                                                                      30/11/12
+4000      D SDNOSTPD      E DS                  ExtName(SDNOSTPD) Qualified Template                                 19/01/15
+4100       * Fields of FTCHRCABC                                                                                     19/01/15
+4200      D FTCHRCABC     E DS                  ExtName(FTCHRCABC) Qualified                                         19/01/15
+4300       * Fields of FTCHRMIS                                                                                      19/01/15
+4400      D FTCHRMIS      E DS                  ExtName(FTCHRMIS) Qualified                                          19/01/15
+4500                                                                                                                 24/08/12
+4600      D A7CYCD          S                   Like(SDNOSTPD.A7CYCD)                                                19/01/15
+4700      D A7NONB          S                   Like(SDNOSTPD.A7NONB)                                                19/01/15
+4800      D A7CUST          S                   Like(SDNOSTPD.A7CUST)                                                19/01/15
+4900      D BBCUST          S                   Like(SDCUSTPD.BBCUST)                                                19/01/15
+5000      D BBCSID          S                   Like(SDCUSTPD.BBCSID)                                                19/01/15
+5100      D BBBNBI          S                   Like(SDCUSTPD.BBBNBI)                                                19/01/15
+5200      D PYCHCD          S                   Like(FTPCHGPD.PYCHCD)                                                20/01/15
+5300      D BRANCH          S                   Like(FTPYCGPD.BRANCH)                                                20/01/15
+5400      D CABCHC          S                   Like(FTPYCGPD.CABCHC)                                                20/01/15
+5500      D CURRCY          S                   Like(FTPYCGPD.CURRCY)                                                20/01/15
+5600      D CUSTOM          S                   Like(FTPYCGPD.CUSTOM)                                                20/01/15
+5700      D MISCH1          S                   Like(FTPYCGPD.MISCH1)                                                20/01/15
+5800      D MISCH2          S                   Like(FTPYCGPD.MISCH2)                                                20/01/15
+5900      D SWSTCH          S                   Like(FTPYCGPD.SWSTCH)                                                20/01/15
+6000      D TRCMCH          S                   Like(FTPYCGPD.TRCMCH)                                                20/01/15
+6100      D TRNTYP          S                   Like(FTPYCGPD.TRNTYP)                                                20/01/15
+6200      D TRSBTY          S                   Like(FTPYCGPD.TRSBTY)                                                20/01/15
+6300                                                                                                                 19/01/15
+6400      D FndFlg          S               N                                                                        19/01/15
+6500      D AmtCcy          S             31P 8                                                                      23/03/15
+6600      D AmtRur          S             31P 8                                                                      23/03/15
+6700      D ChrAmtCcy       S             31P 8                                                                      23/03/15
+6800      D ChrAmtRur       S             31P 8                                                                      23/03/15
+6900      D I               S              5I 0                                                                      19/01/15
+7000      D N               S              5I 0                                                                      19/01/15
+7100                                                                                                                 19/01/15
+7200      D DstSwf          S             11A                                                                        19/01/15
+7300                                                                                                                 19/01/15
+7400      D PayChr          DS                  Qualified                                                            24/08/12
+7500      D  SABC                               Like(FTPCHGPD.SABC01)                                                24/08/12
+7600      D  EABC                               Like(FTPCHGPD.EABC01)                                                24/08/12
+7700      D  RATE                               Like(FTPCHGPD.RATE01)                                                24/08/12
+7800      D  MIBC                               Like(FTPCHGPD.MIBC01)                                                24/08/12
+7900      D  MXBC                               Like(FTPCHGPD.MXBC01)                                                24/08/12
+8000                                                                                                                 24/08/12
+8100      D PayChrDfn       DS                  Qualified                                                            20/01/15
+8200      D  SABC01                             Like(FTPCHGPD.SABC01)                                                24/08/12
+8300      D  EABC01                             Like(FTPCHGPD.EABC01)                                                24/08/12
+8400      D  RATE01                             Like(FTPCHGPD.RATE01)                                                24/08/12
+8500      D  MIBC01                             Like(FTPCHGPD.MIBC01)                                                24/08/12
+8600      D  MXBC01                             Like(FTPCHGPD.MXBC01)                                                24/08/12
+8700      D  SABC02                             Like(FTPCHGPD.SABC02)                                                24/08/12
+8800      D  EABC02                             Like(FTPCHGPD.EABC02)                                                24/08/12
+8900      D  RATE02                             Like(FTPCHGPD.RATE02)                                                24/08/12
+9000      D  MIBC02                             Like(FTPCHGPD.MIBC02)                                                24/08/12
+9100      D  MXBC02                             Like(FTPCHGPD.MXBC02)                                                24/08/12
+9200      D  SABC03                             Like(FTPCHGPD.SABC03)                                                24/08/12
+9300      D  EABC03                             Like(FTPCHGPD.EABC03)                                                24/08/12
+9400      D  RATE03                             Like(FTPCHGPD.RATE03)                                                24/08/12
+9500      D  MIBC03                             Like(FTPCHGPD.MIBC03)                                                24/08/12
+9600      D  MXBC03                             Like(FTPCHGPD.MXBC03)                                                24/08/12
+9700      D  SABC04                             Like(FTPCHGPD.SABC04)                                                24/08/12
+9800      D  EABC04                             Like(FTPCHGPD.EABC04)                                                24/08/12
+9900      D  RATE04                             Like(FTPCHGPD.RATE04)                                                24/08/12
+10000      D  MIBC04                             Like(FTPCHGPD.MIBC04)                                                24/08/12
+10100      D  MXBC04                             Like(FTPCHGPD.MXBC04)                                                24/08/12
+10200      D  SABC05                             Like(FTPCHGPD.SABC05)                                                24/08/12
+10300      D  EABC05                             Like(FTPCHGPD.EABC05)                                                24/08/12
+10400      D  RATE05                             Like(FTPCHGPD.RATE05)                                                24/08/12
+10500      D  MIBC05                             Like(FTPCHGPD.MIBC05)                                                24/08/12
+10600      D  MXBC05                             Like(FTPCHGPD.MXBC05)                                                24/08/12
+10700      D  SABC06                             Like(FTPCHGPD.SABC06)                                                24/08/12
+10800      D  EABC06                             Like(FTPCHGPD.EABC06)                                                24/08/12
+10900      D  RATE06                             Like(FTPCHGPD.RATE06)                                                24/08/12
+11000      D  MIBC06                             Like(FTPCHGPD.MIBC06)                                                24/08/12
+11100      D  MXBC06                             Like(FTPCHGPD.MXBC06)                                                24/08/12
+11200      D  SABC07                             Like(FTPCHGPD.SABC07)                                                24/08/12
+11300      D  EABC07                             Like(FTPCHGPD.EABC07)                                                24/08/12
+11400      D  RATE07                             Like(FTPCHGPD.RATE07)                                                24/08/12
+11500      D  MIBC07                             Like(FTPCHGPD.MIBC07)                                                24/08/12
+11600      D  MXBC07                             Like(FTPCHGPD.MXBC07)                                                24/08/12
+11700      D  SABC08                             Like(FTPCHGPD.SABC08)                                                24/08/12
+11800      D  EABC08                             Like(FTPCHGPD.EABC08)                                                24/08/12
+11900      D  RATE08                             Like(FTPCHGPD.RATE08)                                                24/08/12
+12000      D  MIBC08                             Like(FTPCHGPD.MIBC08)                                                24/08/12
+12100      D  MXBC08                             Like(FTPCHGPD.MXBC08)                                                24/08/12
+12200      D  SABC09                             Like(FTPCHGPD.SABC09)                                                24/08/12
+12300      D  EABC09                             Like(FTPCHGPD.EABC09)                                                24/08/12
+12400      D  RATE09                             Like(FTPCHGPD.RATE09)                                                24/08/12
+12500      D  MIBC09                             Like(FTPCHGPD.MIBC09)                                                24/08/12
+12600      D  MXBC09                             Like(FTPCHGPD.MXBC09)                                                24/08/12
+12700      D  SABC10                             Like(FTPCHGPD.SABC10)                                                24/08/12
+12800      D  EABC10                             Like(FTPCHGPD.EABC10)                                                24/08/12
+12900      D  RATE10                             Like(FTPCHGPD.RATE10)                                                24/08/12
+13000      D  MIBC10                             Like(FTPCHGPD.MIBC10)                                                24/08/12
+13100      D  MXBC10                             Like(FTPCHGPD.MXBC10)                                                24/08/12
+13200      D  CALCMD                             Like(FTPCHGPD.CALCMD)                                                24/08/12
+13300      D  Arr                                LikeDS(PayChr) Dim(10)                                               24/08/12
+13400      D                                     Overlay(PayChrDfn)                                                   24/08/12
+13500                                                                                                                 21/08/12
+13600                                                                                                                 05/03/14
+13700      D CcyRteInStrPtr  S               *   Inz(%Addr(CcyRteInStr))                                              22/01/15
+13800      D CcyRteOutStrPtr...                                                                                       22/01/15
+13900      D                 S               *   Inz(%Addr(CcyRteOutStr))                                             22/01/15
+14000      D CcyRteInStr     S           4096A                                                                        22/01/15
+14100      D CcyRteOutStr    S           4096A                                                                        22/01/15
+14200      D CcyRteInDS      DS                  LikeDS(CbrCcyRteInDS)                                                22/01/15
+14300      D                                     Based(CcyRteInStrPtr)                                                22/01/15
+14400      D CcyRteOutDS     DS                  LikeDS(CbrCcyRteOutDS)                                               22/01/15
+14500      D                                     Based(CcyRteOutStrPtr)                                               22/01/15
+14600                                                                                                                 22/01/15
+14700      D Ccy             S              3A                                                                        22/01/15
+14800      D DecPlcNum       S                   Like(CcyRteOutDS.DecPlcNum)                                          22/01/15
+14900      D SptRte          S                   Like(CcyRteOutDS.SptRte)                                             22/01/15
+15000      D MulDivInd       S                   Like(CcyRteOutDS.MulDivInd)                                          22/01/15
+15100      D SclExp          S                   Like(CcyRteOutDS.SclExp)                                             22/01/15
+15200      D DecPlcNum10     S             10P 0                                                                      22/01/15
+15300      D SclExp10        S             10P 0                                                                      22/01/15
+15400                                                                                                                 22/01/15
+15500      D Ccy0            S                   Like(Ccy)                                                            22/01/15
+15600      D DecPlcNum0      S                   Like(DecPlcNum)                                                      22/01/15
+15700      D SptRte0         S                   Like(SptRte)                                                         22/01/15
+15800      D MulDivInd0      S                   Like(MulDivInd)                                                      22/01/15
+15900      D SclExp0         S                   Like(SclExp)                                                         22/01/15
+16000                                                                                                                 22/01/15
+16100      D UseUcpFlg       S              1A                                                                        22/01/15
+16200      D UcpInOutStrPtr  S               *   Inz(%Addr(UcpInOutStr))                                              22/01/15
+16300      D UcpInOutStr     S           8192A                                                                        22/01/15
+16400      D PrmUCPSP        DS                  LikeDS(UCPSP_PrmDS)                                                  22/01/15
+16500      D                                     Based(UcpInOutStrPtr)                                                22/01/15
+16600                                                                                                                 21/01/15
+16700      D Prm             DS                  Qualified Inz                                                        30/08/12
+16800      D  Country_BB                         Like(InDS.Country_BB)                                                30/08/12
+16900      D  SWIFT_BIC_BB                       Like(InDS.SWIFT_BIC_BB)                                              30/08/12
+17000      D  IGP_Transaction_type_code...                                                                            30/08/12
+17100      D                                     Like(InDS.Transaction_type_code)                                     30/08/12
+17200      D  IGP_Discount                  5P 3                                                                      30/08/12
+17300                                                                                                                 30/08/12
+17400      D IGP_Discount_Len...                                                                                      30/08/12
+17500      D                 C                   %Len(Prm.IGP_Discount)                                               30/08/12
+17600      D IGP_Discount_DecPos...                                                                                   30/08/12
+17700      D                 C                   %DecPos(Prm.IGP_Discount)                                            30/08/12
+17800      D PrmSts          S              1A                                                                        07/11/14
+17900      D PrmVal          S             50A   Varying                                                              30/08/12
+18000      D PrmValMaxLen    C                   %Len(PrmVal)                                                         30/08/12
+18100                                                                                                                 07/11/14
+18200       ********************************                                                                          07/11/14
+18300       * Data structures for messages *                                                                          07/11/14
+18400       ********************************                                                                          07/11/14
+18500      D FTC1010         DS                  LikeDS(FTC1010_Tpl) Based(MsgDtaPtr)                                 22/01/15
+18600      D FTC1020         DS                  LikeDS(FTC1020_Tpl) Based(MsgDtaPtr)                                 22/01/15
+18700      D FTC2020         DS                  LikeDS(FTC2020_Tpl) Based(MsgDtaPtr)                                 19/01/15
+18800      D FTC2021         DS                  LikeDS(FTC2021_Tpl) Based(MsgDtaPtr)                                 19/01/15
+18900      D FTC3010         DS                  LikeDS(FTC3010_Tpl) Based(MsgDtaPtr)                                 19/01/15
+19000      D FTC3011         DS                  LikeDS(FTC3011_Tpl) Based(MsgDtaPtr)                                 19/01/15
+19100      D FTC3012         DS                  LikeDS(FTC3012_Tpl) Based(MsgDtaPtr)                                 19/01/15
+19200      D FTC3013         DS                  LikeDS(FTC3013_Tpl) Based(MsgDtaPtr)                                 19/01/15
+19300      D FTC3030         DS                  LikeDS(FTC3030_Tpl) Based(MsgDtaPtr)                                 19/01/15
+19400      D FTC3031         DS                  LikeDS(FTC3031_Tpl) Based(MsgDtaPtr)                                 19/01/15
+19500      D FTC3032         DS                  LikeDS(FTC3032_Tpl) Based(MsgDtaPtr)                                 19/01/15
+19600                                                                                                                 30/08/12
+19700       /Copy FTCHRSRC,FTCHRMSG                                                                                   27/08/12
+19800       /Copy INT2APISRC,INT2APIINC                                                                               10/12/14
+19900       /Copy INT2CMNOLDSRC,INT2DSINC                                                                             25/03/15
+20000       /Copy INT2CMNOLDSRC,INT2VARINC                                                                            25/03/15
+20100       /Copy CMNOLDSRC,CNSINC                                                                                    24/08/12
+20200       /Copy CMNOLDSRC,EVTTYPINC                                                                                 24/08/12
+20300       /Copy CMNOLDSRC,STSCODINC                                                                                 24/08/12
+20400       /Copy CMNOLDSRC,SYSINC                                                                                    23/03/15
+20500       /Copy IBMAPIINC,APIERRCOD                                                                                 24/08/12
+20600       /Copy IBMAPIINC,RCVM0200                                                                                  23/03/15
+20700       /Copy IBMAPIINC,RTVM0100                                                                                  07/11/14
+20800                                                                                                                 24/08/12
+20900       /If defined(TRACE)                                                                                        05/02/15
+21000      D StrDbgCmd       C                   'STRDBG UPDPROD(*YES)'                                               05/02/15
+21100      D EndDbgCmd       C                   'ENDDBG'                                                             05/02/15
+21200      D PrtJobLogCmd    C                   'DSPJOBLOG OUTPUT(*PRINT)'                                           05/02/15
+21300       /EndIf                                                                                                    05/02/15
+21400                                                                                                                 05/02/15
+21500       /Copy FTCHRSRC,SQLOPT                                                                                     24/08/12
+21600                                                                                                                 24/08/12
+21700       /Free                                                                                                     21/08/12
+21800        MatTOD(StrTimMI);                                                                                        07/11/14
+21900                                                                                                                 23/03/15
+22000        // Register Condition Handler                                                                            23/03/15
+22100        CallP(E) CEEHDLR_API (%pAddr('FTCHRLOGERR'):%Addr(PSDS):*Omit);                                          23/03/15
+22200                                                                                                                 07/11/14
+22300       /If defined(TRACE)                                                                                        05/02/15
+22400        CallP(E) QCMDEXC_API(StrDbgCmd:%Size(StrDbgCmd));                                                        05/02/15
+22500       /EndIf                                                                                                    05/02/15
+22600                                                                                                                 05/02/15
+22700        FtChrWrtLog(EvtDbg:PSDS.PrcNam:'FTC1001':FtChrMsgFil:                                                    23/03/15
+22800                    %Size(InDS):InDS:StrTimMI);                                                                  23/03/15
+22900                                                                                                                 07/11/14
+23000        Sts=StsOk;                                                                                               07/11/14
+23100        Clear StsMsg;                                                                                            12/11/14
+23200        Clear OutDS;                                                                                             07/11/14
+23300                                                                                                                 07/11/14
+23400        // Use New Interim Aliases                                                                               25/03/15
+23500        ExSR UseInt2Als;                                                                                         25/03/15
+23600        // Get New Interim Status                                                                                25/03/15
+23700        ExSR GetInt2Mod;                                                                                         25/03/15
+23800        // Retrieve Parameters                                                                                   30/08/12
+23900        ExSR RtvPrm;                                                                                             30/08/12
+24000        // Check input parameters                                                                                24/08/12
+24100        ExSR ChkInpPrm;                                                                                          24/08/12
+24200                                                                                                                 24/08/12
+24300        // Определение кода тарифа                                                                               24/08/12
+24400        ExSR RtvTrfCod;                                                                                          24/08/12
+24500        If not FndFlg;                                                                                           19/01/15
+24600         // Код тарифа не найден                                                                                 25/09/12
+24700         MsgId='FTC3040';                                                                                        19/01/15
+24800         MsgDtaLen=0;                                                                                            25/09/12
+24900         Sts=StsErr;                                                                                             19/01/15
+25000         ExSR Exit;                                                                                              24/08/12
+25100        EndIf;                                                                                                   24/08/12
+25200                                                                                                                 27/08/12
+25300        // Определение размера комиссий                                                                          29/08/12
+25400        ExSR CvtAmt2Rur; // Конвертируем сумму операции Amount в рублевый эквивалент                             20/01/15
+25500                                                                                                                 24/08/12
+25600        // Вычисление тарифов                                                                                    20/01/15
+25700        // По каждому коду тарифа вычисляем сумму комиссии и заполняем соответствующие поля                      20/01/15
+25800        // OUT_STR (пункт 3.2 раздела 4.3 технической спецификации проекта Pr.09.0510)                           29/08/12
+25900        // с учетом особенностей, указанных ниже в пунктах 8-10.                                                 29/08/12
+26000        ExSR ClcTrfComChr; // Calculate Transfer commission charge                                               20/01/15
+26100        ExSR ClcSwfStdChr; // Calculate S.W.I.F.T. standard charge                                               20/01/15
+26200        ExSR ClcMscChr1;   // Calculate Miscellaneous charge 1                                                   20/01/15
+26300        ExSR ClcMscChr2;   // Calculate Miscellaneous charge 2                                                   20/01/15
+26400        ExSR ClcCstAbrChr; // Calculate Costs abroad charge                                                      20/01/15
+26500                                                                                                                 05/03/14
+26600        FtChrWrtLog(EvtDbg:PSDS.PrcNam:'FTC1002':FtChrMsgFil:                                                    23/03/15
+26700                    %Size(OutDS):OutDS:StrTimMI);                                                                23/03/15
+26800        ExSR Exit;                                                                                               24/08/12
+26900                                                                                                                 21/08/12
+27000        // Retrieve procedure parameters from PRCPRMPF                                                           30/08/12
+27100        BegSR RtvPrm;                                                                                            30/08/12
+27200         RtvVarPrcPrm(PSDS.PrcNam:Country_BB_Prm:                                                                24/10/12
+27300                      PrmValMaxLen:PrmVal:0:*Omit:PrmSts);                                                       07/11/14
+27400         If PrmSts=StsErr;                                                                                       07/11/14
+27500          // Параметр не найден в таблице PRCPRMPF                                                               24/09/12
+27600          MsgId='FTC3012';                                                                                       24/09/12
+27700          FTC3012.PrmId=Country_BB_Prm;                                                                          24/09/12
+27800          MsgDtaLen=%Size(FTC3012);                                                                              24/09/12
+27900          Sts=StsErr;                                                                                            07/11/14
+28000          ExSR Exit;                                                                                             30/08/12
+28100         EndIf;                                                                                                  30/08/12
+28200         Prm.Country_BB=PrmVal;                                                                                  30/08/12
+28300                                                                                                                 05/03/14
+28400         RtvVarPrcPrm(PSDS.PrcNam:SWIFT_BIC_BB_Prm:                                                              24/10/12
+28500                      PrmValMaxLen:PrmVal:0:*Omit:PrmSts);                                                       07/11/14
+28600         If PrmSts=StsErr;                                                                                       07/11/14
+28700          // Параметр не найден в таблице PRCPRMPF                                                               24/09/12
+28800          MsgId='FTC3012';                                                                                       24/09/12
+28900          FTC3012.PrmId=SWIFT_BIC_BB_Prm;                                                                        24/09/12
+29000          MsgDtaLen=%Size(FTC3012);                                                                              24/09/12
+29100          Sts=StsErr;                                                                                            07/11/14
+29200          ExSR Exit;                                                                                             30/08/12
+29300         EndIf;                                                                                                  30/08/12
+29400         Prm.SWIFT_BIC_BB=PrmVal;                                                                                30/08/12
+29500         If %Subst(Prm.SWIFT_BIC_BB:9:3)=*All'X';                                                                23/11/12
+29600          %Subst(Prm.SWIFT_BIC_BB:9:3)=*Blanks;                                                                  23/11/12
+29700         EndIf;                                                                                                  23/11/12
+29800                                                                                                                 05/03/14
+29900         RtvVarPrcPrm(PSDS.PrcNam:IGP_Transaction_Type_Code_Prm:                                                 24/10/12
+30000                      PrmValMaxLen:PrmVal:0:*Omit:PrmSts);                                                       07/11/14
+30100         If PrmSts=StsErr;                                                                                       07/11/14
+30200          // Параметр не найден в таблице PRCPRMPF                                                               24/09/12
+30300          MsgId='FTC3012';                                                                                       24/09/12
+30400          FTC3012.PrmId=IGP_Transaction_Type_Code_Prm;                                                           24/09/12
+30500          MsgDtaLen=%Size(FTC3012);                                                                              24/09/12
+30600          Sts=StsErr;                                                                                            07/11/14
+30700          ExSR Exit;                                                                                             30/08/12
+30800         EndIf;                                                                                                  30/08/12
+30900         Prm.IGP_Transaction_type_code=PrmVal;                                                                   30/08/12
+31000         RtvVarPrcPrm(PSDS.PrcNam:IGP_Discount_Prm:                                                              24/10/12
+31100                      PrmValMaxLen:PrmVal:0:*Omit:PrmSts);                                                       07/11/14
+31200         If PrmSts=StsErr;                                                                                       07/11/14
+31300          // Параметр не найден в таблице PRCPRMPF                                                               24/09/12
+31400          MsgId='FTC3012';                                                                                       24/09/12
+31500          FTC3012.PrmId=IGP_Discount_Prm;                                                                        24/09/12
+31600          MsgDtaLen=%Size(FTC3012);                                                                              24/09/12
+31700          Sts=StsErr;                                                                                            07/11/14
+31800          ExSR Exit;                                                                                             30/08/12
+31900         EndIf;                                                                                                  30/08/12
+32000         Monitor;                                                                                                24/09/12
+32100          Prm.IGP_Discount=%Dec(PrmVal:IGP_Discount_Len:IGP_Discount_DecPos);                                    24/09/12
+32200         On-Error;                                                                                               24/09/12
+32300          // Недопустимое значение параметра                                                                     24/09/12
+32400          MsgId='FTC3013';                                                                                       24/09/12
+32500          FTC3013.PrmId=IGP_Discount_Prm;                                                                        24/09/12
+32600          FTC3013.PrmVal=PrmVal;                                                                                 24/09/12
+32700          MsgDtaLen=%Size(FTC3013);                                                                              24/09/12
+32800          Sts=StsErr;                                                                                            07/11/14
+32900          ExSR Exit;                                                                                             07/11/14
+33000         EndMon;                                                                                                 24/09/12
+33100                                                                                                                 05/03/14
+33200         RtvPrcPrm(PSDS.PrcNam:Use_Ucp_Prm:%Size(UseUcpFlg):UseUcpFlg:*Omit:                                     19/01/15
+33300                   0:*Omit:PrmSts);                                                                              07/11/14
+33400         If UseUcpFlg='Y';                                                                                       19/01/15
+33500          RtvPrcPrm(PSDS.PrcNam:UCPSP_Prm:%Size(UcpInOutStr):UcpInOutStr:*Omit:                                  20/01/15
+33600                    0:*Omit:PrmSts);                                                                             19/01/15
+33700          If PrmSts=StsErr;                                                                                      19/01/15
+33800           // Параметр не найден в таблице PRCPRMPF                                                              19/01/15
+33900           MsgId='FTC3012';                                                                                      19/01/15
+34000           FTC3012.PrmId=UCPSP_Prm;                                                                              19/01/15
+34100           MsgDtaLen=%Size(FTC3012);                                                                             19/01/15
+34200           Sts=StsErr;                                                                                           19/01/15
+34300           ExSR Exit;                                                                                            19/01/15
+34400          EndIf;                                                                                                 19/01/15
+34500         EndIf;                                                                                                  19/01/15
+34600        EndSR;                                                                                                   30/08/12
+34700                                                                                                                 30/08/12
+34800        // Check input parameters                                                                                21/08/12
+34900        BegSR ChkInpPrm;                                                                                         21/08/12
+35000         InDS=%Xlate(LowABC:UprABC:InDS);                                                                        17/12/12
+35100         InDS.Destination=%TrimL(InDS.Destination);                                                              21/02/13
+35200         InDS.Bank_to_bank_information_1=%TrimL(InDS.Bank_to_bank_information_1);                                21/02/13
+35300         InDS.Account_with_bank_1=%TrimL(InDS.Account_with_bank_1);                                              21/02/13
+35400         InDS.Account_with_bank_2=%TrimL(InDS.Account_with_bank_2);                                              21/02/13
+35500                                                                                                                 17/12/12
+35600         Select;                                                                                                 27/08/12
+35700          When InDS.Customer=*Blanks;                                                                            27/08/12
+35800           // Отсутствует необходимый входной параметр                                                           27/08/12
+35900           MsgId='FTC3010';                                                                                      27/08/12
+36000           FTC3010.InpPrmNam='Customer';                                                                         07/11/14
+36100           MsgDtaLen=%Size(FTC3010);                                                                             07/11/14
+36200           Sts=StsErr;                                                                                           27/08/12
+36300           ExSR Exit;                                                                                            27/08/12
+36400          When InDS.Branch=*Blanks;                                                                              27/08/12
+36500           // Отсутствует необходимый входной параметр                                                           27/08/12
+36600           MsgId='FTC3010';                                                                                      27/08/12
+36700           FTC3010.InpPrmNam='Branch';                                                                           07/11/14
+36800           MsgDtaLen=%Size(FTC3010);                                                                             07/11/14
+36900           Sts=StsErr;                                                                                           27/08/12
+37000           ExSR Exit;                                                                                            27/08/12
+37100          When InDS.Transaction_type=*Blanks;                                                                    27/08/12
+37200           // Отсутствует необходимый входной параметр                                                           27/08/12
+37300           MsgId='FTC3010';                                                                                      27/08/12
+37400           FTC3010.InpPrmNam='Transaction type';                                                                 07/11/14
+37500           MsgDtaLen=%Size(FTC3010);                                                                             07/11/14
+37600           Sts=StsErr;                                                                                           27/08/12
+37700           ExSR Exit;                                                                                            27/08/12
+37800          When InDS.Transaction_subtype=*Blanks;                                                                 27/08/12
+37900           // Отсутствует необходимый входной параметр                                                           27/08/12
+38000           MsgId='FTC3010';                                                                                      27/08/12
+38100           FTC3010.InpPrmNam='Transaction subtype';                                                              07/11/14
+38200           MsgDtaLen=%Size(FTC3010);                                                                             07/11/14
+38300           Sts=StsErr;                                                                                           27/08/12
+38400           ExSR Exit;                                                                                            27/08/12
+38500          When InDS.Currency=*Blanks;                                                                            27/08/12
+38600           // Отсутствует необходимый входной параметр                                                           27/08/12
+38700           MsgId='FTC3010';                                                                                      27/08/12
+38800           FTC3010.InpPrmNam='Currency';                                                                         07/11/14
+38900           MsgDtaLen=%Size(FTC3010);                                                                             07/11/14
+39000           Sts=StsErr;                                                                                           27/08/12
+39100           ExSR Exit;                                                                                            27/08/12
+39200          When InDS.Amount=*Blanks;                                                                              27/08/12
+39300           // Отсутствует необходимый входной параметр                                                           27/08/12
+39400           MsgId='FTC3010';                                                                                      27/08/12
+39500           FTC3010.InpPrmNam='Amount';                                                                           07/11/14
+39600           MsgDtaLen=%Size(FTC3010);                                                                             07/11/14
+39700           Sts=StsErr;                                                                                           27/08/12
+39800           ExSR Exit;                                                                                            27/08/12
+39900          When %Check(Digits:%Trim(InDS.Amount))<>0;                                                             27/08/12
+40000           // Недопустимое значение входного параметра                                                           27/08/12
+40100           MsgId='FTC3011';                                                                                      27/08/12
+40200           FTC3011.InpPrmNam='Amount';                                                                           07/11/14
+40300           FTC3011.InpPrmVal=InDS.Amount;                                                                        07/11/14
+40400           MsgDtaLen=%Size(FTC3011);                                                                             07/11/14
+40500           Sts=StsErr;                                                                                           27/08/12
+40600           ExSR Exit;                                                                                            27/08/12
+40700          When InDS.Client_type=*Blanks;                                                                         27/08/12
+40800           // Отсутствует необходимый входной параметр                                                           27/08/12
+40900           MsgId='FTC3010';                                                                                      27/08/12
+41000           FTC3010.InpPrmNam='Client type';                                                                      07/11/14
+41100           MsgDtaLen=%Size(FTC3010);                                                                             07/11/14
+41200           Sts=StsErr;                                                                                           27/08/12
+41300           ExSR Exit;                                                                                            27/08/12
+41400          When InDS.Destination=*Blanks;                                                                         27/08/12
+41500           // Отсутствует необходимый входной параметр                                                           27/08/12
+41600           MsgId='FTC3010';                                                                                      27/08/12
+41700           FTC3010.InpPrmNam='Destination';                                                                      07/11/14
+41800           MsgDtaLen=%Size(FTC3010);                                                                             07/11/14
+41900           Sts=StsErr;                                                                                           27/08/12
+42000           ExSR Exit;                                                                                            27/08/12
+42100          When InDS.Details_of_charges=*Blanks;                                                                  27/08/12
+42200           // Отсутствует необходимый входной параметр                                                           27/08/12
+42300           MsgId='FTC3010';                                                                                      27/08/12
+42400           FTC3010.InpPrmNam='Details of charges';                                                               07/11/14
+42500           MsgDtaLen=%Size(FTC3010);                                                                             07/11/14
+42600           Sts=StsErr;                                                                                           27/08/12
+42700           ExSR Exit;                                                                                            27/08/12
+42800          When InDS.Pay_currency=*Blanks;                                                                        27/08/12
+42900           // Отсутствует необходимый входной параметр                                                           27/08/12
+43000           MsgId='FTC3010';                                                                                      27/08/12
+43100           FTC3010.InpPrmNam='Pay currency';                                                                     07/11/14
+43200           MsgDtaLen=%Size(FTC3010);                                                                             07/11/14
+43300           Sts=StsErr;                                                                                           27/08/12
+43400           ExSR Exit;                                                                                            27/08/12
+43500          When InDS.Settlement_currency=*Blanks;                                                                 27/08/12
+43600           // Отсутствует необходимый входной параметр                                                           27/08/12
+43700           MsgId='FTC3010';                                                                                      27/08/12
+43800           FTC3010.InpPrmNam='Settlement currency';                                                              07/11/14
+43900           MsgDtaLen=%Size(FTC3010);                                                                             07/11/14
+44000           Sts=StsErr;                                                                                           27/08/12
+44100           ExSR Exit;                                                                                            27/08/12
+44200          When InDS.Delivery_channel=*Blanks;                                                                    27/08/12
+44300           // Отсутствует необходимый входной параметр                                                           27/08/12
+44400           MsgId='FTC3010';                                                                                      27/08/12
+44500           FTC3010.InpPrmNam='Delivery channel';                                                                 07/11/14
+44600           MsgDtaLen=%Size(FTC3010);                                                                             07/11/14
+44700           Sts=StsErr;                                                                                           27/08/12
+44800           ExSR Exit;                                                                                            27/08/12
+44900         EndSl;                                                                                                  27/08/12
+45000                                                                                                                 27/08/12
+45100         // Проверка Customer                                                                                    27/08/12
+45200         BBCUST=InDS.Customer;                                                                                   19/01/15
+45300         ExSR RtvCus;                                                                                            27/08/12
+45400         If not FndFlg;                                                                                          19/01/15
+45500          // Клиент не найден в таблице клиентов                                                                 27/08/12
+45600          MsgId='FTC3030';                                                                                       19/01/15
+45700          FTC3030.CusNum=InDS.Customer;                                                                          19/01/15
+45800          MsgDtaLen=%Size(FTC3030);                                                                              19/01/15
+45900          Sts=StsErr;                                                                                            27/08/12
+46000          ExSR Exit;                                                                                             27/08/12
+46100         EndIf;                                                                                                  27/08/12
+46200                                                                                                                 13/12/12
+46300         If InDS.Nostro_Account<>*Blanks and                                                                     29/03/13
+46400            not IsNostro(InDS.Nostro_Account);                                                                   29/03/13
+46500          // Ностро-счёт не найден                                                                               29/03/13
+46600          MsgId='FTC3031';                                                                                       19/01/15
+46700          FTC3031.Nostro=InDS.Nostro_Account;                                                                    19/01/15
+46800          MsgDtaLen=%Size(FTC3031);                                                                              19/01/15
+46900          Sts=StsErr;                                                                                            29/03/13
+47000          ExSR Exit;                                                                                             29/03/13
+47100         EndIf;                                                                                                  29/03/13
+47200                                                                                                                 21/01/15
+47300         // Получить курс валюты                                                                                 22/01/15
+47400         Ccy=InDS.Currency;                                                                                      22/01/15
+47500         ExSR RtvCbrCcyRte;                                                                                      22/01/15
+47600                                                                                                                 24/08/12
+47700         AmtCcy=%Uns(InDS.Amount);                                                                               24/08/12
+47800                                                                                                                 23/11/12
+47900         If %Subst(InDS.SWIFT_BIC_BB:9:3)=*All'X';                                                               23/11/12
+48000          %Subst(InDS.SWIFT_BIC_BB:9:3)=*Blanks;                                                                 23/11/12
+48100         EndIf;                                                                                                  23/11/12
+48200                                                                                                                 23/11/12
+48300         If %Subst(InDS.SWIFT_BIC_NC:9:3)=*All'X';                                                               23/11/12
+48400          %Subst(InDS.SWIFT_BIC_NC:9:3)=*Blanks;                                                                 23/11/12
+48500         EndIf;                                                                                                  23/11/12
+48600                                                                                                                 23/11/12
+48700         If %Subst(InDS.SWIFT_BIC_B:9:3)=*All'X';                                                                23/11/12
+48800          %Subst(InDS.SWIFT_BIC_B:9:3)=*Blanks;                                                                  23/11/12
+48900         EndIf;                                                                                                  23/11/12
+49000                                                                                                                 30/11/12
+49100         DstSwf=GetSwf(%Trim(InDS.Destination));                                                                 14/12/12
+49200                                                                                                                 14/12/12
+49300         // Retrieve Country BB                                                                                  30/11/12
+49400         If InDS.Country_BB=*Blanks;                                                                             30/11/12
+49500          ExSR FndCtrBB;                                                                                         30/11/12
+49600         EndIf;                                                                                                  30/11/12
+49700                                                                                                                 30/11/12
+49800         // Retrieve Country NC                                                                                  30/11/12
+49900         If InDS.Country_NC=*Blanks;                                                                             30/11/12
+50000          ExSR FndCtrNC;                                                                                         30/11/12
+50100         EndIf;                                                                                                  30/11/12
+50200        EndSR;                                                                                                   21/08/12
+50300                                                                                                                 22/01/15
+50400        // Получить курс валюты                                                                                  22/01/15
+50500        BegSR RtvCbrCcyRte;                                                                                      22/01/15
+50600         Clear CcyRteInDS;                                                                                       22/01/15
+50700         CcyRteInDS.Ccy=Ccy;                                                                                     22/01/15
+50800         Exec SQL                                                                                                22/01/15
+50900          Call CBCURRRATE (:CcyRteInStr,                                                                         22/01/15
+51000                           :CcyRteOutStr,                                                                        22/01/15
+51100                           :StsMsg,                                                                              22/01/15
+51200                           :Sts);                                                                                22/01/15
+51300         ExSR ChkSqlErr;                                                                                         22/01/15
+51400         If Sts=StsErr;                                                                                          22/01/15
+51500          // Ошибка получения курса валюты                                                                       22/01/15
+51600          MsgId='FTC3032';                                                                                       22/01/15
+51700          FTC3032.Ccy=Ccy;                                                                                       22/01/15
+51800          FTC3032.Msg=%TrimR(StsMsg);                                                                            22/01/15
+51900          Sts=StsErr;                                                                                            22/01/15
+52000          ExSR Exit;                                                                                             22/01/15
+52100         EndIf;                                                                                                  22/01/15
+52200         Eval-Corr FTC1010=CcyRteOutDS;                                                                          22/01/15
+52300         FtChrWrtLog(EvtDbg:PSDS.ModNam:'FTC1010':FtChrMsgFil:                                                   23/03/15
+52400                     %Size(FTC1010):FTC1010:StrTimMI);                                                           22/01/15
+52500                                                                                                                 22/01/15
+52600         DecPlcNum=CcyRteOutDS.DecPlcNum;                                                                        22/01/15
+52700         SptRte   =CcyRteOutDS.SptRte   ;                                                                        22/01/15
+52800         MulDivInd=CcyRteOutDS.MulDivInd;                                                                        22/01/15
+52900         SclExp   =CcyRteOutDS.SclExp   ;                                                                        22/01/15
+53000         DecPlcNum10=10**DecPlcNum      ;                                                                        22/01/15
+53100         SclExp10   =10**SclExp         ;                                                                        22/01/15
+53200        EndSR;                                                                                                   22/01/15
+53300                                                                                                                 21/08/12
+53400        // Конвертируем сумму операции Amount в рублевый эквивалент                                              20/01/15
+53500        // (пункт 3.1 раздела 4.3 технической спецификации проекта Pr.09.0510)                                   20/01/15
+53600        BegSR CvtAmt2Rur;                                                                                        20/01/15
+53700         Monitor;                                                                                                23/03/15
+53800          If MulDivInd='M';                                                                                      23/03/15
+53900           Eval(HR) AmtRur=(SptRte/SclExp10)*(AmtCcy/DecPlcNum10)*100;                                           23/03/15
+54000          ElseIf MulDivInd='D';                                                                                  23/03/15
+54100           Eval(HR) AmtRur=(SclExp10/SptRte)*(AmtCcy/DecPlcNum10)*100;                                           23/03/15
+54200          EndIf;                                                                                                 23/03/15
+54300         On-Error;                                                                                               23/03/15
+54400          ExSR RcvErrMsg;                                                                                        23/03/15
+54500          Sts=StsErr;                                                                                            23/03/15
+54600          ExSR Exit;                                                                                             23/03/15
+54700         EndMon;                                                                                                 23/03/15
+54800        EndSR;                                                                                                   20/01/15
+54900                                                                                                                 20/01/15
+55000        // Calculate Transfer commission charge                                                                  20/01/15
+55100        BegSR ClcTrfComChr;                                                                                      20/01/15
+55200         If GetModOutDS.DearPhs='D' and                                                                          20/01/15
+55300            UseUcpFlg='Y';                                                                                       20/01/15
+55400          ExSR CallUCPSP; // Use UCP                                                                             20/01/15
+55500         EndIf;                                                                                                  20/01/15
+55600                                                                                                                 20/01/15
+55700         If UseUcpFlg<>'Y';                                                                                      20/01/15
+55800          If TRCMCH<>*Blanks;                                                                                    20/01/15
+55900           PYCHCD=TRCMCH;                                                                                        20/01/15
+56000           ExSR ClcPayChr;                                                                                       20/01/15
+56100           If FndFlg;                                                                                            20/01/15
+56200            Monitor;                                                                                             23/03/15
+56300             OutDS.TRCM=PYCHCD;                                                                                  23/03/15
+56400             Eval(H) OutDS.TR_AMT_RUR=ChrAmtRur;                                                                 23/03/15
+56500             Eval(H) OutDS.TR_AMT_CCY=ChrAmtCcy;                                                                 23/03/15
+56600            On-Error;                                                                                            23/03/15
+56700             ExSR RcvErrMsg;                                                                                     23/03/15
+56800             Sts=StsErr;                                                                                         23/03/15
+56900             ExSR Exit;                                                                                          23/03/15
+57000            EndMon;                                                                                              23/03/15
+57100           EndIf;                                                                                                20/01/15
+57200          EndIf;                                                                                                 20/01/15
+57300         EndIf;                                                                                                  20/01/15
+57400                                                                                                                 20/01/15
+57500         If (InDS.Client_type='RCOT' or                                                                          20/01/15
+57600             InDS.Client_type='RLCO') and                                                                        20/01/15
+57700            InDS.Transaction_type_code=Prm.IGP_Transaction_type_code;                                            20/01/15
+57800          Monitor;                                                                                               23/03/15
+57900           Eval(HR) OutDS.TR_AMT_RUR-=OutDS.TR_AMT_RUR*(Prm.IGP_Discount/100);                                   23/03/15
+58000           Eval(HR) OutDS.TR_AMT_CCY-=OutDS.TR_AMT_CCY*(Prm.IGP_Discount/100);                                   23/03/15
+58100          On-Error;                                                                                              23/03/15
+58200           ExSR RcvErrMsg;                                                                                       23/03/15
+58300           Sts=StsErr;                                                                                           23/03/15
+58400           ExSR Exit;                                                                                            23/03/15
+58500          EndMon;                                                                                                23/03/15
+58600         EndIf;                                                                                                  20/01/15
+58700        EndSR;                                                                                                   20/01/15
+58800                                                                                                                 20/01/15
+58900        // Calculate S.W.I.F.T. standard charge                                                                  20/01/15
+59000        BegSR ClcSwfStdChr;                                                                                      20/01/15
+59100         // S.W.I.F.T. standard charge                                                                           20/01/15
+59200         If SWSTCH<>*Blanks;                                                                                     20/01/15
+59300          PYCHCD=SWSTCH;                                                                                         20/01/15
+59400          ExSR ClcPayChr;                                                                                        20/01/15
+59500          If FndFlg;                                                                                             20/01/15
+59600           Monitor;                                                                                              23/03/15
+59700            OutDS.SWST=PYCHCD;                                                                                   23/03/15
+59800            Eval(H) OutDS.SW_AMT_RUR=ChrAmtRur;                                                                  23/03/15
+59900            Eval(H) OutDS.SW_AMT_CCY=ChrAmtCcy;                                                                  23/03/15
+60000           On-Error;                                                                                             23/03/15
+60100            ExSR RcvErrMsg;                                                                                      23/03/15
+60200            Sts=StsErr;                                                                                          23/03/15
+60300            ExSR Exit;                                                                                           23/03/15
+60400           EndMon;                                                                                               23/03/15
+60500          EndIf;                                                                                                 20/01/15
+60600         EndIf;                                                                                                  20/01/15
+60700        EndSR;                                                                                                   20/01/15
+60800                                                                                                                 20/01/15
+60900        // Calculate Miscellaneous charge 1                                                                      20/01/15
+61000        BegSR ClcMscChr1;                                                                                        20/01/15
+61100         // Miscellaneous charge 1                                                                               20/01/15
+61200         If MISCH1<>*Blanks;                                                                                     20/01/15
+61300          PYCHCD=MISCH1;                                                                                         20/01/15
+61400          ExSR ClcPayChr;                                                                                        20/01/15
+61500          If FndFlg;                                                                                             20/01/15
+61600           Monitor;                                                                                              23/03/15
+61700            OutDS.MIS1=PYCHCD;                                                                                   23/03/15
+61800            Eval(H) OutDS.M1_AMT_RUR=ChrAmtRur;                                                                  23/03/15
+61900            Eval(H) OutDS.M1_AMT_CCY=ChrAmtCcy;                                                                  23/03/15
+62000           On-Error;                                                                                             23/03/15
+62100            ExSR RcvErrMsg;                                                                                      23/03/15
+62200            Sts=StsErr;                                                                                          23/03/15
+62300            ExSR Exit;                                                                                           23/03/15
+62400           EndMon;                                                                                               23/03/15
+62500          EndIf;                                                                                                 20/01/15
+62600         EndIf;                                                                                                  20/01/15
+62700        EndSR;                                                                                                   20/01/15
+62800                                                                                                                 20/01/15
+62900        // Calculate Miscellaneous charge 2                                                                      20/01/15
+63000        BegSR ClcMscChr2;                                                                                        20/01/15
+63100         If MISCH2=*Blanks;                                                                                      20/01/15
+63200          ExSR FndMIS;                                                                                           20/01/15
+63300          If FndFlg;                                                                                             20/01/15
+63400           If FTCHRMIS.MIS1<>*Blanks and MISCH1=*Blanks;                                                         20/01/15
+63500            // Calculate Miscellaneous charge 1                                                                  20/01/15
+63600            MISCH1=FTCHRMIS.MIS1;                                                                                20/01/15
+63700            ExSR ClcMscChr1;                                                                                     20/01/15
+63800           EndIf;                                                                                                20/01/15
+63900           MISCH2=FTCHRMIS.MIS2;                                                                                 20/01/15
+64000          EndIf;                                                                                                 20/01/15
+64100         EndIf;                                                                                                  20/01/15
+64200         If MISCH2<>*Blanks;                                                                                     20/01/15
+64300          PYCHCD=MISCH2;                                                                                         20/01/15
+64400          ExSR ClcPayChr;                                                                                        20/01/15
+64500          If FndFlg;                                                                                             20/01/15
+64600           Monitor;                                                                                              23/03/15
+64700            OutDS.MIS2=PYCHCD;                                                                                   23/03/15
+64800            Eval(H) OutDS.M2_AMT_RUR=ChrAmtRur;                                                                  23/03/15
+64900            Eval(H) OutDS.M2_AMT_CCY=ChrAmtCcy;                                                                  23/03/15
+65000           On-Error;                                                                                             23/03/15
+65100            ExSR RcvErrMsg;                                                                                      23/03/15
+65200            Sts=StsErr;                                                                                          23/03/15
+65300            ExSR Exit;                                                                                           23/03/15
+65400           EndMon;                                                                                               23/03/15
+65500          EndIf;                                                                                                 20/01/15
+65600         EndIf;                                                                                                  20/01/15
+65700        EndSR;                                                                                                   20/01/15
+65800                                                                                                                 20/01/15
+65900        // Calculate Costs abroad charge                                                                         20/01/15
+66000        BegSR ClcCstAbrChr;                                                                                      20/01/15
+66100         If CABCHC=*Blanks;                                                                                      20/01/15
+66200          ExSR FndCABC;                                                                                          20/01/15
+66300          If FndFlg;                                                                                             20/01/15
+66400           PYCHCD=FTCHRCABC.ChargCod1;                                                                           20/01/15
+66500           ExSR ClcPayChr;                                                                                       20/01/15
+66600           If FndFlg;                                                                                            20/01/15
+66700            Monitor;                                                                                             23/03/15
+66800             OutDS.CABC=PYCHCD;                                                                                  23/03/15
+66900             Eval(H) OutDS.CA_AMT_RUR=ChrAmtRur;                                                                 23/03/15
+67000             Eval(H) OutDS.CA_AMT_CCY=ChrAmtCcy;                                                                 23/03/15
+67100            On-Error;                                                                                            23/03/15
+67200             ExSR RcvErrMsg;                                                                                     23/03/15
+67300             Sts=StsErr;                                                                                         23/03/15
+67400             ExSR Exit;                                                                                          23/03/15
+67500            EndMon;                                                                                              23/03/15
+67600           EndIf;                                                                                                20/01/15
+67700           If FTCHRCABC.ChargCod2<>*Blanks;                                                                      20/01/15
+67800            PYCHCD=FTCHRCABC.ChargCod2;                                                                          20/01/15
+67900            ExSR ClcPayChr;                                                                                      20/01/15
+68000            If FndFlg;                                                                                           20/01/15
+68100             Monitor;                                                                                            23/03/15
+68200              Eval(HR) OutDS.CA_AMT_RUR+=ChrAmtRur;                                                              23/03/15
+68300              Eval(HR) OutDS.CA_AMT_CCY+=ChrAmtCcy;                                                              23/03/15
+68400             On-Error;                                                                                           23/03/15
+68500              ExSR RcvErrMsg;                                                                                    23/03/15
+68600              Sts=StsErr;                                                                                        23/03/15
+68700              ExSR Exit;                                                                                         23/03/15
+68800             EndMon;                                                                                             23/03/15
+68900            EndIf;                                                                                               20/01/15
+69000           EndIf;                                                                                                20/01/15
+69100          EndIf;                                                                                                 20/01/15
+69200         Else; // CABCHC<>*Blanks;                                                                               20/01/15
+69300          PYCHCD=CABCHC;                                                                                         20/01/15
+69400          ExSR ClcPayChr;                                                                                        20/01/15
+69500          If FndFlg;                                                                                             20/01/15
+69600           Monitor;                                                                                              23/03/15
+69700            OutDS.CABC=PYCHCD;                                                                                   23/03/15
+69800            Eval(H) OutDS.CA_AMT_RUR=ChrAmtRur;                                                                  23/03/15
+69900            Eval(H) OutDS.CA_AMT_CCY=ChrAmtCcy;                                                                  23/03/15
+70000           On-Error;                                                                                             23/03/15
+70100            ExSR RcvErrMsg;                                                                                      23/03/15
+70200            Sts=StsErr;                                                                                          23/03/15
+70300            ExSR Exit;                                                                                           23/03/15
+70400           EndMon;                                                                                               23/03/15
+70500          EndIf;                                                                                                 20/01/15
+70600         EndIf;                                                                                                  20/01/15
+70700        EndSR;                                                                                                   20/01/15
+70800                                                                                                                 20/01/15
+70900        // Call UCPSP                                                                                            20/01/15
+71000        BegSR CallUCPSP;                                                                                         20/01/15
+71100         // Сохранить параметры валюты                                                                           20/01/15
+71200         Ccy0      =Ccy;                                                                                         22/01/15
+71300         DecPlcNum0=DecPlcNum;                                                                                   22/01/15
+71400         SptRte0   =SptRte;                                                                                      22/01/15
+71500         MulDivInd0=MulDivInd;                                                                                   22/01/15
+71600         SclExp0   =SclExp;                                                                                      22/01/15
+71700         // Параметры вызова UCPSP                                                                               20/01/15
+71800         PrmUCPSP.CNUM=InDS.Customer;                                                                            20/01/15
+71900         PrmUCPSP.BRCA=InDS.Branch;                                                                              20/01/15
+72000         PrmUCPSP.TCCY=InDS.Currency;                                                                            20/01/15
+72100         PrmUCPSP.TAMT=%Uns(InDS.Amount);                                                                        20/01/15
+72200         Exec SQL                                                                                                20/01/15
+72300          Call UCPSP (:UcpInOutStr);                                                                             20/01/15
+72400         ExSR ChkSqlErr;                                                                                         22/01/15
+72500         If PrmUCPSP.RES<>'0' and                                                                                22/01/15
+72600            PrmUCPSP.RES<>'1';                                                                                   22/01/15
+72700          Clear UseUcpFlg;                                                                                       20/01/15
+72800          // UCPSP завершилась с кодом "&1" и сообщением "&2"                                                    20/01/15
+72900          FTC2020.Res=PrmUCPSP.Res;                                                                              20/01/15
+73000          FTC2020.Msg=PrmUCPSP.Msg;                                                                              20/01/15
+73100          FtChrWrtLog(EvtWrn:PSDS.PrcNam:'FTC2020':FtChrMsgFil:                                                  23/03/15
+73200                      %Size(FTC2020):FTC2020:StrTimMI);                                                          20/01/15
+73300         Else;                                                                                                   20/01/15
+73400          // UCPSP вернула сумму комиссии &1 в валюте &2                                                         20/01/15
+73500          FTC1020.Amt=PrmUCPSP.AMT;                                                                              20/01/15
+73600          FTC1020.Ccy=PrmUCPSP.CCY;                                                                              20/01/15
+73700          FtChrWrtLog(EvtDbg:PSDS.PrcNam:'FTC1020':FtChrMsgFil:                                                  23/03/15
+73800                      %Size(FTC1020):FTC1020:StrTimMI);                                                          20/01/15
+73900          If PrmUCPSP.CCY='RUR';                                                                                 20/01/15
+74000           OutDS.TR_AMT_RUR=PrmUCPSP.AMT;                                                                        20/01/15
+74100          Else;                                                                                                  20/01/15
+74200           If PrmUCPSP.CCY<>InDS.Currency;                                                                       22/01/15
+74300            Ccy=PrmUCPSP.CCY;                                                                                    22/01/15
+74400            ExSR RtvCbrCcyRte;                                                                                   22/01/15
+74500           EndIf;                                                                                                22/01/15
+74600           Monitor;                                                                                              23/03/15
+74700            If MulDivInd='M';                                                                                    23/03/15
+74800             Eval(HR) OutDS.TR_AMT_RUR=(SptRte/SclExp10)*                                                        23/03/15
+74900                                       (PrmUCPSP.AMT/DecPlcNum10)*                                               23/03/15
+75000                                       100;                                                                      23/03/15
+75100            ElseIf MulDivInd='D';                                                                                23/03/15
+75200             Eval(HR) OutDS.TR_AMT_RUR=(SclExp10/SptRte)*                                                        23/03/15
+75300                                       (PrmUCPSP.AMT/DecPlcNum10)*                                               23/03/15
+75400                                       100;                                                                      23/03/15
+75500            EndIf;                                                                                               23/03/15
+75600           On-Error;                                                                                             23/03/15
+75700            ExSR RcvErrMsg;                                                                                      23/03/15
+75800            Sts=StsErr;                                                                                          23/03/15
+75900            ExSR Exit;                                                                                           23/03/15
+76000           EndMon;                                                                                               23/03/15
+76100          EndIf;                                                                                                 20/01/15
+76200         EndIf;                                                                                                  20/01/15
+76300         Clear MsgId;                                                                                            20/01/15
+76400         Clear MsgDtaLen;                                                                                        20/01/15
+76500         // Восстановить параметры валюты                                                                        22/01/15
+76600         Ccy      =Ccy0;                                                                                         22/01/15
+76700         DecPlcNum=DecPlcNum0;                                                                                   22/01/15
+76800         SptRte   =SptRte0;                                                                                      22/01/15
+76900         MulDivInd=MulDivInd0;                                                                                   22/01/15
+77000         SclExp   =SclExp0;                                                                                      22/01/15
+77100         DecPlcNum10=10**DecPlcNum;                                                                              22/01/15
+77200         SclExp10   =10**SclExp;                                                                                 22/01/15
+77300        EndSR;                                                                                                   20/01/15
+77400                                                                                                                 20/01/15
+77500        // Find Country BB                                                                                       30/11/12
+77600        BegSR FndCtrBB;                                                                                          30/11/12
+77700         If InDS.SWIFT_BIC_BB<>*Blanks;                                                                          30/11/12
+77800          InDS.Country_BB=%Subst(InDS.SWIFT_BIC_BB:5:2);                                                         30/11/12
+77900         Else;                                                                                                   30/11/12
+78000          Select;                                                                                                30/11/12
+78100           When (%Len(%TrimR(InDS.Account_with_bank_1))=8 or                                                     21/02/13
+78200                 %Len(%TrimR(InDS.Account_with_bank_1))=11) and                                                  21/02/13
+78300                %Subst(InDS.Account_with_bank_1:1:1)<>'/';                                                       30/11/12
+78400            InDS.Country_BB=%Subst(InDS.Account_with_bank_1:5:2);                                                30/11/12
+78500           When %Len(%TrimR(InDS.Account_with_bank_2))=8 or                                                      21/02/13
+78600                %Len(%TrimR(InDS.Account_with_bank_2))=11;                                                       21/02/13
+78700            InDS.Country_BB=%Subst(InDS.Account_with_bank_2:5:2);                                                30/11/12
+78800           Other;                                                                                                14/12/12
+78900            InDS.Country_BB=%Subst(DstSwf:5:2);                                                                  14/12/12
+79000          EndSl;                                                                                                 30/11/12
+79100         EndIf;                                                                                                  30/11/12
+79200        EndSR;                                                                                                   30/11/12
+79300                                                                                                                 30/11/12
+79400        // Find Country NC                                                                                       30/11/12
+79500        BegSR FndCtrNC;                                                                                          30/11/12
+79600         If InDS.SWIFT_BIC_NC<>*Blanks;                                                                          30/11/12
+79700          InDS.Country_BB=%Subst(InDS.SWIFT_BIC_NC:5:2);                                                         30/11/12
+79800         EndIf;                                                                                                  30/11/12
+79900        EndSR;                                                                                                   30/11/12
+80000                                                                                                                 30/11/12
+80100        // Retrieve tarif code                                                                                   21/08/12
+80200        BegSR RtvTrfCod;                                                                                         21/08/12
+80300         // Branch, customer, currency, transaction type, transaction sub-type                                   21/08/12
+80400         BRANCH=InDS.Branch;                                                                                     20/01/15
+80500         CUSTOM=InDS.Customer;                                                                                   20/01/15
+80600         CURRCY=InDS.Currency;                                                                                   20/01/15
+80700         TRNTYP=InDS.Transaction_type;                                                                           20/01/15
+80800         TRSBTY=InDS.Transaction_subtype;                                                                        20/01/15
+80900         ExSR RtvPayChrDft;                                                                                      21/08/12
+81000         If not FndFlg;                                                                                          19/01/15
+81100          // Branch, customer, currency=пробелы, transaction type, transaction sub-type                          21/08/12
+81200          BRANCH=InDS.Branch;                                                                                    20/01/15
+81300          CUSTOM=InDS.Customer;                                                                                  20/01/15
+81400          Clear CURRCY;                                                                                          20/01/15
+81500          TRNTYP=InDS.Transaction_type;                                                                          20/01/15
+81600          TRSBTY=InDS.Transaction_subtype;                                                                       20/01/15
+81700          ExSR RtvPayChrDft;                                                                                     21/08/12
+81800          If not FndFlg;                                                                                         19/01/15
+81900           // Branch, customer, currency, transaction type=пробел, transaction sub-type=пробел                   21/08/12
+82000           BRANCH=InDS.Branch;                                                                                   20/01/15
+82100           CUSTOM=InDS.Customer;                                                                                 20/01/15
+82200           CURRCY=InDS.Currency;                                                                                 20/01/15
+82300           Clear TRNTYP;                                                                                         20/01/15
+82400           Clear TRSBTY;                                                                                         20/01/15
+82500           ExSR RtvPayChrDft;                                                                                    21/08/12
+82600           If not FndFlg;                                                                                        19/01/15
+82700            // Branch, customer, currency=пробел, transaction type=пробел,                                       21/08/12
+82800            // transaction sub-type=пробел                                                                       21/08/12
+82900            BRANCH=InDS.Branch;                                                                                  20/01/15
+83000            CUSTOM=InDS.Customer;                                                                                20/01/15
+83100            Clear CURRCY;                                                                                        20/01/15
+83200            Clear TRNTYP;                                                                                        20/01/15
+83300            Clear TRSBTY;                                                                                        20/01/15
+83400            ExSR RtvPayChrDft;                                                                                   21/08/12
+83500            If not FndFlg;                                                                                       19/01/15
+83600             // customer, currency, transaction type, transaction sub-type                                       21/08/12
+83700             CUSTOM=InDS.Customer;                                                                               20/01/15
+83800             CURRCY=InDS.Currency;                                                                               20/01/15
+83900             TRNTYP=InDS.Transaction_type;                                                                       20/01/15
+84000             TRSBTY=InDS.Transaction_subtype;                                                                    20/01/15
+84100             ExSR RtvPayChrDftWithoutBranch;                                                                     21/08/12
+84200             If not FndFlg;                                                                                      19/01/15
+84300              // customer, currency=пробелы, transaction type, transaction sub-type                              21/08/12
+84400              CUSTOM=InDS.Customer;                                                                              20/01/15
+84500              Clear CURRCY;                                                                                      20/01/15
+84600              TRNTYP=InDS.Transaction_type;                                                                      20/01/15
+84700              TRSBTY=InDS.Transaction_subtype;                                                                   20/01/15
+84800              ExSR RtvPayChrDftWithoutBranch;                                                                    21/08/12
+84900              If not FndFlg;                                                                                     19/01/15
+85000               // customer, currency, transaction type=пробел, transaction sub-type=пробел                       21/08/12
+85100               CUSTOM=InDS.Customer;                                                                             20/01/15
+85200               CURRCY=InDS.Currency;                                                                             20/01/15
+85300               Clear TRNTYP;                                                                                     20/01/15
+85400               Clear TRSBTY;                                                                                     20/01/15
+85500               ExSR RtvPayChrDftWithoutBranch;                                                                   21/08/12
+85600               If not FndFlg;                                                                                    19/01/15
+85700                // customer, currency=пробел, transaction type=пробел, transaction sub-type=пробел               21/08/12
+85800                CUSTOM=InDS.Customer;                                                                            20/01/15
+85900                Clear CURRCY;                                                                                    20/01/15
+86000                Clear TRNTYP;                                                                                    20/01/15
+86100                Clear TRSBTY;                                                                                    20/01/15
+86200                ExSR RtvPayChrDftWithoutBranch;                                                                  21/08/12
+86300                If not FndFlg;                                                                                   19/01/15
+86400                 // Branch, customer=пробел, currency=пробел, transaction type, transaction sub-type             21/08/12
+86500                 BRANCH=InDS.Branch;                                                                             20/01/15
+86600                 Clear CUSTOM;                                                                                   20/01/15
+86700                 Clear CURRCY;                                                                                   20/01/15
+86800                 TRNTYP=InDS.Transaction_type;                                                                   20/01/15
+86900                 TRSBTY=InDS.Transaction_subtype;                                                                20/01/15
+87000                 ExSR RtvPayChrDft;                                                                              21/08/12
+87100                 If not FndFlg;                                                                                  19/01/15
+87200                  // Branch, customer=пробел, currency=пробел, transaction type,                                 21/08/12
+87300                  // transaction sub-type=пробел                                                                 21/08/12
+87400                  BRANCH=InDS.Branch;                                                                            20/01/15
+87500                  Clear CUSTOM;                                                                                  20/01/15
+87600                  Clear CURRCY;                                                                                  20/01/15
+87700                  TRNTYP=InDS.Transaction_type;                                                                  20/01/15
+87800                  Clear TRSBTY;                                                                                  20/01/15
+87900                  ExSR RtvPayChrDft;                                                                             21/08/12
+88000                  If not FndFlg;                                                                                 19/01/15
+88100                   // Branch, customer=пробел, currency, transaction type=пробел,                                21/08/12
+88200                   // transaction sub-type=пробел                                                                21/08/12
+88300                   BRANCH=InDS.Branch;                                                                           20/01/15
+88400                   Clear CUSTOM;                                                                                 20/01/15
+88500                   CURRCY=InDS.Currency;                                                                         20/01/15
+88600                   Clear TRNTYP;                                                                                 20/01/15
+88700                   Clear TRSBTY;                                                                                 20/01/15
+88800                   ExSR RtvPayChrDft;                                                                            21/08/12
+88900                   If not FndFlg;                                                                                19/01/15
+89000                    // Branch, customer=пробел, currency=пробел, transaction type=пробел,                        21/08/12
+89100                    // transaction sub-type=пробел                                                               21/08/12
+89200                    BRANCH=InDS.Branch;                                                                          20/01/15
+89300                    Clear CUSTOM;                                                                                20/01/15
+89400                    Clear CURRCY;                                                                                20/01/15
+89500                    Clear TRNTYP;                                                                                20/01/15
+89600                    Clear TRSBTY;                                                                                20/01/15
+89700                    ExSR RtvPayChrDft;                                                                           21/08/12
+89800                   EndIf;                                                                                        21/08/12
+89900                  EndIf;                                                                                         21/08/12
+90000                 EndIf;                                                                                          21/08/12
+90100                EndIf;                                                                                           21/08/12
+90200               EndIf;                                                                                            21/08/12
+90300              EndIf;                                                                                             21/08/12
+90400             EndIf;                                                                                              21/08/12
+90500            EndIf;                                                                                               21/08/12
+90600           EndIf;                                                                                                21/08/12
+90700          EndIf;                                                                                                 21/08/12
+90800         EndIf;                                                                                                  21/08/12
+90900        EndSR;                                                                                                   21/08/12
+91000                                                                                                                 21/08/12
+91100        // Retrieve the first of Payment Charge Defaults                                                         20/01/15
+91200        BegSR RtvPayChrDft;                                                                                      20/01/15
+91300         Exec SQL                                                                                                20/01/15
+91400          Select CABCHC,  -- Costs abroad charge code.                                                           20/01/15
+91500                 SWSTCH,  -- S.W.I.F.T. standard charge                                                          20/01/15
+91600                 MISCH1,  -- Miscellaneous charge 1.                                                             20/01/15
+91700                 MISCH2,  -- Miscellaneous charge 2.                                                             20/01/15
+91800                 TRCMCH   -- Transfer commission charge.                                                         20/01/15
+91900           into :CABCHC,                                                                                         20/01/15
+92000                :SWSTCH,                                                                                         20/01/15
+92100                :MISCH1,                                                                                         20/01/15
+92200                :MISCH2,                                                                                         20/01/15
+92300                :TRCMCH                                                                                          20/01/15
+92400           from TBL_PYCG                                                                                         20/01/15
+92500           where BRANCH=:BRANCH and                                                                              20/01/15
+92600                 CUSTOM=:CUSTOM and                                                                              20/01/15
+92700                 TRNTYP=:TRNTYP and                                                                              20/01/15
+92800                 TRSBTY=:TRSBTY and                                                                              20/01/15
+92900                 CURRCY=:CURRCY                                                                                  20/01/15
+93000           fetch first row only;                                                                                 20/01/15
+93100         FndFlg=(SqlCode>=0 and SqlCode<>100);                                                                   20/01/15
+93200         ExSR ChkSqlErr; // SQL error                                                                            20/01/15
+93300        EndSR;                                                                                                   20/01/15
+93400                                                                                                                 20/01/15
+93500        // Retrieve the only Payment Charge Default                                                              20/01/15
+93600        BegSR RtvPayChrDftWithoutBranch;                                                                         20/01/15
+93700         Exec SQL                                                                                                20/01/15
+93800          Select CABCHC,  -- Costs abroad charge code.                                                           20/01/15
+93900                 SWSTCH,  -- S.W.I.F.T. standard charge                                                          20/01/15
+94000                 MISCH1,  -- Miscellaneous charge 1.                                                             20/01/15
+94100                 MISCH2,  -- Miscellaneous charge 2.                                                             20/01/15
+94200                 TRCMCH   -- Transfer commission charge.                                                         20/01/15
+94300           into :CABCHC,                                                                                         20/01/15
+94400                :SWSTCH,                                                                                         20/01/15
+94500                :MISCH1,                                                                                         20/01/15
+94600                :MISCH2,                                                                                         20/01/15
+94700                :TRCMCH                                                                                          20/01/15
+94800           from TBL_PYCG                                                                                         20/01/15
+94900           where CUSTOM=:CUSTOM and                                                                              20/01/15
+95000                 TRNTYP=:TRNTYP and                                                                              20/01/15
+95100                 TRSBTY=:TRSBTY and                                                                              20/01/15
+95200                 CURRCY=:CURRCY                                                                                  20/01/15
+95300           fetch first row only;                                                                                 20/01/15
+95400         FndFlg=(SqlCode>=0 and SqlCode<>100);                                                                   20/01/15
+95500         If SqlCode<>-811;                                                                                       20/01/15
+95600          ExSR ChkSqlErr; // SQL error                                                                           20/01/15
+95700         EndIf;                                                                                                  20/01/15
+95800        EndSR;                                                                                                   20/01/15
+95900                                                                                                                 20/01/15
+96000        // Вычисление тарифа                                                                                     21/08/12
+96100        BegSR ClcPayChr;                                                                                         21/08/12
+96200         Clear ChrAmtCcy;                                                                                        19/01/15
+96300         Clear ChrAmtRur;                                                                                        19/01/15
+96400                                                                                                                 21/08/12
+96500         ExSR RtvPayChrDfn;                                                                                      21/08/12
+96600         If FndFlg;                                                                                              19/01/15
+96700          N=1;                                                                                                   19/01/15
+96800          DoW N<=%Elem(PayChrDfn.Arr) and                                                                        19/01/15
+96900              not (AmtRur>=PayChrDfn.Arr(N).SABC and                                                             19/01/15
+97000                   AmtRur<=PayChrDfn.Arr(N).EABC);                                                               19/01/15
+97100           N+=1;                                                                                                 19/01/15
+97200          EndDo;                                                                                                 19/01/15
+97300          Select;                                                                                                19/01/15
+97400           When N>%Elem(PayChrDfn.Arr);                                                                          19/01/15
+97500            // Порог не найден                                                                                   19/01/15
+97600            LeaveSR;                                                                                             19/01/15
+97700           When PayChrDfn.CALCMD='H' or                                                                          19/01/15
+97800                (PayChrDfn.CALCMD='T' and N=1);                                                                  19/01/15
+97900            // Если максимум в пороге не указан MXBC0n, то получается что его нет.                               19/01/15
+98000            // Т.е. перед формулой надо MXBC0n сравнить с нулем и если MXBC0n=0,                                 19/01/15
+98100            // то считать максимум не ноля, а HIVAL. (С.Буш)                                                     19/01/15
+98200            If PayChrDfn.Arr(N).MXBC=0;                                                                          19/01/15
+98300             PayChrDfn.Arr(N).MXBC=*HiVal;                                                                       19/01/15
+98400            EndIf;                                                                                               19/01/15
+98500            ChrAmtRur=Min(Max(AmtRur*PayChrDfn.Arr(N).RATE:                                                      19/01/15
+98600                              PayChrDfn.Arr(N).MIBC):                                                            19/01/15
+98700                          PayChrDfn.Arr(N).MXBC);                                                                19/01/15
+98800           When PayChrDfn.CALCMD='T' and N>1;                                                                    19/01/15
+98900            For I=1 to N;                                                                                        19/01/15
+99000             If PayChrDfn.Arr(I).MXBC=0;                                                                         19/01/15
+99100              PayChrDfn.Arr(I).MXBC=*HiVal;                                                                      19/01/15
+99200             EndIf;                                                                                              19/01/15
+99300             ChrAmtRur=ChrAmtRur+                                                                                19/01/15
+99400                       Min(Max((Min(PayChrDfn.Arr(N).EABC:AmtRur)-                                               19/01/15
+99500                                 PayChrDfn.Arr(N).SABC)*                                                         19/01/15
+99600                                  PayChrDfn.Arr(N).RATE:                                                         19/01/15
+99700                               PayChrDfn.Arr(N).MIBC):                                                           19/01/15
+99800                           PayChrDfn.Arr(N).MXBC);                                                               19/01/15
+99900            EndFor;                                                                                              19/01/15
+100000          EndSl;                                                                                                 19/01/15
+100100          If InDS.Currency='RUR';                                                                                21/01/15
+100200           ChrAmtCcy=ChrAmtRur;                                                                                  21/01/15
+100300          Else;                                                                                                  21/01/15
+100400           Monitor;                                                                                              23/03/15
+100500            If MulDivInd='M';                                                                                    23/03/15
+100600             Eval(HR) ChrAmtCcy=(ChrAmtRur/100)/(SptRte/SclExp10)*DecPlcNum10;                                   23/03/15
+100700            ElseIf MulDivInd='D';                                                                                23/03/15
+100800             Eval(HR) ChrAmtCcy=(ChrAmtRur/100)/(SclExp10/SptRte)*DecPlcNum10;                                   23/03/15
+100900            EndIf;                                                                                               23/03/15
+101000           On-Error;                                                                                             23/03/15
+101100            ExSR RcvErrMsg;                                                                                      23/03/15
+101200            Sts=StsErr;                                                                                          23/03/15
+101300            ExSR Exit;                                                                                           23/03/15
+101400           EndMon;                                                                                               23/03/15
+101500          EndIf;                                                                                                 21/01/15
+101600         EndIf;                                                                                                  19/01/15
+101700        EndSR;                                                                                                   21/08/12
+101800                                                                                                                 30/08/12
+101900        // Retrieve Payment Charge Definition                                                                    20/01/15
+102000        BegSR RtvPayChrDfn;                                                                                      20/01/15
+102100         Clear PayChrDfn;                                                                                        20/01/15
+102200         Exec SQL                                                                                                20/01/15
+102300          Select CALCMD,  -- Calculation method                                                                  20/01/15
+102400                 SABC01,  -- Start Amount Base Currency Range 1                                                  20/01/15
+102500                 EABC01,  -- End Amount Base currency Range 1                                                    20/01/15
+102600                 RATE01,  -- Rate Range 1                                                                        20/01/15
+102700                 MIBC01,  -- Minimum Charge Base Currency Range 1                                                20/01/15
+102800                 MXBC01,  -- Maximum Charge Base Currency Range 1                                                20/01/15
+102900                 SABC02,  -- Start Amount Base Currency Range 2                                                  20/01/15
+103000                 EABC02,  -- End Amount Base currency Range 2                                                    20/01/15
+103100                 RATE02,  -- Rate Range 2                                                                        20/01/15
+103200                 MIBC02,  -- Minimum Charge Base Currency Range 2                                                20/01/15
+103300                 MXBC02,  -- Maximum Charge Base Currency Range 2                                                20/01/15
+103400                 SABC03,  -- Start Amount Base Currency Range 3                                                  20/01/15
+103500                 EABC03,  -- End Amount Base currency Range 3                                                    20/01/15
+103600                 RATE03,  -- Rate Range 3                                                                        20/01/15
+103700                 MIBC03,  -- Minimum Charge Base Currency Range 3                                                20/01/15
+103800                 MXBC03,  -- Maximum Charge Base Currency Range 3                                                20/01/15
+103900                 SABC04,  -- Start Amount Base Currency Range 4                                                  20/01/15
+104000                 EABC04,  -- End Amount Base currency Range 4                                                    20/01/15
+104100                 RATE04,  -- Rate Range 4                                                                        20/01/15
+104200                 MIBC04,  -- Minimum Charge Base Currency Range 4                                                20/01/15
+104300                 MXBC04,  -- Maximum Charge Base Currency Range 4                                                20/01/15
+104400                 SABC05,  -- Start Amount Base Currency Range 5                                                  20/01/15
+104500                 EABC05,  -- End Amount Base currency Range 5                                                    20/01/15
+104600                 RATE05,  -- Rate Range 5                                                                        20/01/15
+104700                 MIBC05,  -- Minimum Charge Base Currency Range 5                                                20/01/15
+104800                 MXBC05,  -- Maximum Charge Base Currency Range 5                                                20/01/15
+104900                 SABC06,  -- Start Amount Base Currency Range 6                                                  20/01/15
+105000                 EABC06,  -- End Amount Base currency Range 6                                                    20/01/15
+105100                 RATE06,  -- Rate Range 6                                                                        20/01/15
+105200                 MIBC06,  -- Minimum Charge Base Currency Range 6                                                20/01/15
+105300                 MXBC06,  -- Maximum Charge Base Currency Range 6                                                20/01/15
+105400                 SABC07,  -- Start Amount Base Currency Range 7                                                  20/01/15
+105500                 EABC07,  -- End Amount Base currency Range 7                                                    20/01/15
+105600                 RATE07,  -- Rate Range 7                                                                        20/01/15
+105700                 MIBC07,  -- Minimum Charge Base Currency Range 7                                                20/01/15
+105800                 MXBC07,  -- Maximum Charge Base Currency Range 7                                                20/01/15
+105900                 SABC08,  -- Start Amount Base Currency Range 8                                                  20/01/15
+106000                 EABC08,  -- End Amount Base currency Range 8                                                    20/01/15
+106100                 RATE08,  -- Rate Range 8                                                                        20/01/15
+106200                 MIBC08,  -- Minimum Charge Base Currency Range 8                                                20/01/15
+106300                 MXBC08,  -- Maximum Charge Base Currency Range 8                                                20/01/15
+106400                 SABC09,  -- Start Amount Base Currency Range 9                                                  20/01/15
+106500                 EABC09,  -- End Amount Base currency Range 9                                                    20/01/15
+106600                 RATE09,  -- Rate Range 9                                                                        20/01/15
+106700                 MIBC09,  -- Minimum Charge Base Currency Range 9                                                20/01/15
+106800                 MXBC09,  -- Maximum Charge Base Currency Range 9                                                20/01/15
+106900                 SABC10,  -- Start Amount Base Currency Range 10                                                 20/01/15
+107000                 EABC10,  -- End Amount Base currency Range 10                                                   20/01/15
+107100                 RATE10,  -- Rate Range 10                                                                       20/01/15
+107200                 MIBC10,  -- Minimum Charge Base Currency Range 10                                               20/01/15
+107300                 MXBC10   -- Maximum Charge Base Currency Range 10                                               20/01/15
+107400           into :PayChrDfn.CALCMD,                                                                               20/01/15
+107500                :PayChrDfn.SABC01,                                                                               20/01/15
+107600                :PayChrDfn.EABC01,                                                                               20/01/15
+107700                :PayChrDfn.RATE01,                                                                               20/01/15
+107800                :PayChrDfn.MIBC01,                                                                               20/01/15
+107900                :PayChrDfn.MXBC01,                                                                               20/01/15
+108000                :PayChrDfn.SABC02,                                                                               20/01/15
+108100                :PayChrDfn.EABC02,                                                                               20/01/15
+108200                :PayChrDfn.RATE02,                                                                               20/01/15
+108300                :PayChrDfn.MIBC02,                                                                               20/01/15
+108400                :PayChrDfn.MXBC02,                                                                               20/01/15
+108500                :PayChrDfn.SABC03,                                                                               20/01/15
+108600                :PayChrDfn.EABC03,                                                                               20/01/15
+108700                :PayChrDfn.RATE03,                                                                               20/01/15
+108800                :PayChrDfn.MIBC03,                                                                               20/01/15
+108900                :PayChrDfn.MXBC03,                                                                               20/01/15
+109000                :PayChrDfn.SABC04,                                                                               20/01/15
+109100                :PayChrDfn.EABC04,                                                                               20/01/15
+109200                :PayChrDfn.RATE04,                                                                               20/01/15
+109300                :PayChrDfn.MIBC04,                                                                               20/01/15
+109400                :PayChrDfn.MXBC04,                                                                               20/01/15
+109500                :PayChrDfn.SABC05,                                                                               20/01/15
+109600                :PayChrDfn.EABC05,                                                                               20/01/15
+109700                :PayChrDfn.RATE05,                                                                               20/01/15
+109800                :PayChrDfn.MIBC05,                                                                               20/01/15
+109900                :PayChrDfn.MXBC05,                                                                               20/01/15
+110000                :PayChrDfn.SABC06,                                                                               20/01/15
+110100                :PayChrDfn.EABC06,                                                                               20/01/15
+110200                :PayChrDfn.RATE06,                                                                               20/01/15
+110300                :PayChrDfn.MIBC06,                                                                               20/01/15
+110400                :PayChrDfn.MXBC06,                                                                               20/01/15
+110500                :PayChrDfn.SABC07,                                                                               20/01/15
+110600                :PayChrDfn.EABC07,                                                                               20/01/15
+110700                :PayChrDfn.RATE07,                                                                               20/01/15
+110800                :PayChrDfn.MIBC07,                                                                               20/01/15
+110900                :PayChrDfn.MXBC07,                                                                               20/01/15
+111000                :PayChrDfn.SABC08,                                                                               20/01/15
+111100                :PayChrDfn.EABC08,                                                                               20/01/15
+111200                :PayChrDfn.RATE08,                                                                               20/01/15
+111300                :PayChrDfn.MIBC08,                                                                               20/01/15
+111400                :PayChrDfn.MXBC08,                                                                               20/01/15
+111500                :PayChrDfn.SABC09,                                                                               20/01/15
+111600                :PayChrDfn.EABC09,                                                                               20/01/15
+111700                :PayChrDfn.RATE09,                                                                               20/01/15
+111800                :PayChrDfn.MIBC09,                                                                               20/01/15
+111900                :PayChrDfn.MXBC09,                                                                               20/01/15
+112000                :PayChrDfn.SABC10,                                                                               20/01/15
+112100                :PayChrDfn.EABC10,                                                                               20/01/15
+112200                :PayChrDfn.RATE10,                                                                               20/01/15
+112300                :PayChrDfn.MIBC10,                                                                               20/01/15
+112400                :PayChrDfn.MXBC10                                                                                20/01/15
+112500           from TBL_PCHG                                                                                         20/01/15
+112600           where PYCHCD=:PYCHCD;                                                                                 20/01/15
+112700         FndFlg=(SqlCode>=0 and SqlCode<>100);                                                                   20/01/15
+112800         ExSR ChkSqlErr; // SQL error                                                                            20/01/15
+112900        EndSR;                                                                                                   20/01/15
+113000                                                                                                                 20/01/15
+113100        // Поиск в таблице FTCHRCABC                                                                             20/01/15
+113200        BegSR FndCABC;                                                                                           31/08/12
+113300         Clear FTCHRCABC;                                                                                        30/08/12
+113400         FTCHRCABC.ClientType=InDS.Client_type;                                                                  30/08/12
+113500         If %Len(%TrimR(InDS.Destination))=                                                                      29/03/13
+113600             %Size(A7CYCD)+%Size(A7NONB) and                                                                     19/01/15
+113700            IsNostro(%TrimR(InDS.Destination));                                                                  29/03/13
+113800          FTCHRCABC.NostroAcc=InDS.Destination;                                                                  02/04/13
+113900         Else;                                                                                                   21/02/13
+114000          FTCHRCABC.NostroAcc=InDS.Nostro_Account;                                                               02/04/13
+114100         EndIf;                                                                                                  21/02/13
+114200         FTCHRCABC.ChrgDtls=InDS.Details_of_charges;                                                             30/08/12
+114300         FTCHRCABC.CountryBB=(InDS.Country_BB=Prm.Country_BB);                                                   30/08/12
+114400         FTCHRCABC.CountryNC=(InDS.Country_BB=InDS.Country_NC);                                                  30/08/12
+114500         FTCHRCABC.SWIFTBICBB=(InDS.SWIFT_BIC_BB=Prm.SWIFT_BIC_BB);                                              30/08/12
+114600         FTCHRCABC.BBClientNB=                                                                                   14/12/12
+114700          (InDS.Account_with_bank_1=*Blanks and                                                                  14/12/12
+114800           InDS.Account_with_bank_2=*Blanks and                                                                  14/12/12
+114900           InDS.Account_with_bank_3=*Blanks and                                                                  14/12/12
+115000           InDS.Account_with_bank_4=*Blanks and                                                                  14/12/12
+115100           InDS.Account_with_bank_5=*Blanks and                                                                  14/12/12
+115200           (InDS.Destination=InDS.Nostro_Account or                                                              22/02/13
+115300            %Len(%TrimR(InDS.Destination))=%Size(BBCUST) and                                                     19/01/15
+115400            IsNostro(%TrimR(InDS.Destination))))                                                                 22/02/13
+115500          or                                                                                                     22/02/13
+115600          (InDS.Account_with_bank_1<>*Blanks and                                                                 22/02/13
+115700           (InDS.Destination=InDS.Nostro_Account or                                                              22/02/13
+115800            %Len(%TrimR(InDS.Destination))=%Size(BBCUST) and                                                     19/01/15
+115900            IsNostro(%TrimR(InDS.Destination))) and                                                              22/02/13
+116000           (%Subst(DstSwf:1:6)=%Subst(InDS.Account_with_bank_1:1:6) or                                           22/02/13
+116100            %Subst(DstSwf:1:6)=%Subst(InDS.Account_with_bank_2:1:6)));                                           22/02/13
+116200         FTCHRCABC.TranTypCod=(InDS.Transaction_type_code=                                                       30/08/12
+116300                               Prm.IGP_Transaction_type_code);                                                   30/08/12
+116400         FTCHRCABC.MT103MT102=(InDS.MT202_indicator='Y' and                                                      30/08/12
+116500                               InDS.Sender_s_correspondent<>*Blanks);                                            30/08/12
+116600         FTCHRCABC.MT202=(InDS.SWIFT_BIC_B<>*Blanks and BBBNBI='Y');                                             19/01/15
+116700                                                                                                                 31/08/12
+116800         Exec SQL                                                                                                31/08/12
+116900          Select CHARGCOD1, CHARGCOD2                                                                            31/08/12
+117000           into :FTCHRCABC.ChargCod1, :FTCHRCABC.ChargCod2                                                       31/08/12
+117100           from FTCHRCABC                                                                                        31/08/12
+117200           where CLIENTTYPE=:FTCHRCABC.ClientType and                                                            31/08/12
+117300                 NOSTROACC=:FTCHRCABC.NostroAcc and                                                              02/04/13
+117400                 CHRGDTLS in ('', :FTCHRCABC.ChrgDtls) and                                                       11/10/12
+117500                 COUNTRYBB in ('', :FTCHRCABC.CountryBB) and                                                     24/09/12
+117600                 COUNTRYNC in ('', :FTCHRCABC.CountryNC) and                                                     24/09/12
+117700                 SWIFTBICBB in ('', :FTCHRCABC.SWIFTBICBB) and                                                   24/09/12
+117800                 BBCLIENTNB in ('', :FTCHRCABC.BBClientNB) and                                                   24/09/12
+117900                 TRANTYPCOD in ('', :FTCHRCABC.TranTypCod) and                                                   24/09/12
+118000                 MT103MT102 in ('', :FTCHRCABC.MT103MT102) and                                                   24/09/12
+118100                 MT202 in ('', :FTCHRCABC.MT202);                                                                24/09/12
+118200         FndFlg=(SqlCode>=0 and SqlCode<>100);                                                                   19/01/15
+118300         If SqlCode<>-811;                                                                                       19/01/15
+118400          ExSR ChkSqlErr;                                                                                        01/04/13
+118500         EndIf;                                                                                                  01/04/13
+118600        EndSR;                                                                                                   30/08/12
+118700                                                                                                                 30/08/12
+118800        // Поиск в таблице FTCHRMIS                                                                              20/01/15
+118900        BegSR FndMIS;                                                                                            31/08/12
+119000         Clear FTCHRMIS;                                                                                         30/08/12
+119100         FTCHRMIS.ClientType=InDS.Client_type;                                                                   30/08/12
+119200         FTCHRMIS.PayCcy=InDS.Pay_currency;                                                                      30/08/12
+119300         FTCHRMIS.StlCcy=InDS.Settlement_currency;                                                               30/08/12
+119400         If %Len(%TrimR(InDS.Destination))<=%Size(BBCUST);                                                       19/01/15
+119500          FTCHRMIS.Dest=InDS.Destination;                                                                        21/02/13
+119600         Else;                                                                                                   21/02/13
+119700          FTCHRMIS.Dest=InDS.Nostro_Account;                                                                     21/02/13
+119800         EndIf;                                                                                                  21/02/13
+119900         FTCHRMIS.ChrgDtls=InDS.Details_of_charges;                                                              30/08/12
+120000         If InDS.Instruction_code_1=*Blanks;                                                                     30/08/12
+120100          FTCHRMIS.InstrCode1='NZ';                                                                              30/08/12
+120200         Else;                                                                                                   30/08/12
+120300          FTCHRMIS.InstrCode1=InDS.Instruction_code_1;                                                           30/08/12
+120400         EndIf;                                                                                                  30/08/12
+120500         If InDS.Instruction_code_2=*Blanks;                                                                     30/08/12
+120600          FTCHRMIS.InstrCode2='NZ';                                                                              30/08/12
+120700         Else;                                                                                                   30/08/12
+120800          FTCHRMIS.InstrCode2=InDS.Instruction_code_2;                                                           30/08/12
+120900         EndIf;                                                                                                  30/08/12
+121000         If InDS.Sender_s_correspondent=*Blanks;                                                                 30/08/12
+121100          FTCHRMIS.SendCorr='NZ';                                                                                30/08/12
+121200         Else;                                                                                                   30/08/12
+121300          FTCHRMIS.SendCorr=InDS.Sender_s_correspondent;                                                         30/08/12
+121400         EndIf;                                                                                                  30/08/12
+121500         FTCHRMIS.Bnk2BnkInf=InDS.Bank_to_bank_information_1;                                                    21/02/13
+121600                                                                                                                 31/08/12
+121700         Exec SQL                                                                                                31/08/12
+121800          Select MIS2, MIS1                                                                                      31/08/12
+121900           into :FTCHRMIS.Mis2, :FTCHRMIS.Mis1                                                                   31/08/12
+122000           from FTCHRMIS                                                                                         31/08/12
+122100           where CLIENTTYPE=:FTCHRMIS.ClientType and                                                             31/08/12
+122200                 PAYCCY=:FTCHRMIS.PayCcy and                                                                     31/08/12
+122300                 STLCCY=:FTCHRMIS.StlCcy and                                                                     31/08/12
+122400                 DEST=:FTCHRMIS.Dest and                                                                         31/08/12
+122500                 CHRGDTLS in ('', :FTCHRMIS.ChrgDtls) and                                                        05/10/12
+122600                 INSTRCODE1=:FTCHRMIS.InstrCode1 and                                                             31/08/12
+122700                 INSTRCODE2=:FTCHRMIS.InstrCode2 and                                                             31/08/12
+122800                 SENDCORR=:FTCHRMIS.SendCorr and                                                                 31/08/12
+122900                 :FTCHRMIS.Bnk2BnkInf like rtrim(BNK2BNKINF) concat '%';                                         08/10/12
+123000         FndFlg=(SqlCode>=0 and SqlCode<>100);                                                                   19/01/15
+123100         If SqlCode<>-811;                                                                                       19/01/15
+123200          ExSR ChkSqlErr;                                                                                        01/04/13
+123300         EndIf;                                                                                                  01/04/13
+123400        EndSR;                                                                                                   30/08/12
+123500                                                                                                                 19/01/15
+123600        // Exit                                                                                                  19/01/15
+123700        BegSR Exit;                                                                                              19/01/15
+123800       /If defined(TRACE)                                                                                        05/02/15
+123900         CallP(E) QCMDEXC_API(EndDbgCmd:%Size(EndDbgCmd));                                                       23/03/15
+124000         CallP(E) QCMDEXC_API(PrtJobLogCmd:%Size(PrtJobLogCmd));                                                 23/03/15
+124100       /EndIf                                                                                                    05/02/15
+124200         If Sts=StsOk;                                                                                           19/01/15
+124300          // Completed successfully                                                                              19/01/15
+124400          If %Addr(StsMsg)<>*Null;                                                                               19/01/15
+124500           Clear StsMsg;                                                                                         19/01/15
+124600          EndIf;                                                                                                 19/01/15
+124700         Else;                                                                                                   19/01/15
+124800          // Error or warning                                                                                    19/01/15
+124900          Select;                                                                                                19/01/15
+125000           When Sts=StsErr;                                                                                      19/01/15
+125100            EvtTyp=EvtErr;                                                                                       19/01/15
+125200           When Sts=StsWrn;                                                                                      19/01/15
+125300            EvtTyp=EvtWrn;                                                                                       19/01/15
+125400          EndSl;                                                                                                 19/01/15
+125500          FtChrWrtLog(EvtTyp:PSDS.ModNam:MsgId:MsgFil:MsgDtaLen:MsgDta:StrTimMI);                                23/03/15
+125600          ExSR RtvStsMsg;                                                                                        19/01/15
+125700         EndIf;                                                                                                  19/01/15
+125800                                                                                                                 19/01/15
+125900         FtChrEndLog();                                                                                          23/03/15
+126000         Return;                                                                                                 19/01/15
+126100        EndSR;                                                                                                   19/01/15
+126200       /End-Free                                                                                                 21/08/12
+126300                                                                                                                 24/08/12
+126400       /Copy FTCHRSRC,RTVCUS                                                                                     19/01/15
+126500       /Copy INT2CMNOLDSRC,GETMOD                                                                                10/12/14
+126600       /Copy INT2CMNOLDSRC,USEALS                                                                                25/03/15
+126700       /Copy CMNOLDSRC,CHKSQLERR                                                                                 24/08/12
+126800       /Copy CMNOLDSRC,CHKSYSERR                                                                                 07/11/14
+126900       /Copy CMNOLDSRC,RCVERRMSG                                                                                 07/11/14
+127000       /Copy CMNOLDSRC,RTVSQLMSG                                                                                 24/08/12
+127100       /Copy CMNOLDSRC,RTVSTSMSG                                                                                 24/08/12
+127200      P ChrFTCalc       E                                                                                        21/08/12
+127300                                                                                                                 21/08/12
+127400      P GetSwf          B                                                                                        30/11/12
+127500      D GetSwf          PI            11A                                                                        30/11/12
+127600      D  Str                          35A   Const Options(*VarSize) Varying                                      14/12/12
+127700                                                                                                                 30/11/12
+127800      D MsgId           S              7A                                                                        19/01/15
+127900      D MsgFil          S             20A   Inz(FtChrMsgFil)                                                     23/03/15
+128000      D MsgDta          S            200A                                                                        19/01/15
+128100      D MsgDtaLen       S              5U 0                                                                      19/01/15
+128200      D Sts             S              1A                                                                        19/01/15
+128300                                                                                                                 19/01/15
+128400       * Fields of SDCUSTPD                                                                                      19/01/15
+128500      D SDCUSTPD      E DS                  ExtName(SDCUSTPD) Qualified Template                                 19/01/15
+128600       * Fields of SDNOSTPD                                                                                      19/01/15
+128700      D SDNOSTPD      E DS                  ExtName(SDNOSTPD) Qualified Template                                 19/01/15
+128800                                                                                                                 19/01/15
+128900      D A7CYCD          S                   Like(SDNOSTPD.A7CYCD)                                                19/01/15
+129000      D A7NONB          S                   Like(SDNOSTPD.A7NONB)                                                19/01/15
+129100      D A7CUST          S                   Like(SDNOSTPD.A7CUST)                                                19/01/15
+129200      D BBCUST          S                   Like(SDCUSTPD.BBCUST)                                                19/01/15
+129300      D BBCSID          S                   Like(SDCUSTPD.BBCSID)                                                19/01/15
+129400      D BBBNBI          S                   Like(SDCUSTPD.BBBNBI)                                                19/01/15
+129500                                                                                                                 19/01/15
+129600      D SwfCod          S             11A                                                                        30/11/12
+129700      D FndFlg          S               N                                                                        19/01/15
+129800                                                                                                                 19/01/15
+129900       /Copy CMNOLDSRC,STSCODINC                                                                                 19/01/15
+130000       /Copy CMNOLDSRC,SYSINC                                                                                    23/03/15
+130100                                                                                                                 30/11/12
+130200       /Free                                                                                                     30/11/12
+130300        Select;                                                                                                  30/11/12
+130400         When %Len(Str)=%Size(SwfCod) or                                                                         30/11/12
+130500              %Len(Str)=%Size(SwfCod)-3;                                                                         30/11/12
+130600          SwfCod=Str;                                                                                            30/11/12
+130700                                                                                                                 30/11/12
+130800         When %Len(Str)=%Size(BBCUST);                                                                           19/01/15
+130900          BBCUST=Str;                                                                                            19/01/15
+131000          ExSR RtvCus;                                                                                           30/11/12
+131100          If FndFlg;                                                                                             19/01/15
+131200           SwfCod=BBCSID;                                                                                        19/01/15
+131300          EndIf;                                                                                                 30/11/12
+131400                                                                                                                 30/11/12
+131500         When %Len(Str)=%Size(A7CYCD)+%Size(A7NONB);                                                             19/01/15
+131600          A7CYCD=Str;                                                                                            19/01/15
+131700          EvalR A7NONB=Str;                                                                                      19/01/15
+131800          ExSR RtvCusByNost;                                                                                     19/01/15
+131900          If FndFlg;                                                                                             19/01/15
+132000           BBCUST=A7CUST;                                                                                        19/01/15
+132100           ExSR RtvCus;                                                                                          30/11/12
+132200           If FndFlg;                                                                                            19/01/15
+132300            SwfCod=BBCSID;                                                                                       19/01/15
+132400           EndIf;                                                                                                30/11/12
+132500          EndIf;                                                                                                 30/11/12
+132600        EndSl;                                                                                                   30/11/12
+132700        If %Subst(SwfCod:9:3)=*All'X';                                                                           17/12/12
+132800         %Subst(SwfCod:9:3)=*Blanks;                                                                             17/12/12
+132900        EndIf;                                                                                                   17/12/12
+133000        ExSR Exit;                                                                                               19/01/15
+133100                                                                                                                 19/01/15
+133200        // Exit                                                                                                  19/01/15
+133300        BegSR Exit;                                                                                              19/01/15
+133400         Return SwfCod;                                                                                          19/01/15
+133500        EndSR;                                                                                                   19/01/15
+133600       /End-Free                                                                                                 30/11/12
+133700                                                                                                                 30/11/12
+133800       /Copy FTCHRSRC,RTVCUS                                                                                     30/11/12
+133900       /Copy FTCHRSRC,RTVCUS4NOS                                                                                 19/01/15
+134000       /Copy CMNOLDSRC,CHKSQLERR                                                                                 19/01/15
+134100       /Copy CMNOLDSRC,RTVSQLMSG                                                                                 19/01/15
+134200      P GetSwf          E                                                                                        30/11/12
+134300                                                                                                                 30/11/12
+134400      P IsNostro        B                                                                                        22/02/13
+134500      D IsNostro        PI              N                                                                        22/02/13
+134600      D  Str                          35A   Const Options(*VarSize) Varying                                      22/02/13
+134700                                                                                                                 22/02/13
+134800      D MsgId           S              7A                                                                        19/01/15
+134900      D MsgFil          S             20A   Inz(FtChrMsgFil)                                                     23/03/15
+135000      D MsgDta          S            200A                                                                        19/01/15
+135100      D MsgDtaLen       S              5U 0                                                                      19/01/15
+135200      D Sts             S              1A                                                                        19/01/15
+135300                                                                                                                 19/01/15
+135400       * Fields of SDCUSTPD                                                                                      22/02/13
+135500      D SDCUSTPD      E DS                  ExtName(SDCUSTPD) Qualified Template                                 19/01/15
+135600       * Fields of SDNOSTPD                                                                                      22/02/13
+135700      D SDNOSTPD      E DS                  ExtName(SDNOSTPD) Qualified Template                                 19/01/15
+135800                                                                                                                 22/02/13
+135900      D A7CYCD          S                   Like(SDNOSTPD.A7CYCD)                                                19/01/15
+136000      D A7NONB          S                   Like(SDNOSTPD.A7NONB)                                                19/01/15
+136100      D A7CUST          S                   Like(SDNOSTPD.A7CUST)                                                19/01/15
+136200      D BBCUST          S                   Like(SDCUSTPD.BBCUST)                                                19/01/15
+136300      D BBCSID          S                   Like(SDCUSTPD.BBCSID)                                                19/01/15
+136400      D BBBNBI          S                   Like(SDCUSTPD.BBBNBI)                                                19/01/15
+136500                                                                                                                 19/01/15
+136600      D FndFlg          S               N                                                                        19/01/15
+136700                                                                                                                 19/01/15
+136800       /Copy CMNOLDSRC,STSCODINC                                                                                 19/01/15
+136900       /Copy CMNOLDSRC,SYSINC                                                                                    23/03/15
+137000                                                                                                                 19/01/15
+137100       /Free                                                                                                     22/02/13
+137200        Select;                                                                                                  22/02/13
+137300         When %Len(Str)=%Size(A7CUST);                                                                           19/01/15
+137400          A7CUST=Str;                                                                                            19/01/15
+137500          ExSR RtvNostByCus;                                                                                     19/01/15
+137600         When %Len(Str)=%Size(A7CYCD)+%Size(A7NONB);                                                             19/01/15
+137700          A7CYCD=Str;                                                                                            19/01/15
+137800          EvalR A7NONB=Str;                                                                                      19/01/15
+137900          ExSR RtvCusByNost;                                                                                     19/01/15
+138000        EndSl;                                                                                                   22/02/13
+138100        ExSR Exit;                                                                                               19/01/15
+138200                                                                                                                 19/01/15
+138300        // Exit                                                                                                  19/01/15
+138400        BegSR Exit;                                                                                              19/01/15
+138500         Return FndFlg;                                                                                          19/01/15
+138600        EndSR;                                                                                                   19/01/15
+138700       /End-Free                                                                                                 22/02/13
+138800                                                                                                                 22/02/13
+138900       /Copy FTCHRSRC,RTVCUS4NOS                                                                                 19/01/15
+139000       /Copy FTCHRSRC,RTVNOS4CUS                                                                                 19/01/15
+139100       /Copy CMNOLDSRC,CHKSQLERR                                                                                 19/01/15
+139200       /Copy CMNOLDSRC,RTVSQLMSG                                                                                 19/01/15
+139300      P IsNostro        E                                                                                        22/02/13
+139400                                                                                                                 14/12/12
+139500      P Min             B                                                                                        21/08/12
+139600      D Min             PI            31P 8                                                                      23/03/15
+139700      D  A                            31P 8 Value                                                                23/03/15
+139800      D  B                            31P 8 Value                                                                23/03/15
+139900                                                                                                                 21/08/12
+140000       /Free                                                                                                     21/08/12
+140100        If A<B;                                                                                                  21/08/12
+140200         Return A;                                                                                               21/08/12
+140300        Else;                                                                                                    21/08/12
+140400         Return B;                                                                                               21/08/12
+140500        EndIf;                                                                                                   21/08/12
+140600       /End-Free                                                                                                 21/08/12
+140700      P Min             E                                                                                        21/08/12
+140800                                                                                                                 21/08/12
+140900      P Max             B                                                                                        21/08/12
+141000      D Max             PI            31P 8                                                                      23/03/15
+141100      D  A                            31P 8 Value                                                                23/03/15
+141200      D  B                            31P 8 Value                                                                23/03/15
+141300                                                                                                                 21/08/12
+141400       /Free                                                                                                     21/08/12
+141500        If A>B;                                                                                                  21/08/12
+141600         Return A;                                                                                               21/08/12
+141700        Else;                                                                                                    21/08/12
+141800         Return B;                                                                                               21/08/12
+141900        EndIf;                                                                                                   21/08/12
+142000       /End-Free                                                                                                 21/08/12
+142100      P Max             E                                                                                        21/08/12
+                              * * * *  E N D  O F  S O U R C E  * * * *

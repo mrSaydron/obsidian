@@ -1,0 +1,9 @@
+{
+	"nodes":[
+		{"id":"fef5a53e569042eb","x":-280,"y":-100,"width":250,"height":60,"type":"text","text":"Grafana"},
+		{"id":"2cfddeb0472614a3","x":180,"y":-800,"width":315,"height":400,"type":"file","file":"Pasted image 20250221133042.png"}
+	],
+	"edges":[
+		{"id":"c74af0d61085a956","fromNode":"fef5a53e569042eb","fromSide":"top","toNode":"2cfddeb0472614a3","toSide":"left"}
+	]
+}

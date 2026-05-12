@@ -1,0 +1,168 @@
+{
+	"$schema": "http://json-schema.org/draft-04/schema#",
+	"title": "JMSCorrelationID",
+	"description": "Запрос на получение комиссий по исходящему платежу ЮЛ",
+	"type": "object",
+	"properties": {
+		"swiftCommonReference": {
+			"description": "Глобальный идентификатор документа",
+			"type": "string"
+		},
+		"iteration": {
+			"description": "Номер попытки обработки платежа",
+			"type": "number"
+		},
+		"orderingCustomer": {
+			"description": "Плательщик",
+			"type": "object",
+			"properties": {
+				"cnum": {
+					"description": "Клиентский номер",
+					"type": "string"
+				},
+				"account": {
+					"description": "Номер счёта списания платежа",
+					"type": "string"
+				}
+			},
+			"required": [
+				"cnum",
+				"account"
+			],
+			"additionalProperties": false
+		},
+		"debitAmount": {
+			"description": "Сумма списания со счёта клиента",
+			"type": "object",
+			"properties": {
+				"currency": {
+					"description": "Трёхбуквенный код валюты в формате ISO 4217(alpha3)",
+					"type": "string"
+				},
+				"decimal": {
+					"description": "Сумма в минорных единицах данной валюты",
+					"type": "number"
+				},
+				"scale": {
+					"description": "Число знаков после запятой в десятичном отображении валюты",
+					"type": "number"
+				}
+			},
+			"required": [
+				"currency",
+				"decimal",
+				"scale"
+			],
+			"additionalProperties": false
+		},
+		"creditAmount": {
+			"description": "Сумма платежа (То сколько надо отправить)",
+			"type": "object",
+			"properties": {
+				"currency": {
+					"description": "Трёхбуквенный код валюты в формате ISO 4217(alpha3)",
+					"type": "string",
+					"minLength": 3,
+					"maxLength": 3
+				},
+				"decimal": {
+					"description": "Сумма в минорных единицах данной валюты",
+					"type": "number"
+				},
+				"scale": {
+					"description": "Число знаков после запятой в десятичном отображении валюты",
+					"type": "number"
+				}
+			},
+			"required": [
+				"currency",
+				"decimal",
+				"scale"
+			],
+			"additionalProperties": false
+		},
+		"nostroCorrespondent": {
+			"description": "Ностро-корреспондент",
+			"type": "object",
+			"properties": {
+				"bic": {
+					"description": "Банковский идентификатор (Swift-код)",
+					"type": "string"
+				},
+				"countryCode": {
+					"description": "Код страны (двухбуквенный) Пятый и шестой символы nostroCorrespondent.bic",
+					"type": "string",
+					"minLength": 2,
+					"maxLength": 2
+				},
+				"account": {
+					"description": "Номер ностро-счёта. Сейчас он имеет вид валюта + короткий номер счета, например USD31. Потом будет ЦБ-представление (20 знаков)",
+					"type": "string"
+				}
+			},
+			"required": [
+				"bic",
+				"countryCode",
+				"account"
+			],
+			"additionalProperties": false
+		},
+		"beneficiaryBank": {
+			"description": "Банк бенефициара",
+			"type": "object",
+			"properties": {
+				"bic": {
+					"description": "Банковский идентификатор (Swift-код)\t",
+					"type": "string"
+				},
+				"countryCode": {
+					"description": "Код страны (двухбуквенный)",
+					"type": "string",
+					"minLength": 2,
+					"maxLength": 2
+				}
+			},
+			"required": [
+				"bic",
+				"countryCode"
+			],
+			"additionalProperties": false
+		},
+		"beneficiary": {
+			"description": "Бенефициар",
+			"type": "object",
+			"properties": {
+				"bic": {
+					"description": "Банковский идентификатор (Swift-код)\t",
+					"type": "string"
+				}
+			},
+			"additionalProperties": false
+		},
+		"branch": {
+			"type": "number"
+		},
+		"transactionTypeCode": {
+			"description": "Код, определяющий сущность, назначение или причину транзакции. Возможные значения: IGP (маршрут платежа состоит только из банков группы RBI)",
+			"type": "string"
+		},
+		"agentInstruction": {
+			"description": " Информация для банка, участвующего в передаче платежа. Соответствует SWITF-полю Sender to receiver information (72)",
+			"type": "string"
+		},
+		"guaranteedOur": {
+			"description": "Имеет значение true, если требуется услуга гарантированной доставки полной суммы платежа бенефициару",
+			"type": "boolean"
+		}
+	},
+	"required": [
+		"swiftCommonReference",
+		"iteration",
+		"orderingCustomer",
+		"debitAmount",
+		"creditAmount",
+		"nostroCorrespondent",
+		"beneficiaryBank"
+	],
+	"additionalProperties": false
+}
