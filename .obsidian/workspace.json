@@ -1,72 +1,54 @@
 {
   "main": {
-    "id": "280a681815a663da",
+    "id": "2546c022fa4a1a90",
     "type": "split",
     "children": [
       {
-        "id": "c83559f5ddb8e0ae",
+        "id": "4de56095981360c1",
         "type": "tabs",
         "children": [
           {
-            "id": "a31ba97403894151",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "планы - дела/Рабочие.md",
-                "mode": "source",
-                "source": false
-              },
-              "pinned": true,
-              "icon": "lucide-file",
-              "title": "Рабочие"
-            }
-          },
-          {
-            "id": "23b787cb4b663a05",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "райф/Дела на будущее.md",
-                "mode": "source",
-                "source": false
-              },
-              "pinned": true,
-              "icon": "lucide-file",
-              "title": "Дела на будущее"
-            }
-          },
-          {
-            "id": "95faa98a41858533",
+            "id": "3be566d199d71329",
             "type": "leaf",
             "state": {
               "type": "pdf",
               "state": {
-                "file": "_файлы/Командная строка linux.pdf"
+                "file": "_файлы/Kotlin_Программирование_для_профессионалов_2_е_изд.pdf"
               },
               "icon": "lucide-file-text",
-              "title": "Командная строка linux"
+              "title": "Kotlin_Программирование_для_профессионалов_2_е_изд"
+            }
+          },
+          {
+            "id": "edad92403faec49a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "petProjects/коптер-художник/Как выбирать Flight Controller для MVP.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Как выбирать Flight Controller для MVP"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "86845071071a0a9c",
+    "id": "f680b24092b8547b",
     "type": "split",
     "children": [
       {
-        "id": "b4fcea94953486bb",
+        "id": "8b20ecbfa8ba2f31",
         "type": "tabs",
         "children": [
           {
-            "id": "e5e6cd72b9bb268a",
+            "id": "93afe84b4354143d",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -79,12 +61,12 @@
             }
           },
           {
-            "id": "215cea2cbb2ac716",
+            "id": "f5b0b0b4f62b2aae",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "тарифные пла",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -96,7 +78,7 @@
             }
           },
           {
-            "id": "dfc865dcf53d457e",
+            "id": "61194901b95e7073",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -109,23 +91,23 @@
       }
     ],
     "direction": "horizontal",
-    "width": 526.5
+    "width": 431.5
   },
   "right": {
-    "id": "a260d9e7506d9fc6",
+    "id": "5203a9a7b8aee4a8",
     "type": "split",
     "children": [
       {
-        "id": "cd5a8c9ad58e2844",
+        "id": "20900b6d960c4b0c",
         "type": "tabs",
         "children": [
           {
-            "id": "3c36401e67c3470a",
+            "id": "dd7610b1035d1d00",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "райф/Java scool.md",
+                "file": "книги, фильмы, сериалы/художественная/Флатландия.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,49 +117,55 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Обратные ссылки для Java scool"
+              "title": "Обратные ссылки для Флатландия"
             }
           },
           {
-            "id": "cfbf57d63a323bce",
+            "id": "c6a9123b9e6b6b9f",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "райф/Java scool.md",
+                "file": "книги, фильмы, сериалы/художественная/Флатландия.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Исходящие ссылки из Java scool"
+              "title": "Исходящие ссылки из Флатландия"
             }
           },
           {
-            "id": "80ac806f05c2fbc3",
+            "id": "a5809ccfd99d2a84",
             "type": "leaf",
             "state": {
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-tags",
               "title": "Теги"
             }
           },
           {
-            "id": "5213e34a4ce10922",
+            "id": "637c92c86f23010d",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "райф/Java scool.md"
+                "file": "книги, фильмы, сериалы/художественная/Флатландия.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Структура Java scool"
+              "title": "Структура Флатландия"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -195,11 +183,50 @@
       "command-palette:Открыть палитру команд": false
     }
   },
-  "active": "95faa98a41858533",
+  "active": "edad92403faec49a",
   "lastOpenFiles": [
-    "_файлы/Как читать книги.pdf",
-    "_файлы/Как делать полезные заметки.pdf",
+    "petProjects/коптер-художник/Комплектующие MVP.md",
+    "petProjects/коптер-художник/Как выбирать Flight Controller для MVP.md",
+    "petProjects/коптер-художник/Как выбирать моторы для MVP.md",
+    "petProjects/коптер-художник/Двигатели — таблица характеристик и цен.md",
+    "petProjects/коптер-художник/Расчёт веса и тяги MVP.md",
+    "petProjects/коптер-художник/Исследование рынка — системы покраски и обслуживания фасадов.md",
+    "petProjects/коптер-художник/Сметы MVP — варианты комплектующих AliExpress.md",
+    "petProjects/коптер-художник/План разработки MVP.md",
+    "petProjects/коптер-художник/Исследования и открытые вопросы.md",
+    "hermes/Подключение.md",
+    "petProjects/коптер-художник/Сравнение архитектур покраски.md",
+    "petProjects/коптер-художник/00 Индекс проекта.md",
+    "petProjects/коптер-художник/Концепция 3 — краска, насос и питание на земле.md",
+    "petProjects/коптер-художник/Концепция 2 — краска и насос на земле.md",
+    "petProjects/коптер-художник/Концепция 1 — всё на борту коптера.md",
+    "petProjects/коптер-художник/Техническое задание.md",
+    "petProjects/Текстовое конструирование.md",
+    "petProjects/коптер-художник",
+    "petProjects/Самолет на радиуправлении.md",
+    "petProjects/Рисовальщик схем.md",
+    "игры/Список интересных игр.md",
+    "планы - дела/Хобби.md",
+    "Кирилл/справки/2026-05-15_справка_о_болезни.md",
+    "Кирилл/справки/2026-05-15_справка_о_болезни.jpg",
+    "Кирилл/справки",
+    "Кирилл",
+    "английский/правила/description.md",
+    "hermes",
+    "книги, фильмы, сериалы/художественная/Флатландия.md",
+    "английский/правила/Шаблон темы.md",
+    "английский/правила/lessons.md",
+    "английский/правила",
+    "хлам/Без названия.canvas",
+    "хлам",
+    "посмотреть, почитать",
+    "планы - дела",
+    "переезд/Переезд.canvas",
+    "отдых",
+    "книги, фильмы, сериалы/авторы/энди вейер",
+    "it/grafana/План.canvas",
     "_файлы/Pasted image 20250224153504.png",
+    "_файлы/Pasted image 20240427170642.png",
     "_файлы/Pasted image 20240427174014.png",
     "_файлы/Pasted image 20240427173537.png",
     "_файлы/Pasted image 20240427173514.png",
@@ -207,51 +234,6 @@
     "_файлы/Pasted image 20240427172726.png",
     "_файлы/Pasted image 20240427172618.png",
     "_файлы/Pasted image 20240427172552.png",
-    "_файлы/Pasted image 20240427170642.png",
-    "райф/_файлы/Pasted image 20260428172912.png",
-    "райф/_файлы/2024.03.01_Webinar_Datalake_DAG.mp4",
-    "райф/_файлы",
-    "Балкон.md",
-    "Александ Беляев.md",
-    "Просмотренные видео.md",
-    "райф/Дела на будущее.md",
-    "райф/Дежурство.md",
-    "райф/Confluence - ссылки.md",
-    "райф/Ссылки.md",
-    "райф/СПУЗ - наименование.md",
-    "райф/Сокращения и аббревиатуры.md",
-    "райф/СКДПУ.md",
-    "райф/Роли и разрешения.md",
-    "райф/Роли.md",
-    "райф/При включении компа и смене пароля.md",
-    "райф/Отчеты.md",
-    "райф/Отпуск.md",
-    "райф/Обучение.md",
-    "райф/Митинг нотс.md",
-    "райф/Метрики.md",
-    "райф/Люди.md",
-    "райф/Логи.md",
-    "райф/Интеграция с DMS.md",
-    "райф/Индивидуальный план развития (ИПР).md",
-    "райф/Идеи для ретро.md",
-    "райф/Задачи.md",
-    "райф/Доступ к БД на проде.md",
-    "райф/комиссии/cc-billing/CCC2",
-    "райф/Таблицы тарифного модуля.canvas",
-    "райф/комиссии/inv-billing (async-billing)",
-    "райф/комиссии/currency-fees-ct-billing (balance-billing)",
-    "райф/комиссии/Временный.canvas",
-    "райф/комиссии/cc-billing",
-    "райф/комиссии/ft-billing",
-    "райф/комиссии/fi-billing",
-    "райф/комиссии/fi-billing/Комиссия за платежи MT202_103 в иностранной валюте (FI0000F202, IF0000FI02)/Комиссия за платежи.canvas",
-    "райф/комиссии/fi-billing/Комиссия за платежи MT202_103 в иностранной валюте (FI0000F202, IF0000FI02)",
-    "райф/комиссии/ft-billing/комиссия третьих банков (IF0000FT3B)/Комиссия третьих банков.canvas",
-    "райф/Схема сервисов.canvas",
-    "хлам/Без названия.canvas",
-    "райф/cms/Статусная модель.canvas",
-    "райф/комиссии/fi-billing/авизо (IF0000FPAA)/рефакторин тарифов.canvas",
-    "райф/временное/Найдено некорректное количество активных комиссий.canvas",
-    "райф/временное/Без названия.canvas"
+    "Без названия.canvas"
   ]
 }
