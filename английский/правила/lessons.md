@@ -4,7 +4,7 @@
 
 | Тема | Файл | next_review | repetitions | interval_days | ease_factor | last_grade | updated |
 |---|---|---:|---:|---:|---:|---:|---:|
-| Subject and Object Questions | [[Subject and Object Questions]] | 2026-05-14 | 0 | 1 | 2.5 | - | 2026-05-13 |
+| Subject and Object Questions | [[Subject and Object Questions]] | 2026-05-19 | 1 | 1 | 2.6 | 5 | 2026-05-18 |
 
 ## Правила обновления SM-2
 
