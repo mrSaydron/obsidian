@@ -182,3 +182,49 @@
 
 ## История вопросов и ответов
 
+### 2026-05-22
+
+Задание: добавить правильные question tags.
+
+Ответ пользователя:
+
+- You remember this rule, don't you?
+- He doesn't eat fish, does he?
+- They arrived late, did they?
+- She rarely writes emails, does she?
+- I am right, aren't I?
+- Let's take a short break, shall we?
+
+Проверка:
+
+- Ошибка: **They arrived late, did they?**
+  - Основная часть положительная в Past Simple, поэтому хвостик должен быть отрицательным.
+  - Правильно: **They arrived late, didn't they?**
+
+Результат: 5/6. Для SM-2 это засчитано как качественная оценка **4/5**.
+
+### 2026-05-23
+
+Задание: исправить/проверить question tags.
+
+Ответ пользователя:
+
+- You live near the city centre, don't you?
+- He rarely watches TV, does he?
+- I am late again, aren't I?
+- Let's check the answer, shall we?
+- They have finished the project, didn't they?
+
+Проверка:
+
+- Ошибка: **They have finished the project, didn't they?**
+  - Present Perfect (`have finished`) требует хвостик с **have**.
+  - Правильно: **They have finished the project, haven't they?**
+
+Дополнительное объяснение:
+
+- Если **have** — вспомогательный глагол в Perfect, в хвостике используется **have / has / had**.
+- Если **have** — смысловой глагол в Simple, обычно используется **do / does / did**: *You have a car, don't you?*
+
+Оценка: 4/5, SM-2 grade: 4.
+
