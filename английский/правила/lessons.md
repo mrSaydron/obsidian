@@ -6,7 +6,7 @@
 |---|---|---:|---:|---:|---:|---:|---:|
 | Subject and Object Questions | [[Subject and Object Questions]] | 2026-05-25 | 2 | 6 | 2.7 | 5 | 2026-05-19 |
 | Tag Question | [[Tag Question]] | 2026-05-29 | 2 | 6 | 2.5 | 4 | 2026-05-23 |
-| Alternative Question | [[Alternative Question]] | 2026-05-19 | 0 | 1 | 2.5 | - | 2026-05-18 |
+| Alternative Question | [[Alternative Question]] | 2026-05-25 | 1 | 1 | 2.36 | 3 | 2026-05-24 |
 
 ## Правила обновления SM-2
 
