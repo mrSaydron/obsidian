@@ -7,6 +7,15 @@
 | Subject and Object Questions | [[Subject and Object Questions]] | 2026-05-25 | 2 | 6 | 2.7 | 5 | 2026-05-19 |
 | Tag Question | [[Tag Question]] | 2026-05-29 | 2 | 6 | 2.5 | 4 | 2026-05-23 |
 | Alternative Question | [[Alternative Question]] | 2026-05-25 | 1 | 1 | 2.36 | 3 | 2026-05-24 |
+| Past Simple | [[Past Simple]] | 2026-05-26 | 0 | 1 | 2.5 |  | 2026-05-25 |
+| Prepositions of Time | [[Prepositions of Time]] | 2026-05-26 | 0 | 1 | 2.5 |  | 2026-05-25 |
+| Used to | [[Used to]] | 2026-05-26 | 0 | 1 | 2.5 |  | 2026-05-25 |
+| Past Simple and Past Continuous | [[Past Simple and Past Continuous]] | 2026-05-26 | 0 | 1 | 2.5 |  | 2026-05-25 |
+| Past Continuous | [[Past Continuous]] | 2026-05-26 | 0 | 1 | 2.5 |  | 2026-05-25 |
+| Present Simple and Present Continuous Questions | [[Present Simple and Present Continuous Questions]] | 2026-05-26 | 0 | 1 | 2.5 |  | 2026-05-25 |
+| Stative Verbs | [[Stative Verbs]] | 2026-05-26 | 0 | 1 | 2.5 |  | 2026-05-25 |
+| Future Simple and Be Going To | [[Future Simple and Be Going To]] | 2026-05-26 | 0 | 1 | 2.5 |  | 2026-05-25 |
+| Word Order | [[Word Order]] | 2026-05-26 | 0 | 1 | 2.5 |  | 2026-05-25 |
 
 ## Правила обновления SM-2
 
