@@ -174,3 +174,24 @@ Tom invited Anna.
    - What happened?
 
 Разбор: ответы правильные. Тема успешно повторена; следующее повторение рассчитано по SM-2.
+
+### 2026-05-26 — повторение
+
+Результат упражнения: 10/10.
+Оценка SM-2: 5.
+
+Ответы:
+
+1. Тип вопроса:
+   - Who found the keys? — subject
+   - What did Emma lose? — object
+   - Who did Mark help? — object
+   - What happened last night? — subject
+2. Исправление ошибок:
+   - Who broke the glass?
+   - What did you buy yesterday?
+3. Два вопроса:
+   - Who called Peter?
+   - Who did Peter call?
+
+Разбор: ошибок нет. Тема повторена; следующее повторение рассчитано по SM-2 на 2026-06-12.
