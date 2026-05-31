@@ -154,4 +154,44 @@ Tom invited Anna.
 
 ## История вопросов и ответов
 
-Пока ответов нет.
+### 2026-05-19 — повторение
+
+Оценка SM-2: 5.
+
+Ответы:
+
+1. Тип вопроса:
+   - Who called you yesterday? — subject
+   - Who did you call yesterday? — object
+   - What happened in the meeting? — subject
+   - What did they discuss in the meeting? — object
+2. Два вопроса:
+   - Who helped Mike?
+   - Who did Sarah help?
+3. Исправление ошибок:
+   - Who called you?
+   - What did you see?
+   - What happened?
+
+Разбор: ответы правильные. Тема успешно повторена; следующее повторение рассчитано по SM-2.
+
+### 2026-05-26 — повторение
+
+Результат упражнения: 10/10.
+Оценка SM-2: 5.
+
+Ответы:
+
+1. Тип вопроса:
+   - Who found the keys? — subject
+   - What did Emma lose? — object
+   - Who did Mark help? — object
+   - What happened last night? — subject
+2. Исправление ошибок:
+   - Who broke the glass?
+   - What did you buy yesterday?
+3. Два вопроса:
+   - Who called Peter?
+   - Who did Peter call?
+
+Разбор: ошибок нет. Тема повторена; следующее повторение рассчитано по SM-2 на 2026-06-12.
