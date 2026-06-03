@@ -1,13 +1,14 @@
-# Stative Verbs
+# Stative and Action Verbs
 
 ## Что изучаем
 
-Stative verbs — глаголы состояния. Они описывают не действие в процессе, а состояние, чувство, мнение, знание, владение или восприятие.
+Stative and action verbs — разница между глаголами состояния и глаголами действия. Action verbs описывают действие, которое можно увидеть как процесс; stative verbs описывают состояние, чувство, мнение, знание, владение или восприятие.
 
 Главная идея:
 
-- action verbs описывают действия: `run`, `write`, `cook`, `play`;
-- stative verbs описывают состояние: `know`, `like`, `want`, `believe`, `understand`;
+- action verbs описывают действия: `run`, `write`, `cook`, `play`, `eat`, `drive`;
+- stative verbs описывают состояние: `know`, `like`, `want`, `believe`, `understand`, `belong`;
+- action verbs можно использовать в Continuous, если действие происходит сейчас;
 - многие stative verbs обычно не используются во временах Continuous.
 
 Пример:
