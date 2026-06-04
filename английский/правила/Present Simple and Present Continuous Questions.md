@@ -275,3 +275,25 @@ Question word + am / is / are + subject + V-ing?
 6. Они сейчас смотрят фильм?
 
 ## История вопросов и ответов
+
+### 2026-06-03
+
+Задание: составить вопросы в Present Simple / Present Continuous.
+
+Ответ пользователя:
+
+1. Do you usually have breakfast at home?
+2. Is she reading a book now?
+3. Where does he work?
+4. What are they doing at the moment?
+5. Does your brother play football on Sunday?
+6. Are you working today?
+
+Проверка:
+
+- 1–4, 6 — правильно.
+- 5 — грамматически возможно для одного конкретного воскресенья; для привычки лучше: `Does your brother play football on Sundays?`
+
+Результат упражнения: 5.5/6.
+SM-2 grade: 5.
+Следующее повторение: 2026-06-04.
