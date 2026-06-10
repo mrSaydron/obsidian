@@ -5,17 +5,18 @@
 | Тема | Файл | next_review | repetitions | interval_days | ease_factor | last_grade | updated |
 |---|---|---:|---:|---:|---:|---:|---:|
 | Subject and Object Questions | [[Subject and Object Questions]] | 2026-06-12 | 3 | 17 | 2.8 | 5 | 2026-05-26 |
-| Tag Question | [[Tag Question]] | 2026-05-29 | 2 | 6 | 2.5 | 4 | 2026-05-23 |
+| Tag Question | [[Tag Question]] | 2026-06-22 | 3 | 16 | 2.6 | 5 | 2026-06-06 |
 | Alternative Question | [[Alternative Question]] | 2026-06-02 | 2 | 6 | 2.22 | 3 | 2026-05-27 |
-| Past Simple | [[Past Simple]] | 2026-05-29 | 1 | 1 | 2.5 | 4 | 2026-05-28 |
-| Prepositions of Time | [[Prepositions of Time]] | 2026-05-30 | 1 | 1 | 2.36 | 3 | 2026-05-29 |
-| Used to | [[Used to]] | 2026-05-31 | 1 | 1 | 2.5 | 4 | 2026-05-30 |
-| Past Simple and Past Continuous | [[Past Simple and Past Continuous]] | 2026-05-26 | 0 | 1 | 2.5 |  | 2026-05-25 |
-| Past Continuous | [[Past Continuous]] | 2026-05-26 | 0 | 1 | 2.5 |  | 2026-05-25 |
-| Present Simple and Present Continuous Questions | [[Present Simple and Present Continuous Questions]] | 2026-05-26 | 0 | 1 | 2.5 |  | 2026-05-25 |
-| Stative Verbs | [[Stative Verbs]] | 2026-05-26 | 0 | 1 | 2.5 |  | 2026-05-25 |
-| Future Simple and Be Going To | [[Future Simple and Be Going To]] | 2026-05-26 | 0 | 1 | 2.5 |  | 2026-05-25 |
-| Word Order | [[Word Order]] | 2026-05-26 | 0 | 1 | 2.5 |  | 2026-05-25 |
+| Past Simple | [[Past Simple]] | 2026-06-13 | 2 | 6 | 2.6 | 5 | 2026-06-07 |
+| Prepositions of Time | [[Prepositions of Time]] | 2026-06-14 | 2 | 6 | 2.46 | 5 | 2026-06-08 |
+| Used to | [[Used to]] | 2026-06-15 | 2 | 6 | 2.6 | 5 | 2026-06-09 |
+| Past Simple and Past Continuous | [[Past Simple and Past Continuous]] | 2026-06-07 | 2 | 6 | 2.7 | 5 | 2026-06-01 |
+| Past Continuous | [[Past Continuous]] | 2026-06-03 | 1 | 1 | 2.5 | 4 | 2026-06-02 |
+| Present Simple and Present Continuous Questions | [[Present Simple and Present Continuous Questions]] | 2026-06-04 | 1 | 1 | 2.6 | 5 | 2026-06-03 |
+| Stative and Action Verbs | [[Stative and Action Verbs]] | 2026-06-03 | 0 | 1 | 2.5 |  | 2026-06-02 |
+| Future Simple and Be Going To | [[Future Simple and Be Going To]] | 2026-06-05 | 1 | 1 | 2.36 | 3 | 2026-06-04 |
+| Word Order | [[Word Order]] | 2026-06-06 | 1 | 1 | 2.6 | 5 | 2026-06-05 |
+| Modal Verbs: Should and Could | [[Modal Verbs Should and Could]] | 2026-06-02 | 0 | 1 | 2.5 |  | 2026-06-01 |
 
 ## Правила обновления SM-2
 

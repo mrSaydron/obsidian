@@ -289,3 +289,20 @@ Am / Is / Are + subject + going to + V1?
 6. I am go to study tonight.
 
 ## История вопросов и ответов
+
+### 2026-06-04 — повторение
+
+Задание: исправить/составить предложения с `will` и `be going to`.
+
+Ответ пользователя:
+1. I'm cold. I will close the window.
+2. She bought a ticket a ticket yesterday. She going to fly to Rome next week.
+3. Look! That dog going to jump into the river.
+4. I promise I will be careful.
+5. They have already chosen a restaurant. They going to have dinner there tonight.
+
+Проверка:
+- Верно: 1, 4.
+- Ошибки: повтор `a ticket a ticket`; пропущена форма `be` в `She is going to fly`, `That dog is going to jump`, `They are going to have dinner`.
+- Exercise score: 7/10.
+- SM-2 grade: 3 — смысл выбора будущего в целом понятен, но ключевая форма `be going to` часто строится без `be`.

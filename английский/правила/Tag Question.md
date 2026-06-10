@@ -228,3 +228,22 @@
 
 Оценка: 4/5, SM-2 grade: 4.
 
+### 2026-06-06
+
+Задание: проверить question tags.
+
+Ответ пользователя:
+
+1. You know this rule, don't you?
+2. She doesn't like loud music, does she?
+3. He rarely checks his email, does he?
+4. I am too early, aren't I?
+5. Let's review one more example, shall we?
+6. They have booked the tickets, haven't they?
+
+Проверка:
+
+- Ошибок нет: все question tags выбраны правильно.
+
+Результат: 6/6. Для SM-2 это засчитано как качественная оценка **5/5**.
+

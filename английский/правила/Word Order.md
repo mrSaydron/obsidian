@@ -308,3 +308,17 @@ Subject + Auxiliary verb + not + Main verb
 5. Они играли в футбол в парке в воскресенье.
 
 ## История вопросов и ответов
+
+### 2026-06-05 — повторение
+
+Результат проверки: 5/5, ошибок нет. SM-2 grade: 5.
+
+Ответы пользователя:
+
+1. I usually drink coffee in the morning.
+2. She studies English at school every day.
+3. Where do you live?
+4. Who called you yesterday?
+5. Did they watch a film last night?
+
+Комментарий: порядок слов в утверждениях, wh-question, subject question и yes/no question соблюдён.

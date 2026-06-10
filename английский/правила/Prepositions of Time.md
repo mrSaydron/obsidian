@@ -216,3 +216,20 @@ Prepositions of Time — предлоги времени в английском
 5. Я учу английский уже три месяца.
 
 ## История вопросов и ответов
+
+### 2026-06-08 — повторение
+
+Задание: составить предложения с предлогами времени (`at`, `in`, `on`, `since`, `for`).
+
+Ответ пользователя:
+
+1. The train leaves at 8:15.
+2. I usually go jogging in the morning.
+3. We visited them on Sunday evening.
+4. She has lived in this city since 2021.
+5. They stayed at the hotel for two nights.
+6. My birthday is in November.
+
+Проверка: ошибок нет, результат 6/6.
+
+SM-2 grade: 5.
