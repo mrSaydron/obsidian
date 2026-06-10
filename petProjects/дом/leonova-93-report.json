@@ -1,0 +1,840 @@
+{
+  "address": "улица Космонавта Леонова, 93",
+  "resolved_address": "улица Космонавта Леонова, Нагорный, Индустриальный район, Пермь, Пермский городской округ, Пермский край, Приволжский федеральный округ, 614088, Россия",
+  "lat": 57.9549898,
+  "lon": 56.1829384,
+  "radius_m": 2000,
+  "generated_at_unix": 1780219864,
+  "places": [
+    {
+      "name": "Инфекционная больница",
+      "category": "transport",
+      "distance_m": 39,
+      "lat": 57.9548199,
+      "lon": 56.1823659,
+      "source": "osm",
+      "osm_type": "node",
+      "osm_id": 13134371115
+    },
+    {
+      "name": "Инфекционная больница",
+      "category": "transport",
+      "distance_m": 39,
+      "lat": 57.9551608,
+      "lon": 56.1835105,
+      "source": "osm",
+      "osm_type": "node",
+      "osm_id": 13134371116
+    },
+    {
+      "name": "Инфекционная больница",
+      "category": "transport",
+      "distance_m": 40,
+      "lat": 57.9548996,
+      "lon": 56.1822876,
+      "source": "osm",
+      "osm_type": "node",
+      "osm_id": 13134371117
+    },
+    {
+      "name": "Инфекционная больница",
+      "category": "transport",
+      "distance_m": 40,
+      "lat": 57.9550761,
+      "lon": 56.1836019,
+      "source": "osm",
+      "osm_type": "node",
+      "osm_id": 13134371118
+    },
+    {
+      "name": "Пермская краевая клиническая инфекционная больница",
+      "category": "medicine",
+      "distance_m": 178,
+      "lat": 57.9565793,
+      "lon": 56.1832438,
+      "source": "osm",
+      "osm_type": "way",
+      "osm_id": 1099737639
+    },
+    {
+      "name": "Центр по профилактике и борьбе со СПИД и инфекционными заболеваниями",
+      "category": "medicine",
+      "distance_m": 675,
+      "lat": 57.9608614,
+      "lon": 56.1800293,
+      "source": "osm",
+      "osm_type": "way",
+      "osm_id": 39662748
+    },
+    {
+      "name": "Микрорайон Нагорный",
+      "category": "transport",
+      "distance_m": 680,
+      "lat": 57.9610093,
+      "lon": 56.1809297,
+      "source": "osm",
+      "osm_type": "node",
+      "osm_id": 13610418386
+    },
+    {
+      "name": "Микрорайон Нагорный",
+      "category": "transport",
+      "distance_m": 684,
+      "lat": 57.9610673,
+      "lon": 56.1811393,
+      "source": "osm",
+      "osm_type": "node",
+      "osm_id": 13610418385
+    },
+    {
+      "name": "Аэропорт Бахаревка",
+      "category": "transport",
+      "distance_m": 694,
+      "lat": 57.9574799,
+      "lon": 56.193718,
+      "source": "osm",
+      "osm_type": "node",
+      "osm_id": 3171765370
+    },
+    {
+      "name": "Аэропорт Бахаревка",
+      "category": "transport",
+      "distance_m": 697,
+      "lat": 57.9574377,
+      "lon": 56.1938077,
+      "source": "osm",
+      "osm_type": "node",
+      "osm_id": 5899672486
+    },
+    {
+      "name": "Микрорайон Нагорный",
+      "category": "transport",
+      "distance_m": 766,
+      "lat": 57.9618547,
+      "lon": 56.1817711,
+      "source": "osm",
+      "osm_type": "node",
+      "osm_id": 3520152336
+    },
+    {
+      "name": "Микрорайон Нагорный",
+      "category": "transport",
+      "distance_m": 779,
+      "lat": 57.9619714,
+      "lon": 56.1818248,
+      "source": "osm",
+      "osm_type": "node",
+      "osm_id": 3149145246
+    },
+    {
+      "name": "Микрорайон Нагорный",
+      "category": "transport",
+      "distance_m": 803,
+      "lat": 57.9620542,
+      "lon": 56.1800982,
+      "source": "osm",
+      "osm_type": "node",
+      "osm_id": 2429759175
+    },
+    {
+      "name": "Микрорайон Нагорный",
+      "category": "transport",
+      "distance_m": 805,
+      "lat": 57.9620922,
+      "lon": 56.1803057,
+      "source": "osm",
+      "osm_type": "node",
+      "osm_id": 3148656455
+    },
+    {
+      "name": "Детский сад №35",
+      "category": "schools",
+      "distance_m": 862,
+      "lat": 57.9617646,
+      "lon": 56.1758269,
+      "source": "osm",
+      "osm_type": "way",
+      "osm_id": 263065042
+    },
+    {
+      "name": "Андроновские пруды",
+      "category": "transport",
+      "distance_m": 896,
+      "lat": 57.9598347,
+      "lon": 56.170797,
+      "source": "osm",
+      "osm_type": "node",
+      "osm_id": 3171765364
+    },
+    {
+      "name": "Андроновские пруды",
+      "category": "transport",
+      "distance_m": 897,
+      "lat": 57.9599028,
+      "lon": 56.1708859,
+      "source": "osm",
+      "osm_type": "node",
+      "osm_id": 3149402990
+    },
+    {
+      "name": "Улица Чердынская",
+      "category": "transport",
+      "distance_m": 979,
+      "lat": 57.9636796,
+      "lon": 56.1803021,
+      "source": "osm",
+      "osm_type": "node",
+      "osm_id": 3171766725
+    },
+    {
+      "name": "Улица Чердынская",
+      "category": "transport",
+      "distance_m": 987,
+      "lat": 57.9637441,
+      "lon": 56.1802223,
+      "source": "osm",
+      "osm_type": "node",
+      "osm_id": 3149289668
+    },
+    {
+      "name": "Лицей № 8. Корпус № 1",
+      "category": "schools",
+      "distance_m": 1010,
+      "lat": 57.9629818,
+      "lon": 56.1748041,
+      "source": "osm",
+      "osm_type": "way",
+      "osm_id": 882679995
+    },
+    {
+      "name": "Лицей № 3 имени В.А. Штэфана",
+      "category": "schools",
+      "distance_m": 1026,
+      "lat": 57.963449,
+      "lon": 56.189891,
+      "source": "osm",
+      "osm_type": "way",
+      "osm_id": 39338058
+    },
+    {
+      "name": "Детский сад № 35",
+      "category": "schools",
+      "distance_m": 1051,
+      "lat": 57.961329,
+      "lon": 56.169716,
+      "source": "osm",
+      "osm_type": "way",
+      "osm_id": 373327542
+    },
+    {
+      "name": "Лицей № 3",
+      "category": "transport",
+      "distance_m": 1084,
+      "lat": 57.9641237,
+      "lon": 56.1893367,
+      "source": "osm",
+      "osm_type": "node",
+      "osm_id": 3171765665
+    },
+    {
+      "name": "Пермский институт ФСИН Росии",
+      "category": "transport",
+      "distance_m": 1086,
+      "lat": 57.9614284,
+      "lon": 56.1967858,
+      "source": "osm",
+      "osm_type": "node",
+      "osm_id": 3171764948
+    },
+    {
+      "name": "Лицей № 3",
+      "category": "transport",
+      "distance_m": 1089,
+      "lat": 57.9641849,
+      "lon": 56.1893085,
+      "source": "osm",
+      "osm_type": "node",
+      "osm_id": 12552445243
+    },
+    {
+      "name": "Пермский институт ФСИН Росии",
+      "category": "transport",
+      "distance_m": 1090,
+      "lat": 57.9614186,
+      "lon": 56.1968759,
+      "source": "osm",
+      "osm_type": "node",
+      "osm_id": 12570946992
+    },
+    {
+      "name": "Лицей № 3",
+      "category": "transport",
+      "distance_m": 1102,
+      "lat": 57.9642575,
+      "lon": 56.1895521,
+      "source": "osm",
+      "osm_type": "node",
+      "osm_id": 3148658252
+    },
+    {
+      "name": "Пермский институт ФСИН Росии",
+      "category": "transport",
+      "distance_m": 1106,
+      "lat": 57.961596,
+      "lon": 56.1969441,
+      "source": "osm",
+      "osm_type": "node",
+      "osm_id": 12570946993
+    },
+    {
+      "name": "Пермский институт ФСИН Росии",
+      "category": "transport",
+      "distance_m": 1110,
+      "lat": 57.9615826,
+      "lon": 56.1970677,
+      "source": "osm",
+      "osm_type": "node",
+      "osm_id": 3171764947
+    },
+    {
+      "name": "Лицей № 3",
+      "category": "transport",
+      "distance_m": 1110,
+      "lat": 57.9643502,
+      "lon": 56.1894541,
+      "source": "osm",
+      "osm_type": "node",
+      "osm_id": 3171765666
+    },
+    {
+      "name": "Улица Архитектора Свиязева",
+      "category": "transport",
+      "distance_m": 1120,
+      "lat": 57.9607733,
+      "lon": 56.1673931,
+      "source": "osm",
+      "osm_type": "node",
+      "osm_id": 3149408506
+    },
+    {
+      "name": "Улица Архитектора Свиязева",
+      "category": "transport",
+      "distance_m": 1127,
+      "lat": 57.9607894,
+      "lon": 56.1672803,
+      "source": "osm",
+      "osm_type": "node",
+      "osm_id": 3171766675
+    },
+    {
+      "name": "Бережная аптека",
+      "category": "medicine",
+      "distance_m": 1159,
+      "lat": 57.964815,
+      "lon": 56.176371,
+      "source": "osm",
+      "osm_type": "node",
+      "osm_id": 10722918953
+    },
+    {
+      "name": "Детский сад №35",
+      "category": "schools",
+      "distance_m": 1167,
+      "lat": 57.96414,
+      "lon": 56.1732432,
+      "source": "osm",
+      "osm_type": "way",
+      "osm_id": 678450340
+    },
+    {
+      "name": "Детская больница",
+      "category": "medicine",
+      "distance_m": 1190,
+      "lat": 57.9655509,
+      "lon": 56.1796796,
+      "source": "osm",
+      "osm_type": "node",
+      "osm_id": 471367586
+    },
+    {
+      "name": "Улица Геологов",
+      "category": "transport",
+      "distance_m": 1227,
+      "lat": 57.9654531,
+      "lon": 56.1763245,
+      "source": "osm",
+      "osm_type": "node",
+      "osm_id": 11141976228
+    },
+    {
+      "name": "Улица Геологов",
+      "category": "transport",
+      "distance_m": 1228,
+      "lat": 57.9655029,
+      "lon": 56.1765591,
+      "source": "osm",
+      "osm_type": "node",
+      "osm_id": 12552445244
+    },
+    {
+      "name": "Мастерские",
+      "category": "transport",
+      "distance_m": 1246,
+      "lat": 57.965903,
+      "lon": 56.187745,
+      "source": "osm",
+      "osm_type": "node",
+      "osm_id": 3171765690
+    },
+    {
+      "name": "Мастерские",
+      "category": "transport",
+      "distance_m": 1253,
+      "lat": 57.9659692,
+      "lon": 56.1876842,
+      "source": "osm",
+      "osm_type": "node",
+      "osm_id": 3149282954
+    },
+    {
+      "name": "По требованию (Свиязево)",
+      "category": "transport",
+      "distance_m": 1262,
+      "lat": 57.9641658,
+      "lon": 56.1955347,
+      "source": "osm",
+      "osm_type": "node",
+      "osm_id": 3171765775
+    },
+    {
+      "name": "По требованию (Свиязево)",
+      "category": "transport",
+      "distance_m": 1264,
+      "lat": 57.9645411,
+      "lon": 56.1945526,
+      "source": "osm",
+      "osm_type": "node",
+      "osm_id": 12552549367
+    },
+    {
+      "name": "Школа № 136",
+      "category": "transport",
+      "distance_m": 1269,
+      "lat": 57.9644788,
+      "lon": 56.1709793,
+      "source": "osm",
+      "osm_type": "node",
+      "osm_id": 3149405600
+    },
+    {
+      "name": "Улица Геологов",
+      "category": "transport",
+      "distance_m": 1274,
+      "lat": 57.9658693,
+      "lon": 56.1761819,
+      "source": "osm",
+      "osm_type": "node",
+      "osm_id": 12552445245
+    },
+    {
+      "name": "По требованию (Свиязево)",
+      "category": "transport",
+      "distance_m": 1275,
+      "lat": 57.9646293,
+      "lon": 56.1946304,
+      "source": "osm",
+      "osm_type": "node",
+      "osm_id": 3171765776
+    },
+    {
+      "name": "По требованию (Свиязево)",
+      "category": "transport",
+      "distance_m": 1275,
+      "lat": 57.9642686,
+      "lon": 56.1956285,
+      "source": "osm",
+      "osm_type": "node",
+      "osm_id": 12552549366
+    },
+    {
+      "name": "Улица Геологов",
+      "category": "transport",
+      "distance_m": 1276,
+      "lat": 57.9659181,
+      "lon": 56.1763507,
+      "source": "osm",
+      "osm_type": "node",
+      "osm_id": 3171766483
+    },
+    {
+      "name": "Школа № 136",
+      "category": "transport",
+      "distance_m": 1278,
+      "lat": 57.9645266,
+      "lon": 56.1708563,
+      "source": "osm",
+      "osm_type": "node",
+      "osm_id": 3171766007
+    },
+    {
+      "name": "Улица Геологов",
+      "category": "transport",
+      "distance_m": 1278,
+      "lat": 57.9657777,
+      "lon": 56.175445,
+      "source": "osm",
+      "osm_type": "node",
+      "osm_id": 12552445246
+    },
+    {
+      "name": "Улица Геологов",
+      "category": "transport",
+      "distance_m": 1291,
+      "lat": 57.9658748,
+      "lon": 56.1753434,
+      "source": "osm",
+      "osm_type": "node",
+      "osm_id": 3171766485
+    },
+    {
+      "name": "Школа № 136",
+      "category": "schools",
+      "distance_m": 1356,
+      "lat": 57.9651894,
+      "lon": 56.1703502,
+      "source": "osm",
+      "osm_type": "way",
+      "osm_id": 79883364
+    },
+    {
+      "name": "Роща",
+      "category": "transport",
+      "distance_m": 1426,
+      "lat": 57.9644762,
+      "lon": 56.1992009,
+      "source": "osm",
+      "osm_type": "node",
+      "osm_id": 3171765839
+    },
+    {
+      "name": "Роща",
+      "category": "transport",
+      "distance_m": 1428,
+      "lat": 57.9644675,
+      "lon": 56.1992637,
+      "source": "osm",
+      "osm_type": "node",
+      "osm_id": 3149351479
+    },
+    {
+      "name": "Улица Космонавта Беляева",
+      "category": "transport",
+      "distance_m": 1484,
+      "lat": 57.9675714,
+      "lon": 56.1745269,
+      "source": "osm",
+      "osm_type": "node",
+      "osm_id": 3171766159
+    },
+    {
+      "name": "Улица Космонавта Беляева",
+      "category": "transport",
+      "distance_m": 1486,
+      "lat": 57.9676155,
+      "lon": 56.1746783,
+      "source": "osm",
+      "osm_type": "node",
+      "osm_id": 12552445247
+    },
+    {
+      "name": "Гипсополимер",
+      "category": "transport",
+      "distance_m": 1500,
+      "lat": 57.9604188,
+      "lon": 56.2062168,
+      "source": "osm",
+      "osm_type": "node",
+      "osm_id": 3171765731
+    },
+    {
+      "name": "Гипсополимер",
+      "category": "transport",
+      "distance_m": 1508,
+      "lat": 57.9604429,
+      "lon": 56.2063461,
+      "source": "osm",
+      "osm_type": "node",
+      "osm_id": 12556881695
+    },
+    {
+      "name": "Уральское подворье",
+      "category": "schools",
+      "distance_m": 1518,
+      "lat": 57.966795,
+      "lon": 56.1700173,
+      "source": "osm",
+      "osm_type": "way",
+      "osm_id": 1214750432
+    },
+    {
+      "name": "Гипсополимер",
+      "category": "transport",
+      "distance_m": 1558,
+      "lat": 57.9613736,
+      "lon": 56.2064491,
+      "source": "osm",
+      "osm_type": "node",
+      "osm_id": 12556881696
+    },
+    {
+      "name": "Гипсополимер",
+      "category": "transport",
+      "distance_m": 1561,
+      "lat": 57.9613585,
+      "lon": 56.2065289,
+      "source": "osm",
+      "osm_type": "node",
+      "osm_id": 3171765730
+    },
+    {
+      "name": "Роща",
+      "category": "transport",
+      "distance_m": 1562,
+      "lat": 57.9655358,
+      "lon": 56.2004421,
+      "source": "osm",
+      "osm_type": "node",
+      "osm_id": 3149351480
+    },
+    {
+      "name": "Роща",
+      "category": "transport",
+      "distance_m": 1566,
+      "lat": 57.9655127,
+      "lon": 56.2005804,
+      "source": "osm",
+      "osm_type": "node",
+      "osm_id": 3171765840
+    },
+    {
+      "name": "Улица Космонавта Беляева",
+      "category": "transport",
+      "distance_m": 1626,
+      "lat": 57.9687277,
+      "lon": 56.1734921,
+      "source": "osm",
+      "osm_type": "node",
+      "osm_id": 12552445248
+    },
+    {
+      "name": "Улица Космонавта Беляева",
+      "category": "transport",
+      "distance_m": 1627,
+      "lat": 57.9687667,
+      "lon": 56.1736269,
+      "source": "osm",
+      "osm_type": "node",
+      "osm_id": 5050364321
+    },
+    {
+      "name": "Город мастеров",
+      "category": "schools",
+      "distance_m": 1647,
+      "lat": 57.9677373,
+      "lon": 56.1687253,
+      "source": "osm",
+      "osm_type": "way",
+      "osm_id": 886657717
+    },
+    {
+      "name": "Детский сад гимназии №1",
+      "category": "schools",
+      "distance_m": 1724,
+      "lat": 57.9683652,
+      "lon": 56.1681448,
+      "source": "osm",
+      "osm_type": "way",
+      "osm_id": 886657715
+    },
+    {
+      "name": "Механический завод",
+      "category": "transport",
+      "distance_m": 1752,
+      "lat": 57.9598731,
+      "lon": 56.1546944,
+      "source": "osm",
+      "osm_type": "node",
+      "osm_id": 12570534104
+    },
+    {
+      "name": "Механический завод",
+      "category": "transport",
+      "distance_m": 1756,
+      "lat": 57.9598852,
+      "lon": 56.1546419,
+      "source": "osm",
+      "osm_type": "node",
+      "osm_id": 1803751685
+    },
+    {
+      "name": "Механический завод",
+      "category": "transport",
+      "distance_m": 1759,
+      "lat": 57.9597625,
+      "lon": 56.1545104,
+      "source": "osm",
+      "osm_type": "node",
+      "osm_id": 12570534102
+    },
+    {
+      "name": "Механический завод",
+      "category": "transport",
+      "distance_m": 1764,
+      "lat": 57.9597885,
+      "lon": 56.1544356,
+      "source": "osm",
+      "osm_type": "node",
+      "osm_id": 12570534103
+    },
+    {
+      "name": "Автопарк",
+      "category": "transport",
+      "distance_m": 1813,
+      "lat": 57.9568457,
+      "lon": 56.1524159,
+      "source": "osm",
+      "osm_type": "node",
+      "osm_id": 12570534108
+    },
+    {
+      "name": "Автопарк",
+      "category": "transport",
+      "distance_m": 1824,
+      "lat": 57.9568523,
+      "lon": 56.1522222,
+      "source": "osm",
+      "osm_type": "node",
+      "osm_id": 12570534106
+    },
+    {
+      "name": "Автопарк",
+      "category": "transport",
+      "distance_m": 1825,
+      "lat": 57.9570361,
+      "lon": 56.1522445,
+      "source": "osm",
+      "osm_type": "node",
+      "osm_id": 12570534105
+    },
+    {
+      "name": "Автопарк",
+      "category": "transport",
+      "distance_m": 1830,
+      "lat": 57.9570392,
+      "lon": 56.152153,
+      "source": "osm",
+      "osm_type": "node",
+      "osm_id": 12570534107
+    },
+    {
+      "name": "Город мастеров",
+      "category": "schools",
+      "distance_m": 1923,
+      "lat": 57.9681167,
+      "lon": 56.1617214,
+      "source": "osm",
+      "osm_type": "way",
+      "osm_id": 886657716
+    },
+    {
+      "name": "Перммебель",
+      "category": "transport",
+      "distance_m": 1929,
+      "lat": 57.9567413,
+      "lon": 56.2154751,
+      "source": "osm",
+      "osm_type": "node",
+      "osm_id": 12556885902
+    },
+    {
+      "name": "МедЛабЭкспресс",
+      "category": "medicine",
+      "distance_m": 1932,
+      "lat": 57.968788,
+      "lon": 56.20285,
+      "source": "osm",
+      "osm_type": "node",
+      "osm_id": 8938838390
+    },
+    {
+      "name": "Перммебель",
+      "category": "transport",
+      "distance_m": 1935,
+      "lat": 57.9568045,
+      "lon": 56.2155534,
+      "source": "osm",
+      "osm_type": "node",
+      "osm_id": 3171765729
+    },
+    {
+      "name": "Авиагородок",
+      "category": "transport",
+      "distance_m": 1937,
+      "lat": 57.9687885,
+      "lon": 56.2029708,
+      "source": "osm",
+      "osm_type": "node",
+      "osm_id": 9764511118
+    },
+    {
+      "name": "Авиагородок",
+      "category": "transport",
+      "distance_m": 1937,
+      "lat": 57.9686513,
+      "lon": 56.2033213,
+      "source": "osm",
+      "osm_type": "node",
+      "osm_id": 12553622318
+    },
+    {
+      "name": "Авиагородок",
+      "category": "transport",
+      "distance_m": 1939,
+      "lat": 57.9686253,
+      "lon": 56.2034265,
+      "source": "osm",
+      "osm_type": "node",
+      "osm_id": 3171764946
+    },
+    {
+      "name": "Авиагородок",
+      "category": "transport",
+      "distance_m": 1939,
+      "lat": 57.9687425,
+      "lon": 56.2031608,
+      "source": "osm",
+      "osm_type": "node",
+      "osm_id": 12553622319
+    },
+    {
+      "name": "Перммебель",
+      "category": "transport",
+      "distance_m": 1976,
+      "lat": 57.9563526,
+      "lon": 56.21634,
+      "source": "osm",
+      "osm_type": "node",
+      "osm_id": 3171765728
+    },
+    {
+      "name": "Перммебель",
+      "category": "transport",
+      "distance_m": 1981,
+      "lat": 57.9564138,
+      "lon": 56.216415,
+      "source": "osm",
+      "osm_type": "node",
+      "osm_id": 12556885901
+    }
+  ]
+}

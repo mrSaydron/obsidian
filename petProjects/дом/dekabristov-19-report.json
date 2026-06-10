@@ -1,0 +1,1940 @@
+{
+  "address": "проспект Декабристов, 19",
+  "resolved_address": "19, проспект Декабристов, Ераничи, Индустриальный район, Пермь, Пермский городской округ, Пермский край, Приволжский федеральный округ, 614022, Россия",
+  "lat": 57.977414,
+  "lon": 56.2062835,
+  "radius_m": 1500,
+  "generated_at_unix": 1780219553,
+  "places": [
+    {
+      "name": "МЖК",
+      "category": "transport",
+      "distance_m": 53,
+      "lat": 57.9778896,
+      "lon": 56.2064149,
+      "source": "osm",
+      "osm_type": "node",
+      "osm_id": 3171765676
+    },
+    {
+      "name": "МЖК",
+      "category": "transport",
+      "distance_m": 62,
+      "lat": 57.9779715,
+      "lon": 56.2063302,
+      "source": "osm",
+      "osm_type": "node",
+      "osm_id": 12572022561
+    },
+    {
+      "name": "МЖК",
+      "category": "transport",
+      "distance_m": 67,
+      "lat": 57.9776528,
+      "lon": 56.2052337,
+      "source": "osm",
+      "osm_type": "node",
+      "osm_id": 12572022562
+    },
+    {
+      "name": "МЖК",
+      "category": "transport",
+      "distance_m": 74,
+      "lat": 57.9777207,
+      "lon": 56.2051636,
+      "source": "osm",
+      "osm_type": "node",
+      "osm_id": 11142072754
+    },
+    {
+      "name": "МедЛабЭкспресс",
+      "category": "medicine",
+      "distance_m": 109,
+      "lat": 57.9779365,
+      "lon": 56.204719,
+      "source": "osm",
+      "osm_type": "node",
+      "osm_id": 8938900119
+    },
+    {
+      "name": "Детский сад №47",
+      "category": "schools",
+      "distance_m": 157,
+      "lat": 57.9769944,
+      "lon": 56.2088265,
+      "source": "osm",
+      "osm_type": "way",
+      "osm_id": 904063346
+    },
+    {
+      "name": "Созвездие Unicus",
+      "category": "schools",
+      "distance_m": 181,
+      "lat": 57.9789604,
+      "lon": 56.2053033,
+      "source": "osm",
+      "osm_type": "way",
+      "osm_id": 1101820039
+    },
+    {
+      "name": "Школа № 3. Корпус К",
+      "category": "schools",
+      "distance_m": 276,
+      "lat": 57.9753978,
+      "lon": 56.2089998,
+      "source": "osm",
+      "osm_type": "way",
+      "osm_id": 883091403
+    },
+    {
+      "name": "Улица Веры Засулич",
+      "category": "transport",
+      "distance_m": 311,
+      "lat": 57.976437,
+      "lon": 56.2013368,
+      "source": "osm",
+      "osm_type": "node",
+      "osm_id": 3171766472
+    },
+    {
+      "name": "Улица Веры Засулич",
+      "category": "transport",
+      "distance_m": 312,
+      "lat": 57.9764932,
+      "lon": 56.201277,
+      "source": "osm",
+      "osm_type": "node",
+      "osm_id": 12571160335
+    },
+    {
+      "name": "Детский сад №396",
+      "category": "schools",
+      "distance_m": 315,
+      "lat": 57.9778157,
+      "lon": 56.2115727,
+      "source": "osm",
+      "osm_type": "way",
+      "osm_id": 904063350
+    },
+    {
+      "name": "Улица Веры Засулич",
+      "category": "transport",
+      "distance_m": 334,
+      "lat": 57.976397,
+      "lon": 56.2009472,
+      "source": "osm",
+      "osm_type": "node",
+      "osm_id": 12571160334
+    },
+    {
+      "name": "Улица Веры Засулич",
+      "category": "transport",
+      "distance_m": 336,
+      "lat": 57.9764887,
+      "lon": 56.2008549,
+      "source": "osm",
+      "osm_type": "node",
+      "osm_id": 3171766473
+    },
+    {
+      "name": "Детский сад №47",
+      "category": "schools",
+      "distance_m": 340,
+      "lat": 57.9797599,
+      "lon": 56.2025898,
+      "source": "osm",
+      "osm_type": "way",
+      "osm_id": 1101820040
+    },
+    {
+      "name": "Школа № 3",
+      "category": "transport",
+      "distance_m": 346,
+      "lat": 57.9743567,
+      "lon": 56.2073949,
+      "source": "osm",
+      "osm_type": "node",
+      "osm_id": 9764511117
+    },
+    {
+      "name": "Школа № 3",
+      "category": "transport",
+      "distance_m": 347,
+      "lat": 57.9743369,
+      "lon": 56.2073117,
+      "source": "osm",
+      "osm_type": "node",
+      "osm_id": 12553622321
+    },
+    {
+      "name": "Улица Танкистов",
+      "category": "transport",
+      "distance_m": 359,
+      "lat": 57.9796315,
+      "lon": 56.2018503,
+      "source": "osm",
+      "osm_type": "node",
+      "osm_id": 11142072795
+    },
+    {
+      "name": "Улица Танкистов",
+      "category": "transport",
+      "distance_m": 360,
+      "lat": 57.979597,
+      "lon": 56.2017801,
+      "source": "osm",
+      "osm_type": "node",
+      "osm_id": 12571160336
+    },
+    {
+      "name": "Улица Танкистов",
+      "category": "transport",
+      "distance_m": 373,
+      "lat": 57.9796832,
+      "lon": 56.2016292,
+      "source": "osm",
+      "osm_type": "node",
+      "osm_id": 12571160337
+    },
+    {
+      "name": "Улица Танкистов",
+      "category": "transport",
+      "distance_m": 374,
+      "lat": 57.9796005,
+      "lon": 56.201461,
+      "source": "osm",
+      "osm_type": "node",
+      "osm_id": 4706494556
+    },
+    {
+      "name": "Школа № 3",
+      "category": "transport",
+      "distance_m": 375,
+      "lat": 57.9744544,
+      "lon": 56.20933,
+      "source": "osm",
+      "osm_type": "node",
+      "osm_id": 12553622322
+    },
+    {
+      "name": "Школа № 3",
+      "category": "transport",
+      "distance_m": 382,
+      "lat": 57.9744006,
+      "lon": 56.2094121,
+      "source": "osm",
+      "osm_type": "node",
+      "osm_id": 1013204116
+    },
+    {
+      "name": "Микрорайон Ераничи",
+      "category": "transport",
+      "distance_m": 392,
+      "lat": 57.9759867,
+      "lon": 56.2123609,
+      "source": "osm",
+      "osm_type": "node",
+      "osm_id": 3171766068
+    },
+    {
+      "name": "Микрорайон Ераничи",
+      "category": "transport",
+      "distance_m": 403,
+      "lat": 57.9759042,
+      "lon": 56.2124878,
+      "source": "osm",
+      "osm_type": "node",
+      "osm_id": 12553622323
+    },
+    {
+      "name": "Лицей № 4",
+      "category": "schools",
+      "distance_m": 439,
+      "lat": 57.9812862,
+      "lon": 56.2076977,
+      "source": "osm",
+      "osm_type": "way",
+      "osm_id": 904063351
+    },
+    {
+      "name": "Кристалл Дент",
+      "category": "medicine",
+      "distance_m": 458,
+      "lat": 57.977814,
+      "lon": 56.214019,
+      "source": "osm",
+      "osm_type": "node",
+      "osm_id": 7832364830
+    },
+    {
+      "name": "Микрорайон Ераничи",
+      "category": "transport",
+      "distance_m": 466,
+      "lat": 57.9764661,
+      "lon": 56.2139739,
+      "source": "osm",
+      "osm_type": "node",
+      "osm_id": 12553622324
+    },
+    {
+      "name": "Аптека от склада",
+      "category": "medicine",
+      "distance_m": 470,
+      "lat": 57.973193,
+      "lon": 56.2068352,
+      "source": "osm",
+      "osm_type": "node",
+      "osm_id": 9645304777
+    },
+    {
+      "name": "Микрорайон Ераничи",
+      "category": "transport",
+      "distance_m": 472,
+      "lat": 57.9764126,
+      "lon": 56.2140593,
+      "source": "osm",
+      "osm_type": "node",
+      "osm_id": 3171766067
+    },
+    {
+      "name": "Объект OSM 807096718",
+      "category": "medicine",
+      "distance_m": 485,
+      "lat": 57.9739708,
+      "lon": 56.2113287,
+      "source": "osm",
+      "osm_type": "way",
+      "osm_id": 807096718
+    },
+    {
+      "name": "Лицей № 4. Начальная школа",
+      "category": "schools",
+      "distance_m": 498,
+      "lat": 57.9790745,
+      "lon": 56.1984376,
+      "source": "osm",
+      "osm_type": "way",
+      "osm_id": 70960341
+    },
+    {
+      "name": "Школа № 3",
+      "category": "transport",
+      "distance_m": 503,
+      "lat": 57.9728978,
+      "lon": 56.206868,
+      "source": "osm",
+      "osm_type": "node",
+      "osm_id": 11141496975
+    },
+    {
+      "name": "Школа № 3. Корпус Д",
+      "category": "schools",
+      "distance_m": 507,
+      "lat": 57.9746325,
+      "lon": 56.1994754,
+      "source": "osm",
+      "osm_type": "relation",
+      "osm_id": 1331363
+    },
+    {
+      "name": "Школа № 3",
+      "category": "transport",
+      "distance_m": 508,
+      "lat": 57.9728638,
+      "lon": 56.2069997,
+      "source": "osm",
+      "osm_type": "node",
+      "osm_id": 12553622320
+    },
+    {
+      "name": "Школа №3",
+      "category": "schools",
+      "distance_m": 509,
+      "lat": 57.9744835,
+      "lon": 56.1996527,
+      "source": "osm",
+      "osm_type": "way",
+      "osm_id": 90589681
+    },
+    {
+      "name": "Школа № 145",
+      "category": "schools",
+      "distance_m": 511,
+      "lat": 57.9746662,
+      "lon": 56.2132198,
+      "source": "osm",
+      "osm_type": "way",
+      "osm_id": 807096710
+    },
+    {
+      "name": "Школа № 91",
+      "category": "schools",
+      "distance_m": 527,
+      "lat": 57.9793147,
+      "lon": 56.2144789,
+      "source": "osm",
+      "osm_type": "way",
+      "osm_id": 165196596
+    },
+    {
+      "name": "Детский сад №424",
+      "category": "schools",
+      "distance_m": 536,
+      "lat": 57.9733755,
+      "lon": 56.2013266,
+      "source": "osm",
+      "osm_type": "way",
+      "osm_id": 90580646
+    },
+    {
+      "name": "Театр «Ироничная компания»",
+      "category": "transport",
+      "distance_m": 539,
+      "lat": 57.9755816,
+      "lon": 56.1978153,
+      "source": "osm",
+      "osm_type": "node",
+      "osm_id": 3171765887
+    },
+    {
+      "name": "Театр «Ироничная компания»",
+      "category": "transport",
+      "distance_m": 539,
+      "lat": 57.9755247,
+      "lon": 56.1978713,
+      "source": "osm",
+      "osm_type": "node",
+      "osm_id": 12571160333
+    },
+    {
+      "name": "Проспект Декабристов",
+      "category": "transport",
+      "distance_m": 555,
+      "lat": 57.9802215,
+      "lon": 56.2140697,
+      "source": "osm",
+      "osm_type": "node",
+      "osm_id": 12553622327
+    },
+    {
+      "name": "Проспект Декабристов",
+      "category": "transport",
+      "distance_m": 556,
+      "lat": 57.9803131,
+      "lon": 56.2139749,
+      "source": "osm",
+      "osm_type": "node",
+      "osm_id": 3171765828
+    },
+    {
+      "name": "Театр «Ироничная компания»",
+      "category": "transport",
+      "distance_m": 557,
+      "lat": 57.9753623,
+      "lon": 56.1976654,
+      "source": "osm",
+      "osm_type": "node",
+      "osm_id": 3171765888
+    },
+    {
+      "name": "Театр «Ироничная компания»",
+      "category": "transport",
+      "distance_m": 557,
+      "lat": 57.9754473,
+      "lon": 56.1975914,
+      "source": "osm",
+      "osm_type": "node",
+      "osm_id": 3585230915
+    },
+    {
+      "name": "Детский сад №396",
+      "category": "schools",
+      "distance_m": 588,
+      "lat": 57.9816931,
+      "lon": 56.212146,
+      "source": "osm",
+      "osm_type": "way",
+      "osm_id": 1101820043
+    },
+    {
+      "name": "Пермский агропромышленный техникум",
+      "category": "schools",
+      "distance_m": 601,
+      "lat": 57.9762539,
+      "lon": 56.2162465,
+      "source": "osm",
+      "osm_type": "node",
+      "osm_id": 1241102419
+    },
+    {
+      "name": "Проспект Декабристов",
+      "category": "transport",
+      "distance_m": 606,
+      "lat": 57.9797672,
+      "lon": 56.2155523,
+      "source": "osm",
+      "osm_type": "node",
+      "osm_id": 11142072781
+    },
+    {
+      "name": "Проспект Декабристов",
+      "category": "transport",
+      "distance_m": 614,
+      "lat": 57.9797583,
+      "lon": 56.2157112,
+      "source": "osm",
+      "osm_type": "node",
+      "osm_id": 12553622326
+    },
+    {
+      "name": "Социальная аптека",
+      "category": "medicine",
+      "distance_m": 634,
+      "lat": 57.978588,
+      "lon": 56.1957525,
+      "source": "osm",
+      "osm_type": "node",
+      "osm_id": 1479223566
+    },
+    {
+      "name": "Лайт",
+      "category": "medicine",
+      "distance_m": 634,
+      "lat": 57.9811676,
+      "lon": 56.1981824,
+      "source": "osm",
+      "osm_type": "node",
+      "osm_id": 12600069696
+    },
+    {
+      "name": "Детский сад №210",
+      "category": "schools",
+      "distance_m": 635,
+      "lat": 57.9825295,
+      "lon": 56.2110586,
+      "source": "osm",
+      "osm_type": "way",
+      "osm_id": 1101820038
+    },
+    {
+      "name": "Мелодия здоровья",
+      "category": "medicine",
+      "distance_m": 649,
+      "lat": 57.9805408,
+      "lon": 56.2155817,
+      "source": "osm",
+      "osm_type": "node",
+      "osm_id": 1762793659
+    },
+    {
+      "name": "Улица Советской Армии",
+      "category": "transport",
+      "distance_m": 665,
+      "lat": 57.982237,
+      "lon": 56.1996018,
+      "source": "osm",
+      "osm_type": "node",
+      "osm_id": 286093040
+    },
+    {
+      "name": "Улица Советской Армии",
+      "category": "transport",
+      "distance_m": 669,
+      "lat": 57.9822599,
+      "lon": 56.1995596,
+      "source": "osm",
+      "osm_type": "node",
+      "osm_id": 1485510061
+    },
+    {
+      "name": "Пермский радиотехнический колледж им. А.С. Попова",
+      "category": "schools",
+      "distance_m": 673,
+      "lat": 57.9825091,
+      "lon": 56.2124557,
+      "source": "osm",
+      "osm_type": "node",
+      "osm_id": 2673296784
+    },
+    {
+      "name": "Улица Советской Армии",
+      "category": "transport",
+      "distance_m": 677,
+      "lat": 57.9823237,
+      "lon": 56.1994833,
+      "source": "osm",
+      "osm_type": "node",
+      "osm_id": 1485510064
+    },
+    {
+      "name": "Улица Советской Армии",
+      "category": "transport",
+      "distance_m": 685,
+      "lat": 57.9814613,
+      "lon": 56.1975276,
+      "source": "osm",
+      "osm_type": "node",
+      "osm_id": 1485510030
+    },
+    {
+      "name": "Проспект Декабристов",
+      "category": "transport",
+      "distance_m": 685,
+      "lat": 57.9807406,
+      "lon": 56.2160607,
+      "source": "osm",
+      "osm_type": "node",
+      "osm_id": 12553622325
+    },
+    {
+      "name": "Проспект Декабристов",
+      "category": "transport",
+      "distance_m": 690,
+      "lat": 57.9807303,
+      "lon": 56.216174,
+      "source": "osm",
+      "osm_type": "node",
+      "osm_id": 3171765829
+    },
+    {
+      "name": "Улица Советской Армии",
+      "category": "transport",
+      "distance_m": 691,
+      "lat": 57.9815139,
+      "lon": 56.197482,
+      "source": "osm",
+      "osm_type": "node",
+      "osm_id": 1485510054
+    },
+    {
+      "name": "Улица Советской Армии",
+      "category": "transport",
+      "distance_m": 696,
+      "lat": 57.9815621,
+      "lon": 56.197436,
+      "source": "osm",
+      "osm_type": "node",
+      "osm_id": 5901702965
+    },
+    {
+      "name": "Детский сад №396",
+      "category": "schools",
+      "distance_m": 696,
+      "lat": 57.9819247,
+      "lon": 56.2144676,
+      "source": "osm",
+      "osm_type": "way",
+      "osm_id": 904063354
+    },
+    {
+      "name": "Планета здоровья",
+      "category": "medicine",
+      "distance_m": 718,
+      "lat": 57.983726,
+      "lon": 56.2037564,
+      "source": "osm",
+      "osm_type": "node",
+      "osm_id": 5140740721
+    },
+    {
+      "name": "Улица Советской Армии",
+      "category": "transport",
+      "distance_m": 728,
+      "lat": 57.9825156,
+      "lon": 56.1985403,
+      "source": "osm",
+      "osm_type": "node",
+      "osm_id": 3171765517
+    },
+    {
+      "name": "Улица Советской Армии",
+      "category": "transport",
+      "distance_m": 730,
+      "lat": 57.9824792,
+      "lon": 56.1984101,
+      "source": "osm",
+      "osm_type": "node",
+      "osm_id": 12552445254
+    },
+    {
+      "name": "KDL",
+      "category": "medicine",
+      "distance_m": 782,
+      "lat": 57.984447,
+      "lon": 56.20589,
+      "source": "osm",
+      "osm_type": "node",
+      "osm_id": 7505995731
+    },
+    {
+      "name": "Инвитро",
+      "category": "medicine",
+      "distance_m": 783,
+      "lat": 57.9844511,
+      "lon": 56.2059608,
+      "source": "osm",
+      "osm_type": "node",
+      "osm_id": 9612516931
+    },
+    {
+      "name": "Улица Чайковского",
+      "category": "transport",
+      "distance_m": 784,
+      "lat": 57.9844254,
+      "lon": 56.2077545,
+      "source": "osm",
+      "osm_type": "node",
+      "osm_id": 1485510114
+    },
+    {
+      "name": "Краевой индустриальный техникум имени В. П. Сухарева",
+      "category": "schools",
+      "distance_m": 786,
+      "lat": 57.9825221,
+      "lon": 56.1970615,
+      "source": "osm",
+      "osm_type": "node",
+      "osm_id": 4873415425
+    },
+    {
+      "name": "Улица Чайковского",
+      "category": "transport",
+      "distance_m": 792,
+      "lat": 57.9844969,
+      "lon": 56.2076704,
+      "source": "osm",
+      "osm_type": "node",
+      "osm_id": 1485510117
+    },
+    {
+      "name": "Улица Чайковского",
+      "category": "transport",
+      "distance_m": 792,
+      "lat": 57.9845042,
+      "lon": 56.2074821,
+      "source": "osm",
+      "osm_type": "node",
+      "osm_id": 5899345634
+    },
+    {
+      "name": "Улица Чайковского",
+      "category": "transport",
+      "distance_m": 795,
+      "lat": 57.9845355,
+      "lon": 56.207451,
+      "source": "osm",
+      "osm_type": "node",
+      "osm_id": 286093041
+    },
+    {
+      "name": "Улица Чайковского",
+      "category": "transport",
+      "distance_m": 798,
+      "lat": 57.9845648,
+      "lon": 56.2074409,
+      "source": "osm",
+      "osm_type": "node",
+      "osm_id": 1485510120
+    },
+    {
+      "name": "Улица Чайковского",
+      "category": "transport",
+      "distance_m": 804,
+      "lat": 57.9846209,
+      "lon": 56.2073625,
+      "source": "osm",
+      "osm_type": "node",
+      "osm_id": 1485510121
+    },
+    {
+      "name": "Детский сад №23",
+      "category": "schools",
+      "distance_m": 814,
+      "lat": 57.9843644,
+      "lon": 56.2106015,
+      "source": "osm",
+      "osm_type": "way",
+      "osm_id": 243570469
+    },
+    {
+      "name": "Детский сад №210",
+      "category": "schools",
+      "distance_m": 818,
+      "lat": 57.9800449,
+      "lon": 56.2192365,
+      "source": "osm",
+      "osm_type": "way",
+      "osm_id": 108943667
+    },
+    {
+      "name": "Калейдоскоп",
+      "category": "schools",
+      "distance_m": 845,
+      "lat": 57.9845612,
+      "lon": 56.2014087,
+      "source": "osm",
+      "osm_type": "way",
+      "osm_id": 1101835614
+    },
+    {
+      "name": "Планета здоровья",
+      "category": "medicine",
+      "distance_m": 874,
+      "lat": 57.9837677,
+      "lon": 56.1975475,
+      "source": "osm",
+      "osm_type": "node",
+      "osm_id": 6817779790
+    },
+    {
+      "name": "Улица Советской Армии",
+      "category": "transport",
+      "distance_m": 877,
+      "lat": 57.9836724,
+      "lon": 56.1972196,
+      "source": "osm",
+      "osm_type": "node",
+      "osm_id": 12552445253
+    },
+    {
+      "name": "Улица Советской Армии",
+      "category": "transport",
+      "distance_m": 879,
+      "lat": 57.9836273,
+      "lon": 56.1970649,
+      "source": "osm",
+      "osm_type": "node",
+      "osm_id": 3171765518
+    },
+    {
+      "name": "Калейдоскоп",
+      "category": "schools",
+      "distance_m": 894,
+      "lat": 57.9849113,
+      "lon": 56.2007938,
+      "source": "osm",
+      "osm_type": "way",
+      "osm_id": 101007571
+    },
+    {
+      "name": "Улица 9-го Мая",
+      "category": "transport",
+      "distance_m": 900,
+      "lat": 57.9797335,
+      "lon": 56.1916506,
+      "source": "osm",
+      "osm_type": "node",
+      "osm_id": 1485510129
+    },
+    {
+      "name": "Улица 9-го Мая",
+      "category": "transport",
+      "distance_m": 903,
+      "lat": 57.9797949,
+      "lon": 56.1916365,
+      "source": "osm",
+      "osm_type": "node",
+      "osm_id": 1485510130
+    },
+    {
+      "name": "Улица 9-го Мая",
+      "category": "transport",
+      "distance_m": 906,
+      "lat": 57.9798384,
+      "lon": 56.1916053,
+      "source": "osm",
+      "osm_type": "node",
+      "osm_id": 5901702964
+    },
+    {
+      "name": "Улица 9-го Мая",
+      "category": "transport",
+      "distance_m": 912,
+      "lat": 57.979871,
+      "lon": 56.1915224,
+      "source": "osm",
+      "osm_type": "node",
+      "osm_id": 286093038
+    },
+    {
+      "name": "Краевая клиническая наркологическая больница",
+      "category": "medicine",
+      "distance_m": 915,
+      "lat": 57.9826478,
+      "lon": 56.194302,
+      "source": "osm",
+      "osm_type": "way",
+      "osm_id": 70960218
+    },
+    {
+      "name": "Улица 9-го Мая",
+      "category": "transport",
+      "distance_m": 916,
+      "lat": 57.9799181,
+      "lon": 56.1914744,
+      "source": "osm",
+      "osm_type": "node",
+      "osm_id": 1485510131
+    },
+    {
+      "name": "Улица 9-го Мая",
+      "category": "transport",
+      "distance_m": 920,
+      "lat": 57.9799591,
+      "lon": 56.1914365,
+      "source": "osm",
+      "osm_type": "node",
+      "osm_id": 1485510135
+    },
+    {
+      "name": "Школа № 109",
+      "category": "schools",
+      "distance_m": 941,
+      "lat": 57.9857303,
+      "lon": 56.2092325,
+      "source": "osm",
+      "osm_type": "way",
+      "osm_id": 49430258
+    },
+    {
+      "name": "Детский сад №396",
+      "category": "schools",
+      "distance_m": 952,
+      "lat": 57.9845275,
+      "lon": 56.215277,
+      "source": "osm",
+      "osm_type": "way",
+      "osm_id": 400388623
+    },
+    {
+      "name": "Авиагородок",
+      "category": "transport",
+      "distance_m": 979,
+      "lat": 57.9687885,
+      "lon": 56.2029708,
+      "source": "osm",
+      "osm_type": "node",
+      "osm_id": 9764511118
+    },
+    {
+      "name": "МедЛабЭкспресс",
+      "category": "medicine",
+      "distance_m": 980,
+      "lat": 57.968788,
+      "lon": 56.20285,
+      "source": "osm",
+      "osm_type": "node",
+      "osm_id": 8938838390
+    },
+    {
+      "name": "Авиагородок",
+      "category": "transport",
+      "distance_m": 982,
+      "lat": 57.9687425,
+      "lon": 56.2031608,
+      "source": "osm",
+      "osm_type": "node",
+      "osm_id": 12553622319
+    },
+    {
+      "name": "Детский сад №266 \"Зодчий\"",
+      "category": "schools",
+      "distance_m": 982,
+      "lat": 57.9859673,
+      "lon": 56.2021572,
+      "source": "osm",
+      "osm_type": "way",
+      "osm_id": 249154379
+    },
+    {
+      "name": "Объект OSM 4488529762",
+      "category": "medicine",
+      "distance_m": 983,
+      "lat": 57.9837841,
+      "lon": 56.2178499,
+      "source": "osm",
+      "osm_type": "node",
+      "osm_id": 4488529762
+    },
+    {
+      "name": "Авиагородок",
+      "category": "transport",
+      "distance_m": 990,
+      "lat": 57.9686513,
+      "lon": 56.2033213,
+      "source": "osm",
+      "osm_type": "node",
+      "osm_id": 12553622318
+    },
+    {
+      "name": "Авиагородок",
+      "category": "transport",
+      "distance_m": 992,
+      "lat": 57.9686253,
+      "lon": 56.2034265,
+      "source": "osm",
+      "osm_type": "node",
+      "osm_id": 3171764946
+    },
+    {
+      "name": "Улица Сивкова",
+      "category": "transport",
+      "distance_m": 997,
+      "lat": 57.9843594,
+      "lon": 56.2169709,
+      "source": "osm",
+      "osm_type": "node",
+      "osm_id": 12552549357
+    },
+    {
+      "name": "Улица Сивкова",
+      "category": "transport",
+      "distance_m": 1003,
+      "lat": 57.9843514,
+      "lon": 56.2171459,
+      "source": "osm",
+      "osm_type": "node",
+      "osm_id": 3171766678
+    },
+    {
+      "name": "Стахановское кольцо",
+      "category": "transport",
+      "distance_m": 1012,
+      "lat": 57.9859381,
+      "lon": 56.2122911,
+      "source": "osm",
+      "osm_type": "node",
+      "osm_id": 286093042
+    },
+    {
+      "name": "Стахановское кольцо",
+      "category": "transport",
+      "distance_m": 1014,
+      "lat": 57.9859621,
+      "lon": 56.2122615,
+      "source": "osm",
+      "osm_type": "node",
+      "osm_id": 12552549355
+    },
+    {
+      "name": "Стахановское кольцо",
+      "category": "transport",
+      "distance_m": 1021,
+      "lat": 57.9859655,
+      "lon": 56.212577,
+      "source": "osm",
+      "osm_type": "node",
+      "osm_id": 12552549356
+    },
+    {
+      "name": "Стахановское кольцо",
+      "category": "transport",
+      "distance_m": 1022,
+      "lat": 57.9859835,
+      "lon": 56.2125515,
+      "source": "osm",
+      "osm_type": "node",
+      "osm_id": 5899345636
+    },
+    {
+      "name": "Школа-интернат № 85",
+      "category": "schools",
+      "distance_m": 1022,
+      "lat": 57.9738103,
+      "lon": 56.2222338,
+      "source": "osm",
+      "osm_type": "way",
+      "osm_id": 641113115
+    },
+    {
+      "name": "Детский сад №266 \"Зодчий\"",
+      "category": "schools",
+      "distance_m": 1022,
+      "lat": 57.9858667,
+      "lon": 56.1994967,
+      "source": "osm",
+      "osm_type": "way",
+      "osm_id": 695827174
+    },
+    {
+      "name": "Школа № 122. Корпус № 1",
+      "category": "schools",
+      "distance_m": 1029,
+      "lat": 57.9825743,
+      "lon": 56.2207748,
+      "source": "osm",
+      "osm_type": "way",
+      "osm_id": 400023302
+    },
+    {
+      "name": "Центр диализа",
+      "category": "medicine",
+      "distance_m": 1048,
+      "lat": 57.9722045,
+      "lon": 56.2210939,
+      "source": "osm",
+      "osm_type": "node",
+      "osm_id": 2606351970
+    },
+    {
+      "name": "Европейская школа",
+      "category": "schools",
+      "distance_m": 1050,
+      "lat": 57.9812658,
+      "lon": 56.2225421,
+      "source": "osm",
+      "osm_type": "way",
+      "osm_id": 240537283
+    },
+    {
+      "name": "Улица Сивкова",
+      "category": "transport",
+      "distance_m": 1075,
+      "lat": 57.9852923,
+      "lon": 56.2168572,
+      "source": "osm",
+      "osm_type": "node",
+      "osm_id": 11144126986
+    },
+    {
+      "name": "Улица Сивкова",
+      "category": "transport",
+      "distance_m": 1080,
+      "lat": 57.985291,
+      "lon": 56.2169924,
+      "source": "osm",
+      "osm_type": "node",
+      "osm_id": 12526496273
+    },
+    {
+      "name": "Калейдоскоп",
+      "category": "schools",
+      "distance_m": 1086,
+      "lat": 57.98337,
+      "lon": 56.191683,
+      "source": "osm",
+      "osm_type": "way",
+      "osm_id": 1101835615
+    },
+    {
+      "name": "Объект OSM 6817779785",
+      "category": "medicine",
+      "distance_m": 1093,
+      "lat": 57.9855107,
+      "lon": 56.1957588,
+      "source": "osm",
+      "osm_type": "node",
+      "osm_id": 6817779785
+    },
+    {
+      "name": "Улица Стахановская",
+      "category": "transport",
+      "distance_m": 1103,
+      "lat": 57.9860434,
+      "lon": 56.2155149,
+      "source": "osm",
+      "osm_type": "node",
+      "osm_id": 11897482830
+    },
+    {
+      "name": "Улица Стахановская",
+      "category": "transport",
+      "distance_m": 1113,
+      "lat": 57.9861472,
+      "lon": 56.2155162,
+      "source": "osm",
+      "osm_type": "node",
+      "osm_id": 12526496274
+    },
+    {
+      "name": "Улица Стахановская",
+      "category": "transport",
+      "distance_m": 1117,
+      "lat": 57.986951,
+      "lon": 56.212221,
+      "source": "osm",
+      "osm_type": "node",
+      "osm_id": 1485510093
+    },
+    {
+      "name": "Объект OSM 4185282943",
+      "category": "medicine",
+      "distance_m": 1119,
+      "lat": 57.985852,
+      "lon": 56.2166186,
+      "source": "osm",
+      "osm_type": "node",
+      "osm_id": 4185282943
+    },
+    {
+      "name": "Улица Стахановская",
+      "category": "transport",
+      "distance_m": 1126,
+      "lat": 57.9870357,
+      "lon": 56.2122419,
+      "source": "osm",
+      "osm_type": "node",
+      "osm_id": 1485510096
+    },
+    {
+      "name": "Улица Стахановская",
+      "category": "transport",
+      "distance_m": 1132,
+      "lat": 57.9869096,
+      "lon": 56.2132037,
+      "source": "osm",
+      "osm_type": "node",
+      "osm_id": 3176146161
+    },
+    {
+      "name": "Улица Снайперов",
+      "category": "transport",
+      "distance_m": 1136,
+      "lat": 57.9876294,
+      "lon": 56.206887,
+      "source": "osm",
+      "osm_type": "node",
+      "osm_id": 1485510006
+    },
+    {
+      "name": "Объект OSM 31277219",
+      "category": "medicine",
+      "distance_m": 1137,
+      "lat": 57.9846019,
+      "lon": 56.1925745,
+      "source": "osm",
+      "osm_type": "way",
+      "osm_id": 31277219
+    },
+    {
+      "name": "Улица Стахановская",
+      "category": "transport",
+      "distance_m": 1138,
+      "lat": 57.9869597,
+      "lon": 56.2132297,
+      "source": "osm",
+      "osm_type": "node",
+      "osm_id": 1485510090
+    },
+    {
+      "name": "Улица Стахановская",
+      "category": "transport",
+      "distance_m": 1141,
+      "lat": 57.9862751,
+      "lon": 56.2160462,
+      "source": "osm",
+      "osm_type": "node",
+      "osm_id": 13609601542
+    },
+    {
+      "name": "Улица Стахановская",
+      "category": "transport",
+      "distance_m": 1144,
+      "lat": 57.9863032,
+      "lon": 56.2160446,
+      "source": "osm",
+      "osm_type": "node",
+      "osm_id": 13609601545
+    },
+    {
+      "name": "Улица Снайперов",
+      "category": "transport",
+      "distance_m": 1145,
+      "lat": 57.9877049,
+      "lon": 56.2069127,
+      "source": "osm",
+      "osm_type": "node",
+      "osm_id": 1485510023
+    },
+    {
+      "name": "Улица Стахановская",
+      "category": "transport",
+      "distance_m": 1152,
+      "lat": 57.9862264,
+      "lon": 56.2165461,
+      "source": "osm",
+      "osm_type": "node",
+      "osm_id": 13609601544
+    },
+    {
+      "name": "Улица Стахановская",
+      "category": "transport",
+      "distance_m": 1155,
+      "lat": 57.9862588,
+      "lon": 56.216544,
+      "source": "osm",
+      "osm_type": "node",
+      "osm_id": 13609601543
+    },
+    {
+      "name": "Пермский краевой колледж искусств и культуры. Корпус № 1",
+      "category": "schools",
+      "distance_m": 1159,
+      "lat": 57.9788779,
+      "lon": 56.1868226,
+      "source": "osm",
+      "osm_type": "way",
+      "osm_id": 161931849
+    },
+    {
+      "name": "Бережная аптека",
+      "category": "medicine",
+      "distance_m": 1160,
+      "lat": 57.9741161,
+      "lon": 56.1876198,
+      "source": "osm",
+      "osm_type": "node",
+      "osm_id": 11156005726
+    },
+    {
+      "name": "Улица Стахановская",
+      "category": "transport",
+      "distance_m": 1161,
+      "lat": 57.9865038,
+      "lon": 56.215965,
+      "source": "osm",
+      "osm_type": "node",
+      "osm_id": 12526496265
+    },
+    {
+      "name": "Улица Баумана",
+      "category": "transport",
+      "distance_m": 1165,
+      "lat": 57.9859587,
+      "lon": 56.194848,
+      "source": "osm",
+      "osm_type": "node",
+      "osm_id": 12552445255
+    },
+    {
+      "name": "Улица Снайперов",
+      "category": "transport",
+      "distance_m": 1165,
+      "lat": 57.9878761,
+      "lon": 56.2053245,
+      "source": "osm",
+      "osm_type": "node",
+      "osm_id": 12552549359
+    },
+    {
+      "name": "Детский сад №284",
+      "category": "schools",
+      "distance_m": 1165,
+      "lat": 57.9867294,
+      "lon": 56.197249,
+      "source": "osm",
+      "osm_type": "way",
+      "osm_id": 695812699
+    },
+    {
+      "name": "Городская клиническая поликлиника №5",
+      "category": "medicine",
+      "distance_m": 1166,
+      "lat": 57.9724664,
+      "lon": 56.2237204,
+      "source": "osm",
+      "osm_type": "way",
+      "osm_id": 221374361
+    },
+    {
+      "name": "Улица Баумана",
+      "category": "transport",
+      "distance_m": 1167,
+      "lat": 57.9858938,
+      "lon": 56.1946254,
+      "source": "osm",
+      "osm_type": "node",
+      "osm_id": 3171766155
+    },
+    {
+      "name": "Улица Снайперов",
+      "category": "transport",
+      "distance_m": 1174,
+      "lat": 57.9879614,
+      "lon": 56.2053589,
+      "source": "osm",
+      "osm_type": "node",
+      "osm_id": 1485510027
+    },
+    {
+      "name": "Улица Стахановская",
+      "category": "transport",
+      "distance_m": 1176,
+      "lat": 57.98664,
+      "lon": 56.216049,
+      "source": "osm",
+      "osm_type": "node",
+      "osm_id": 3171766696
+    },
+    {
+      "name": "ОлеАндра",
+      "category": "medicine",
+      "distance_m": 1177,
+      "lat": 57.9853424,
+      "lon": 56.2195127,
+      "source": "osm",
+      "osm_type": "node",
+      "osm_id": 3581224006
+    },
+    {
+      "name": "Детский сад №23",
+      "category": "schools",
+      "distance_m": 1178,
+      "lat": 57.9844704,
+      "lon": 56.2211758,
+      "source": "osm",
+      "osm_type": "way",
+      "osm_id": 399164831
+    },
+    {
+      "name": "Улица Карпинского",
+      "category": "transport",
+      "distance_m": 1180,
+      "lat": 57.9859288,
+      "lon": 56.2182432,
+      "source": "osm",
+      "osm_type": "node",
+      "osm_id": 3171765957
+    },
+    {
+      "name": "ТриАктив-MED",
+      "category": "medicine",
+      "distance_m": 1191,
+      "lat": 57.9875233,
+      "lon": 56.1995911,
+      "source": "osm",
+      "osm_type": "node",
+      "osm_id": 7495197599
+    },
+    {
+      "name": "Улица Карпинского",
+      "category": "transport",
+      "distance_m": 1193,
+      "lat": 57.9860274,
+      "lon": 56.2183429,
+      "source": "osm",
+      "osm_type": "node",
+      "osm_id": 12526496272
+    },
+    {
+      "name": "Калейдоскоп",
+      "category": "schools",
+      "distance_m": 1202,
+      "lat": 57.9820493,
+      "lon": 56.1878608,
+      "source": "osm",
+      "osm_type": "way",
+      "osm_id": 1101835616
+    },
+    {
+      "name": "Детская хирургия",
+      "category": "medicine",
+      "distance_m": 1208,
+      "lat": 57.9845473,
+      "lon": 56.1908323,
+      "source": "osm",
+      "osm_type": "way",
+      "osm_id": 70960068
+    },
+    {
+      "name": "Стоматология Стелс",
+      "category": "medicine",
+      "distance_m": 1220,
+      "lat": 57.9711091,
+      "lon": 56.2232123,
+      "source": "osm",
+      "osm_type": "node",
+      "osm_id": 7832400950
+    },
+    {
+      "name": "Детский сад №23",
+      "category": "schools",
+      "distance_m": 1225,
+      "lat": 57.9831569,
+      "lon": 56.224007,
+      "source": "osm",
+      "osm_type": "way",
+      "osm_id": 418068546
+    },
+    {
+      "name": "Дворец культуры имени Гагарина",
+      "category": "transport",
+      "distance_m": 1226,
+      "lat": 57.9779327,
+      "lon": 56.1855083,
+      "source": "osm",
+      "osm_type": "node",
+      "osm_id": 1485509874
+    },
+    {
+      "name": "Дворец культуры имени Гагарина",
+      "category": "transport",
+      "distance_m": 1229,
+      "lat": 57.9779963,
+      "lon": 56.1854692,
+      "source": "osm",
+      "osm_type": "node",
+      "osm_id": 1485509877
+    },
+    {
+      "name": "Школа № 76. Корус № 1",
+      "category": "schools",
+      "distance_m": 1229,
+      "lat": 57.9671536,
+      "lon": 56.2140515,
+      "source": "osm",
+      "osm_type": "way",
+      "osm_id": 1101890289
+    },
+    {
+      "name": "Дворец культуры имени Гагарина",
+      "category": "transport",
+      "distance_m": 1232,
+      "lat": 57.9780409,
+      "lon": 56.1854134,
+      "source": "osm",
+      "osm_type": "node",
+      "osm_id": 5901702963
+    },
+    {
+      "name": "Ромашка",
+      "category": "medicine",
+      "distance_m": 1233,
+      "lat": 57.9866136,
+      "lon": 56.1946023,
+      "source": "osm",
+      "osm_type": "node",
+      "osm_id": 6817779789
+    },
+    {
+      "name": "Дворец культуры имени Гагарина",
+      "category": "transport",
+      "distance_m": 1239,
+      "lat": 57.9780488,
+      "lon": 56.1853005,
+      "source": "osm",
+      "osm_type": "node",
+      "osm_id": 286093037
+    },
+    {
+      "name": "Дворец культуры имени Гагарина",
+      "category": "transport",
+      "distance_m": 1242,
+      "lat": 57.978095,
+      "lon": 56.1852562,
+      "source": "osm",
+      "osm_type": "node",
+      "osm_id": 1485509881
+    },
+    {
+      "name": "Дворец культуры имени Гагарина",
+      "category": "transport",
+      "distance_m": 1245,
+      "lat": 57.9781432,
+      "lon": 56.1852095,
+      "source": "osm",
+      "osm_type": "node",
+      "osm_id": 1485509884
+    },
+    {
+      "name": "Улица Баумана",
+      "category": "transport",
+      "distance_m": 1280,
+      "lat": 57.9869038,
+      "lon": 56.1940062,
+      "source": "osm",
+      "osm_type": "node",
+      "osm_id": 3171766156
+    },
+    {
+      "name": "Улица Баумана",
+      "category": "transport",
+      "distance_m": 1280,
+      "lat": 57.9868728,
+      "lon": 56.1938998,
+      "source": "osm",
+      "osm_type": "node",
+      "osm_id": 12552445256
+    },
+    {
+      "name": "Детский сад №352",
+      "category": "schools",
+      "distance_m": 1288,
+      "lat": 57.9669182,
+      "lon": 56.2155206,
+      "source": "osm",
+      "osm_type": "way",
+      "osm_id": 1101890290
+    },
+    {
+      "name": "Дворец культуры имени Гагарина",
+      "category": "transport",
+      "distance_m": 1292,
+      "lat": 57.9782135,
+      "lon": 56.1844266,
+      "source": "osm",
+      "osm_type": "node",
+      "osm_id": 3171765459
+    },
+    {
+      "name": "Dent",
+      "category": "medicine",
+      "distance_m": 1298,
+      "lat": 57.975508,
+      "lon": 56.184569,
+      "source": "osm",
+      "osm_type": "node",
+      "osm_id": 8065736388
+    },
+    {
+      "name": "Дворец культуры имени Гагарина",
+      "category": "transport",
+      "distance_m": 1299,
+      "lat": 57.9781755,
+      "lon": 56.1842982,
+      "source": "osm",
+      "osm_type": "node",
+      "osm_id": 12552445252
+    },
+    {
+      "name": "Школа № 132. Учебный корпус",
+      "category": "schools",
+      "distance_m": 1309,
+      "lat": 57.981965,
+      "lon": 56.1858036,
+      "source": "osm",
+      "osm_type": "way",
+      "osm_id": 1062389309
+    },
+    {
+      "name": "Городская клиническая поликлиника №5",
+      "category": "medicine",
+      "distance_m": 1310,
+      "lat": 57.9704064,
+      "lon": 56.2241448,
+      "source": "osm",
+      "osm_type": "way",
+      "osm_id": 269740183
+    },
+    {
+      "name": "Пермский государственный медицинский университет имени академика Е.А. Вагнера. Центр повышения квалификации",
+      "category": "schools",
+      "distance_m": 1324,
+      "lat": 57.9838595,
+      "lon": 56.1874014,
+      "source": "osm",
+      "osm_type": "node",
+      "osm_id": 2619782824
+    },
+    {
+      "name": "Детский сад №305",
+      "category": "schools",
+      "distance_m": 1326,
+      "lat": 57.9808208,
+      "lon": 56.1847361,
+      "source": "osm",
+      "osm_type": "way",
+      "osm_id": 47127862
+    },
+    {
+      "name": "Улица Баумана",
+      "category": "transport",
+      "distance_m": 1332,
+      "lat": 57.9890529,
+      "lon": 56.2009369,
+      "source": "osm",
+      "osm_type": "node",
+      "osm_id": 1485509807
+    },
+    {
+      "name": "Дворец культуры имени Гагарина",
+      "category": "transport",
+      "distance_m": 1334,
+      "lat": 57.9776252,
+      "lon": 56.1836538,
+      "source": "osm",
+      "osm_type": "node",
+      "osm_id": 12552445251
+    },
+    {
+      "name": "Улица Баумана",
+      "category": "transport",
+      "distance_m": 1335,
+      "lat": 57.9890921,
+      "lon": 56.2010501,
+      "source": "osm",
+      "osm_type": "node",
+      "osm_id": 1485509819
+    },
+    {
+      "name": "Школа № 132. Учебный корпус",
+      "category": "schools",
+      "distance_m": 1336,
+      "lat": 57.9860975,
+      "lon": 56.1906247,
+      "source": "osm",
+      "osm_type": "way",
+      "osm_id": 95758227
+    },
+    {
+      "name": "Дворец культуры имени Гагарина",
+      "category": "transport",
+      "distance_m": 1337,
+      "lat": 57.9776672,
+      "lon": 56.18361,
+      "source": "osm",
+      "osm_type": "node",
+      "osm_id": 3171765460
+    },
+    {
+      "name": "Улица Самолётная",
+      "category": "transport",
+      "distance_m": 1350,
+      "lat": 57.9851971,
+      "lon": 56.2238583,
+      "source": "osm",
+      "osm_type": "node",
+      "osm_id": 3171765941
+    },
+    {
+      "name": "Улица Самолётная",
+      "category": "transport",
+      "distance_m": 1359,
+      "lat": 57.9853193,
+      "lon": 56.2238742,
+      "source": "osm",
+      "osm_type": "node",
+      "osm_id": 12238903679
+    },
+    {
+      "name": "Роща",
+      "category": "transport",
+      "distance_m": 1365,
+      "lat": 57.9655358,
+      "lon": 56.2004421,
+      "source": "osm",
+      "osm_type": "node",
+      "osm_id": 3149351480
+    },
+    {
+      "name": "Роща",
+      "category": "transport",
+      "distance_m": 1365,
+      "lat": 57.9655127,
+      "lon": 56.2005804,
+      "source": "osm",
+      "osm_type": "node",
+      "osm_id": 3171765840
+    },
+    {
+      "name": "Улица Самолётная",
+      "category": "transport",
+      "distance_m": 1367,
+      "lat": 57.9854776,
+      "lon": 56.2237918,
+      "source": "osm",
+      "osm_type": "node",
+      "osm_id": 12238903678
+    },
+    {
+      "name": "Улица Самолётная",
+      "category": "transport",
+      "distance_m": 1375,
+      "lat": 57.9855362,
+      "lon": 56.2238706,
+      "source": "osm",
+      "osm_type": "node",
+      "osm_id": 1616837395
+    },
+    {
+      "name": "Пермская краевая клиническая стоматологическая поликлиника",
+      "category": "medicine",
+      "distance_m": 1382,
+      "lat": 57.9789773,
+      "lon": 56.1830313,
+      "source": "osm",
+      "osm_type": "node",
+      "osm_id": 2545378767
+    },
+    {
+      "name": "Объект OSM 44631380",
+      "category": "medicine",
+      "distance_m": 1390,
+      "lat": 57.9846093,
+      "lon": 56.187,
+      "source": "osm",
+      "osm_type": "way",
+      "osm_id": 44631380
+    },
+    {
+      "name": "АртГрад",
+      "category": "schools",
+      "distance_m": 1406,
+      "lat": 57.9654378,
+      "lon": 56.2139274,
+      "source": "osm",
+      "osm_type": "way",
+      "osm_id": 1101890293
+    },
+    {
+      "name": "Улица Баумана",
+      "category": "transport",
+      "distance_m": 1424,
+      "lat": 57.9898213,
+      "lon": 56.2003129,
+      "source": "osm",
+      "osm_type": "node",
+      "osm_id": 1485509824
+    },
+    {
+      "name": "Улица Баумана",
+      "category": "transport",
+      "distance_m": 1425,
+      "lat": 57.9898524,
+      "lon": 56.2004405,
+      "source": "osm",
+      "osm_type": "node",
+      "osm_id": 1485509830
+    },
+    {
+      "name": "Детский сад №352",
+      "category": "schools",
+      "distance_m": 1434,
+      "lat": 57.9655942,
+      "lon": 56.2160086,
+      "source": "osm",
+      "osm_type": "way",
+      "osm_id": 1101890291
+    },
+    {
+      "name": "Микрорайон Крохалева",
+      "category": "transport",
+      "distance_m": 1486,
+      "lat": 57.9659004,
+      "lon": 56.2190829,
+      "source": "osm",
+      "osm_type": "node",
+      "osm_id": 3171766052
+    },
+    {
+      "name": "Детский сад №256",
+      "category": "schools",
+      "distance_m": 1487,
+      "lat": 57.9890764,
+      "lon": 56.1939419,
+      "source": "osm",
+      "osm_type": "way",
+      "osm_id": 695808743
+    },
+    {
+      "name": "Микрорайон Крохалева",
+      "category": "transport",
+      "distance_m": 1493,
+      "lat": 57.9658696,
+      "lon": 56.2192227,
+      "source": "osm",
+      "osm_type": "node",
+      "osm_id": 1775359633
+    },
+    {
+      "name": "Бережная аптека",
+      "category": "medicine",
+      "distance_m": 1493,
+      "lat": 57.9812771,
+      "lon": 56.1820382,
+      "source": "osm",
+      "osm_type": "node",
+      "osm_id": 10722918955
+    },
+    {
+      "name": "36,6",
+      "category": "medicine",
+      "distance_m": 1498,
+      "lat": 57.965519,
+      "lon": 56.2182057,
+      "source": "osm",
+      "osm_type": "node",
+      "osm_id": 1683313919
+    },
+    {
+      "name": "Роща",
+      "category": "transport",
+      "distance_m": 1498,
+      "lat": 57.9644675,
+      "lon": 56.1992637,
+      "source": "osm",
+      "osm_type": "node",
+      "osm_id": 3149351479
+    },
+    {
+      "name": "Роща",
+      "category": "transport",
+      "distance_m": 1498,
+      "lat": 57.9644762,
+      "lon": 56.1992009,
+      "source": "osm",
+      "osm_type": "node",
+      "osm_id": 3171765839
+    },
+    {
+      "name": "Школа № 122. Корпус № 2",
+      "category": "schools",
+      "distance_m": 1500,
+      "lat": 57.9879312,
+      "lon": 56.2222268,
+      "source": "osm",
+      "osm_type": "way",
+      "osm_id": 699662387
+    },
+    {
+      "name": "Детский сад №371",
+      "category": "schools",
+      "distance_m": 1502,
+      "lat": 57.9867391,
+      "lon": 56.2247213,
+      "source": "osm",
+      "osm_type": "way",
+      "osm_id": 107956832
+    },
+    {
+      "name": "Городская клиническая поликлиника №5",
+      "category": "medicine",
+      "distance_m": 1515,
+      "lat": 57.9650375,
+      "lon": 56.217044,
+      "source": "osm",
+      "osm_type": "way",
+      "osm_id": 44949654
+    },
+    {
+      "name": "Объект OSM 44631379",
+      "category": "medicine",
+      "distance_m": 1523,
+      "lat": 57.9827428,
+      "lon": 56.1824787,
+      "source": "osm",
+      "osm_type": "way",
+      "osm_id": 44631379
+    },
+    {
+      "name": "Медсанчасть №9 им. Тверье",
+      "category": "medicine",
+      "distance_m": 1546,
+      "lat": 57.980057,
+      "lon": 56.180534,
+      "source": "osm",
+      "osm_type": "way",
+      "osm_id": 44631381
+    },
+    {
+      "name": "Школа инженерной мысли им. П.А. Соловьева. Корпус № 1",
+      "category": "schools",
+      "distance_m": 1608,
+      "lat": 57.9759064,
+      "lon": 56.2334082,
+      "source": "osm",
+      "osm_type": "way",
+      "osm_id": 673855068
+    }
+  ]
+}
