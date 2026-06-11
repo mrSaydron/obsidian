@@ -6,7 +6,7 @@
 |---|---|---:|---:|---:|---:|---:|---:|
 | Subject and Object Questions | [[Subject and Object Questions]] | 2026-06-12 | 3 | 17 | 2.8 | 5 | 2026-05-26 |
 | Tag Question | [[Tag Question]] | 2026-06-22 | 3 | 16 | 2.6 | 5 | 2026-06-06 |
-| Alternative Question | [[Alternative Question]] | 2026-06-02 | 2 | 6 | 2.22 | 3 | 2026-05-27 |
+| Alternative Question | [[Alternative Question]] | 2026-06-22 | 3 | 12 | 2.08 | 3 | 2026-06-10 |
 | Past Simple | [[Past Simple]] | 2026-06-13 | 2 | 6 | 2.6 | 5 | 2026-06-07 |
 | Prepositions of Time | [[Prepositions of Time]] | 2026-06-14 | 2 | 6 | 2.46 | 5 | 2026-06-08 |
 | Used to | [[Used to]] | 2026-06-15 | 2 | 6 | 2.6 | 5 | 2026-06-09 |
