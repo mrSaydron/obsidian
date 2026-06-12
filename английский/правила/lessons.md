@@ -16,7 +16,7 @@
 | Stative and Action Verbs | [[Stative and Action Verbs]] | 2026-06-03 | 0 | 1 | 2.5 |  | 2026-06-02 |
 | Future Simple and Be Going To | [[Future Simple and Be Going To]] | 2026-06-05 | 1 | 1 | 2.36 | 3 | 2026-06-04 |
 | Word Order | [[Word Order]] | 2026-06-06 | 1 | 1 | 2.6 | 5 | 2026-06-05 |
-| Modal Verbs: Should and Could | [[Modal Verbs Should and Could]] | 2026-06-02 | 0 | 1 | 2.5 |  | 2026-06-01 |
+| Modal Verbs: Should and Could | [[Modal Verbs Should and Could]] | 2026-06-12 | 1 | 1 | 2.6 | 5 | 2026-06-11 |
 
 ## Правила обновления SM-2
 

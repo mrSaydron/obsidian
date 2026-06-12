@@ -166,3 +166,21 @@
 5. They should arrives earlier.
 
 ## История вопросов и ответов
+
+### 2026-06-11 — повторение
+
+**Задание:** составить/проверить предложения с модальными глаголами `should` и `could`.
+
+**Ответ пользователя:**
+
+1. You should see a doctor. You look very sick.
+2. We could order pizza or cook pasta.
+3. Could you close the door, please?
+4. She should not spend so much money.
+5. He could help us tomorrow if he has time.
+
+**Проверка:** ошибок нет, все 5 предложений составлены правильно.
+
+**Результат упражнения:** 5/5.
+
+**SM-2 grade:** 5.
