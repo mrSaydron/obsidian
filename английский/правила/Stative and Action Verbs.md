@@ -281,3 +281,35 @@ Present Continuous нужен для действий, которые проис
 6. Я сейчас думаю об этой проблеме.
 
 ## История вопросов и ответов
+
+### 2026-06-14 — повторение
+
+**Assignment ID:** `2026-06-14__stative-and-action-verbs`.
+
+**Задание:** повторение темы `Stative and Action Verbs`.
+
+**Ответ пользователя:**
+
+1. I understand your idea. 
+2. She wants a new laptop. 
+3. They are having dinner right now. 
+4. This perfume smells nice. 
+5. He is testing the milk because he thinks it may be bad. 
+6. I know this rule. 
+7. I am thinking about my feature now.
+
+**Проверка:**
+
+Mistake:
+
+7. I am thinking about my feature now.
+- If you mean plans/future, the correct word is future, not feature.
+- Correct: I am thinking about my future now.
+- Grammar is correct: think about can be used in Present Continuous when it means “размышлять”.
+
+Exercise score: 6.5/7
+SM-2 grade: 5 (grammar target was handled correctly; the only issue was vocabulary/word choice, not stative/action verb grammar).
+
+**Результат упражнения:** 6.5/7.
+
+**SM-2 grade:** 5.
