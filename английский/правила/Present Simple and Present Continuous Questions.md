@@ -297,3 +297,30 @@ Question word + am / is / are + subject + V-ing?
 Результат упражнения: 5.5/6.
 SM-2 grade: 5.
 Следующее повторение: 2026-06-04.
+
+### 2026-06-15 — повторение
+
+**Assignment ID:** `2026-06-15__present-simple-and-present-continuous-questions`.
+
+**Задание:** повторение темы `Present Simple and Present Continuous Questions`.
+
+**Ответ пользователя:**
+
+1. Do you usually have diner at home?
+2. Is she cooking now?
+3. Where do they work?
+4. What is he doing at the moment?
+5. Does your sister go to gim on Friday?
+6. Are you waiting a bus now?
+
+**Проверка:**
+
+Mistakes:
+1. diner → dinner. Correct: Do you usually have dinner at home?
+5. gim → gym; usually: go to the gym. Correct: Does your sister go to the gym on Friday?
+6. waiting a bus → waiting for a bus. Correct: Are you waiting for a bus now?
+Score: 3/6
+
+**Результат упражнения:** 3/6.
+
+**SM-2 grade:** 3.
