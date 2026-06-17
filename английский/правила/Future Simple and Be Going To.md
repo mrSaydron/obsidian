@@ -306,3 +306,39 @@ Am / Is / Are + subject + going to + V1?
 - Ошибки: повтор `a ticket a ticket`; пропущена форма `be` в `She is going to fly`, `That dog is going to jump`, `They are going to have dinner`.
 - Exercise score: 7/10.
 - SM-2 grade: 3 — смысл выбора будущего в целом понятен, но ключевая форма `be going to` часто строится без `be`.
+
+### 2026-06-16 — повторение
+
+**Assignment ID:** `2026-06-16__future-simple-and-be-going-to`.
+
+**Задание:** повторение темы `Future Simple and Be Going To`.
+
+**Ответ пользователя:**
+
+1. I forgot my umbrella. I think I will get wet.
+2. They bought train tickets yesterday. They are going to visit Moscow next week.
+3. The bag is very heavy. I will help you carry it.
+4. Look! The cat is going to knock the case off the table.
+5. She isn't going to come to the party. She has already made other plans.
+6. I promise I will call you tomorrow.
+7. He will answer the question.
+8. We are going to watch a film tonight.
+
+**Проверка:**
+
+Mistakes: none.
+
+1. Correct: use will for a prediction/opinion with “I think”.
+2. Correct: bought tickets = plan/intention, so “be going to”.
+3. Correct: spontaneous offer, so “will”.
+4. Correct: present evidence (“Look!”), so “be going to”.
+5. Correct: existing plans mean she is not going to come.
+6. Correct: promises normally use “will”.
+7. Grammatically correct as a prediction; if the context means a prior plan/decision, “He is going to answer the question” would also be possible.
+8. Correct: tonight’s plan, so “be going to”.
+
+Exercise score: 8/8. Qualitative SM-2 grade: 5.
+
+**Результат упражнения:** 8/8.
+
+**SM-2 grade:** 5.
