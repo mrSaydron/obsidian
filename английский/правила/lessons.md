@@ -10,7 +10,7 @@
 | Past Simple | [[Past Simple]] | 2026-06-13 | 2 | 6 | 2.6 | 5 | 2026-06-07 |
 | Prepositions of Time | [[Prepositions of Time]] | 2026-06-14 | 2 | 6 | 2.46 | 5 | 2026-06-08 |
 | Used to | [[Used to]] | 2026-06-15 | 2 | 6 | 2.6 | 5 | 2026-06-09 |
-| Past Simple and Past Continuous | [[Past Simple and Past Continuous]] | 2026-06-07 | 2 | 6 | 2.7 | 5 | 2026-06-01 |
+| Past Simple and Past Continuous | [[Past Simple and Past Continuous]] | 2026-06-19 | 0 | 1 | 2.38 | 2 | 2026-06-18 |
 | Past Continuous | [[Past Continuous]] | 2026-06-18 | 2 | 6 | 2.6 | 5 | 2026-06-12 |
 | Present Simple and Present Continuous Questions | [[Present Simple and Present Continuous Questions]] | 2026-06-21 | 2 | 6 | 2.46 | 3 | 2026-06-15 |
 | Stative and Action Verbs | [[Stative and Action Verbs]] | 2026-06-15 | 1 | 1 | 2.6 | 5 | 2026-06-14 |
