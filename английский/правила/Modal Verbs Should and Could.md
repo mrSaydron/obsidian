@@ -184,3 +184,39 @@
 **Результат упражнения:** 5/5.
 
 **SM-2 grade:** 5.
+
+### 2026-06-20 — повторение
+
+**Assignment ID:** `2026-06-20__modal-verbs-should-and-could`.
+
+**Задание:**
+
+Выбери **should** или **could** и поставь глагол в правильную форму.
+
+1. You ___ ___ more carefully. *(drive)*
+2. We ___ ___ dinner at home or go to a café. *(have)*
+3. ___ you ___ me your pen, please? *(lend)*
+4. He ___ not ___ so much coffee at night. *(drink)*
+5. She ___ ___ a doctor if the pain continues. *(see)*
+
+**Ответ пользователя:**
+
+1. You should drive more carefully.
+2. We could have dinner at home ar go to a cafe.
+3. Could you lend me your pen, please?
+4. He shouldn't drink so much coffee at night.
+5. She should see a doctor if the pain continues.
+
+**Проверка:**
+
+Ошибки:
+
+1. Sentence 2: `ar` → **or**
+   Correct: *We could have dinner at home or go to a cafe.*
+   Почему: нужно слово **or** = «или».
+
+Score: 4/5
+
+**Результат упражнения:** 4/5.
+
+**SM-2 grade:** 4.
