@@ -9,7 +9,7 @@
 | Alternative Question | [[Alternative Question]] | 2026-06-22 | 3 | 12 | 2.08 | 3 | 2026-06-10 |
 | Past Simple | [[Past Simple]] | 2026-07-07 | 3 | 16 | 2.7 | 5 | 2026-06-21 |
 | Prepositions of Time | [[Prepositions of Time]] | 2026-07-07 | 3 | 15 | 2.46 | 4 | 2026-06-22 |
-| Used to | [[Used to]] | 2026-06-15 | 2 | 6 | 2.6 | 5 | 2026-06-09 |
+| Used to | [[Used to]] | 2026-07-09 | 3 | 16 | 2.7 | 5 | 2026-06-23 |
 | Past Simple and Past Continuous | [[Past Simple and Past Continuous]] | 2026-06-19 | 0 | 1 | 2.38 | 2 | 2026-06-18 |
 | Past Continuous | [[Past Continuous]] | 2026-06-18 | 2 | 6 | 2.6 | 5 | 2026-06-12 |
 | Present Simple and Present Continuous Questions | [[Present Simple and Present Continuous Questions]] | 2026-06-21 | 2 | 6 | 2.46 | 3 | 2026-06-15 |
@@ -17,6 +17,7 @@
 | Future Simple and Be Going To | [[Future Simple and Be Going To]] | 2026-06-22 | 2 | 6 | 2.46 | 5 | 2026-06-16 |
 | Word Order | [[Word Order]] | 2026-06-23 | 2 | 6 | 2.6 | 4 | 2026-06-17 |
 | Modal Verbs: Should and Could | [[Modal Verbs Should and Could]] | 2026-06-26 | 2 | 6 | 2.6 | 4 | 2026-06-20 |
+| Articles A-An, The, Zero Article | [[Articles A-An, The, Zero Article]] | 2026-06-24 | 0 | 1 | 2.5 |  | 2026-06-23 |
 
 ## Правила обновления SM-2
 
