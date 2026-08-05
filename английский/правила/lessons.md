@@ -18,7 +18,7 @@
 | Word Order | [[Word Order]] | 2026-09-01 | 4 | 43 | 2.7 | 4 | 2026-07-20 |
 | Modal Verbs: Should and Could | [[Modal Verbs Should and Could]] | 2026-09-01 | 4 | 41 | 2.56 | 3 | 2026-07-22 |
 | Articles A-An, The, Zero Article | [[Articles A-An, The, Zero Article]] | 2026-08-02 | 3 | 16 | 2.6 | 5 | 2026-07-17 |
-| Intensifiers | [[Intensifiers]] | 2026-07-31 | 1 | 1 | 2.5 | 4 | 2026-07-30 |
+| Intensifiers | [[Intensifiers]] | 2026-08-10 | 2 | 6 | 2.6 | 5 | 2026-08-04 |
 | Zero Conditional | [[Zero Conditional]] | 2026-07-31 | 0 | 1 | 2.5 |  | 2026-07-30 |
 | First Conditional | [[First Conditional]] | 2026-07-31 | 0 | 1 | 2.5 |  | 2026-07-30 |
 
