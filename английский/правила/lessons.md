@@ -20,7 +20,7 @@
 | Articles A-An, The, Zero Article | [[Articles A-An, The, Zero Article]] | 2026-08-02 | 3 | 16 | 2.6 | 5 | 2026-07-17 |
 | Intensifiers | [[Intensifiers]] | 2026-08-10 | 2 | 6 | 2.6 | 5 | 2026-08-04 |
 | Zero Conditional | [[Zero Conditional]] | 2026-08-06 | 0 | 1 | 2.18 | 2 | 2026-08-05 |
-| First Conditional | [[First Conditional]] | 2026-07-31 | 0 | 1 | 2.5 |  | 2026-07-30 |
+| First Conditional | [[First Conditional]] | 2026-08-08 | 1 | 1 | 2.5 | 4 | 2026-08-07 |
 
 ## Правила обновления SM-2
 
