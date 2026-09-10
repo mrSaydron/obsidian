@@ -4,7 +4,7 @@
 
 | Тема | Файл | next_review | repetitions | interval_days | ease_factor | last_grade | updated |
 |---|---|---:|---:|---:|---:|---:|---:|
-| Subject and Object Questions | [[Subject and Object Questions]] | 2026-08-07 | 4 | 49 | 2.9 | 5 | 2026-06-19 |
+| Subject and Object Questions | [[Subject and Object Questions]] | 2027-01-29 | 5 | 142 | 2.9 | 4 | 2026-09-09 |
 | Tag Question | [[Tag Question]] | 2026-08-10 | 4 | 43 | 2.7 | 5 | 2026-06-28 |
 | Alternative Question | [[Alternative Question]] | 2026-08-10 | 3 | 10 | 1.68 | 3 | 2026-07-31 |
 | Past Simple | [[Past Simple]] | 2026-08-22 | 4 | 43 | 2.7 | 4 | 2026-07-10 |
