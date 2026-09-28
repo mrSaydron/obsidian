@@ -9,7 +9,7 @@
 | Alternative Question | [[Alternative Question]] | 2026-10-01 | 4 | 17 | 1.68 | 4 | 2026-09-14 |
 | Past Simple | [[Past Simple]] | 2027-01-17 | 5 | 120 | 2.8 | 5 | 2026-09-19 |
 | Prepositions of Time | [[Prepositions of Time]] | 2026-12-27 | 5 | 101 | 2.66 | 5 | 2026-09-17 |
-| Used to | [[Used to]] | 2026-08-27 | 4 | 45 | 2.8 | 5 | 2026-07-13 |
+| Used to | [[Used to]] | 2027-01-25 | 5 | 120 | 2.66 | 3 | 2026-09-27 |
 | Past Simple and Past Continuous | [[Past Simple and Past Continuous]] | 2026-09-16 | 4 | 44 | 2.78 | 5 | 2026-08-03 |
 | Past Continuous | [[Past Continuous]] | 2026-12-30 | 5 | 101 | 2.66 | 5 | 2026-09-20 |
 | Present Simple and Present Continuous Questions | [[Present Simple and Present Continuous Questions]] | 2026-09-13 | 4 | 30 | 2.3 | 5 | 2026-08-14 |
