@@ -19,8 +19,8 @@
 | Modal Verbs: Should and Could | [[Modal Verbs Should and Could]] | 2027-01-20 | 5 | 109 | 2.66 | 5 | 2026-10-03 |
 | Articles A-An, The, Zero Article | [[Articles A-An, The, Zero Article]] | 2026-09-26 | 4 | 42 | 2.6 | 4 | 2026-08-15 |
 | Intensifiers | [[Intensifiers]] | 2026-10-02 | 3 | 16 | 2.7 | 5 | 2026-09-16 |
-| Zero Conditional | [[Zero Conditional]] | 2026-09-05 | 1 | 1 | 2.18 | 4 | 2026-09-04 |
-| First Conditional | [[First Conditional]] | 2026-09-09 | 2 | 6 | 2.5 | 4 | 2026-09-03 |
+| Zero Conditional | [[Zero Conditional]] | 2026-10-15 | 2 | 6 | 2.04 | 3 | 2026-10-09 |
+| First Conditional | [[First Conditional]] | 2026-10-24 | 3 | 15 | 2.5 | 4 | 2026-10-09 |
 
 ## Правила обновления SM-2
 
