@@ -23,7 +23,7 @@
 | First Conditional | [[First Conditional]] | 2026-10-24 | 3 | 15 | 2.5 | 4 | 2026-10-09 |
 | Adjectives that end in "-ed", "-ing" | [[Adjectives that end in -ed, -ing]] | 2026-10-26 | 1 | 1 | 2.6 | 5 | 2026-10-25 |
 | Indefinite pronouns | [[Indefinite pronouns]] | 2026-10-27 | 1 | 1 | 2.5 | 4 | 2026-10-26 |
-| defining relative clauses | [[defining relative clauses]] | 2026-10-23 | 0 | 1 | 2.5 | — | 2026-10-22 |
+| defining relative clauses | [[defining relative clauses]] | 2026-10-28 | 1 | 1 | 2.36 | 3 | 2026-10-27 |
 
 ## Правила обновления SM-2
 
