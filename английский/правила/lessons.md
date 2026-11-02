@@ -21,7 +21,7 @@
 | Intensifiers | [[Intensifiers]] | 2026-11-29 | 4 | 41 | 2.56 | 3 | 2026-10-19 |
 | Zero Conditional | [[Zero Conditional]] | 2026-11-02 | 3 | 12 | 2.04 | 4 | 2026-10-21 |
 | First Conditional | [[First Conditional]] | 2026-12-06 | 4 | 38 | 2.5 | 4 | 2026-10-29 |
-| Adjectives that end in "-ed", "-ing" | [[Adjectives that end in -ed, -ing]] | 2026-10-26 | 1 | 1 | 2.6 | 5 | 2026-10-25 |
+| Adjectives that end in "-ed", "-ing" | [[Adjectives that end in -ed, -ing]] | 2026-11-07 | 2 | 6 | 2.7 | 5 | 2026-11-01 |
 | Indefinite pronouns | [[Indefinite pronouns]] | 2026-10-27 | 1 | 1 | 2.5 | 4 | 2026-10-26 |
 | defining relative clauses | [[defining relative clauses]] | 2026-10-28 | 1 | 1 | 2.36 | 3 | 2026-10-27 |
 
