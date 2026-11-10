@@ -19,9 +19,9 @@
 | Modal Verbs: Should and Could | [[Modal Verbs Should and Could]] | 2027-01-20 | 5 | 109 | 2.66 | 5 | 2026-10-03 |
 | Articles A-An, The, Zero Article | [[Articles A-An, The, Zero Article]] | 2027-02-06 | 5 | 113 | 2.7 | 5 | 2026-10-16 |
 | Intensifiers | [[Intensifiers]] | 2026-11-29 | 4 | 41 | 2.56 | 3 | 2026-10-19 |
-| Zero Conditional | [[Zero Conditional]] | 2026-11-02 | 3 | 12 | 2.04 | 4 | 2026-10-21 |
+| Zero Conditional | [[Zero Conditional]] | 2026-12-02 | 4 | 23 | 1.9 | 3 | 2026-11-09 |
 | First Conditional | [[First Conditional]] | 2026-12-06 | 4 | 38 | 2.5 | 4 | 2026-10-29 |
-| Adjectives that end in "-ed", "-ing" | [[Adjectives that end in -ed, -ing]] | 2026-11-07 | 2 | 6 | 2.7 | 5 | 2026-11-01 |
+| Adjectives that end in "-ed", "-ing" | [[Adjectives that end in -ed, -ing]] | 2026-11-26 | 3 | 17 | 2.8 | 5 | 2026-11-09 |
 | Indefinite pronouns | [[Indefinite pronouns]] | 2026-11-11 | 2 | 6 | 2.36 | 3 | 2026-11-05 |
 | defining relative clauses | [[defining relative clauses]] | 2026-11-12 | 2 | 6 | 2.46 | 5 | 2026-11-06 |
 | non-defining relative clauses | [[non-defining relative clauses]] | 2026-11-07 | 0 | 1 | 2.5 | — | 2026-11-06 |
