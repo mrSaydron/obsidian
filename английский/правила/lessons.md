@@ -25,7 +25,7 @@
 | Indefinite pronouns | [[Indefinite pronouns]] | 2026-11-11 | 2 | 6 | 2.36 | 3 | 2026-11-05 |
 | defining relative clauses | [[defining relative clauses]] | 2026-11-12 | 2 | 6 | 2.46 | 5 | 2026-11-06 |
 | non-defining relative clauses | [[non-defining relative clauses]] | 2026-11-12 | 1 | 1 | 2.6 | 5 | 2026-11-11 |
-| Defining and Non-defining Relative Clauses | [[Defining and Non-defining Relative Clauses]] | 2026-11-07 | 0 | 1 | 2.5 | — | 2026-11-06 |
+| Defining and Non-defining Relative Clauses | [[Defining and Non-defining Relative Clauses]] | 2026-11-14 | 1 | 1 | 2.6 | 5 | 2026-11-13 |
 
 ## Правила обновления SM-2
 
