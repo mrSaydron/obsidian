@@ -22,7 +22,7 @@
 | Zero Conditional | [[Zero Conditional]] | 2026-12-02 | 4 | 23 | 1.9 | 3 | 2026-11-09 |
 | First Conditional | [[First Conditional]] | 2026-12-06 | 4 | 38 | 2.5 | 4 | 2026-10-29 |
 | Adjectives that end in "-ed", "-ing" | [[Adjectives that end in -ed, -ing]] | 2026-11-26 | 3 | 17 | 2.8 | 5 | 2026-11-09 |
-| Indefinite pronouns | [[Indefinite pronouns]] | 2026-11-11 | 2 | 6 | 2.36 | 3 | 2026-11-05 |
+| Indefinite pronouns | [[Indefinite pronouns]] | 2026-11-30 | 3 | 14 | 2.36 | 4 | 2026-11-16 |
 | defining relative clauses | [[defining relative clauses]] | 2026-11-12 | 2 | 6 | 2.46 | 5 | 2026-11-06 |
 | non-defining relative clauses | [[non-defining relative clauses]] | 2026-11-12 | 1 | 1 | 2.6 | 5 | 2026-11-11 |
 | Defining and Non-defining Relative Clauses | [[Defining and Non-defining Relative Clauses]] | 2026-11-14 | 1 | 1 | 2.6 | 5 | 2026-11-13 |
